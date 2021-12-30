@@ -189,8 +189,7 @@ function Booking() {
 				setRoomTypeCount(res.data.length);
 				if (res.data.length === 0) {
 					return;
-				}
-				else {
+				} else {
 					setRoomPrice(res.data[0].roomPrice);
 					setRoomTypeID(res.data[0].id);
 				}
@@ -245,10 +244,7 @@ function Booking() {
 								Check in
 							</label>
 							<input
-								onChange={(e) => (
-									setDateCheckIn(e.target.value),
-									console.log(validateCheckIn(e.target.value))
-								)}
+								onChange={(e) => setDateCheckIn(e.target.value)}
 								type="date"
 								class="input"
 								id="check-in"
@@ -259,10 +255,7 @@ function Booking() {
 								Check out
 							</label>
 							<input
-								onChange={(e) => (
-									setDateCheckOut(e.target.value),
-									console.log(validateCheckOut(dateCheckIn, e.target.value))
-								)}
+								onChange={(e) => setDateCheckOut(e.target.value)}
 								type="date"
 								class="input"
 								id="check-out"
