@@ -35,7 +35,7 @@ async function initApp() {
     // public Url
     publicLoader(app)
 
-    // Necessary for successful deploy to Heroku, along with adding the heroku-postbuild that goes into client, runs npm install and npm build, and adding config keys in Heroku project settings
+    // Necessary for successful deploy to Heroku,  along with adding the heroku-postbuild that goes into client, runs npm install and npm build, and adding config keys in Heroku project settings
     if (process.env.NODE_ENV) {
         // Serve static files from the React frontend app
         app.use(express.static(path.join(__dirname, '../../frontend/build')))
