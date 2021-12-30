@@ -1,0 +1,103 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.font-50 {
+  font-size: 50px;
+}
+.weight-400 {
+  font-weight: 400;
+}
+.location-container {
+  display: flex;
+  flex-direction: row;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+}
+.location-heading {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.primary-color {
+  color: rgba(247, 255, 0, 0.8);
+  text-shadow: none;
+}
+.secondary-color {
+  color: rgb(212, 73, 18);
+  text-shadow: none;
+}
+.m-top-20 {
+  margin-top: 20px;
+}
+.m-left {
+  margin-left: 5%;
+}
+.w-full {
+  width: 50%;
+}
+.w-80 {
+  width: 80%;
+}
+.f-40 {
+  font-size: 40px;
+}
+.f-17 {
+  font-size: 17px;
+}
+.f-courgette {
+  font-family: Courgette;
+  color: grey;
+}
+.weight-700 {
+  font-weight: 700;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.m-left-5 {
+  margin-left: 5px;
+}
+.m-right-5 {
+  margin-right: 5px;
+}
+.m-top-8 {
+  margin-top: 8px;
+}
+.map {
+  width: 100%;
+  height: 450px;
+}
+
+.w-half {
+  width: 50%;
+}
+.self-center {
+  align-self: center;
+}
+
+.f-12 {
+  font-size: 12px;
+}
+
+.f-50 {
+  font-size: 50px;
+}
+
+.f-26 {
+  font-size: 26px;
+}
+.weight-100 {
+  font-weight: 100;
+}
+.weight-300 {
+  font-weight: 300;
+}
+.third-color {
+  color: #a59451;
+}
+a.location-open {
+  text-decoration: underline;
+}

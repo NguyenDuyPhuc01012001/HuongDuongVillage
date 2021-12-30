@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="GUI\FormBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GUI\ManageRoomTypes.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Bar\BarCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Bar\BarManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\BillInforCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Booking\BookingCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Booking\BookingManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Payment\PaymentCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Payment\PaymentManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="GUI\ManageRoom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\ManageRoomTypes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\ManageService.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\ManageCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\FormAccountant.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\FormBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\FormReceptionist.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\FormLaundry.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\FormSale.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\FormHR.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\FormCEO.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\ManageDocument.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Bar\BarCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Bar\BarManager.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\BillInforCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Booking\BookingCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Booking\BookingManager.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Payment\PaymentCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Payment\PaymentManager.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

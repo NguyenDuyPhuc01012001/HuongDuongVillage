@@ -1,0 +1,34 @@
+.footer{
+  padding: 5rem 0;
+  background-color: var(--orange-solid);
+  color:#fff;
+}
+.footer-content-brand{
+  margin-bottom: 5rem;
+}
+.footer .paragraph{
+  color: inherit;
+}
+.footer-heading{
+  text-transform: uppercase;
+  margin-bottom:2.5rem;
+}
+.social-media{
+  display: flex;
+}
+.sm-link{
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid var(--yellow-solid);
+  border-radius: 50%;
+  display:flex;
+  margin-right: 1rem;
+  transition: background-color 0.5s;
+}
+.sm-link:hover{
+  background-color: var(--yellow-solid);
+  color: var(--dark-color);
+}
+.sm-link i{
+  margin: auto;
+}

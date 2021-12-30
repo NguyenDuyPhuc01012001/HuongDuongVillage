@@ -1,0 +1,20 @@
+﻿HuongDuongVillage
+
+
+winexe
+C#
+.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Release\net5.0-windows\
+HuongDuongVillage
+none
+false
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\App.xaml
+47-1665212354
+
+62-555609665
+198-1667445595
+MainTemplate\AddNewMeal.xaml;MainTemplate\AddNewStaff.xaml;MainTemplate\AddNewTable.xaml;MainTemplate\BillTemplate.xaml;MainTemplate\ChangePassword.xaml;MainTemplate\EditMeal.xaml;MainTemplate\EditStaff.xaml;MainTemplate\EditTable.xaml;MainTemplate\FormAccountant.xaml;MainTemplate\FormCEO.xaml;MainTemplate\FormChef.xaml;MainTemplate\FormHR.xaml;MainTemplate\FormLaundry.xaml;MainTemplate\FormReceptionist.xaml;MainTemplate\FormSale.xaml;MainTemplate\InfoStaff.xaml;MainTemplate\Login.xaml;MainTemplate\ModifyCategory.xaml;UI\Account\AccountCard.xaml;UI\Account\AccountManager.xaml;UI\Booking\BookingCard.xaml;UI\Booking\BookingManager.xaml;UI\ButtonManager.xaml;UI\Chef\MealCard.xaml;UI\Chef\MealManager.xaml;UI\Customer\CustomerCard.xaml;UI\Customer\CustomerManager.xaml;UI\DocumentReport\DocumentReportCard.xaml;UI\DocumentReport\DocumentReportManager.xaml;UI\DocumentReport\Table.xaml;UI\Laundry\LaundryCard.xaml;UI\Laundry\LaundryManager.xaml;UI\Laundry\MealButton.xaml;UI\Payment\PaymentCard.xaml;UI\Payment\PaymentManager.xaml;UI\Report\CartesianChart.xaml;UI\Report\CompareWithLastMonthCard.xaml;UI\Report\ReportCard.xaml;UI\Report\ReportManager.xaml;UI\Report\UserRatingCard.xaml;UI\Room\RoomCard.xaml;UI\Room\RoomManager.xaml;UI\SearchBox.xaml;UI\Service\ServiceCard.xaml;UI\Service\ServiceManager.xaml;UI\User\UserCard.xaml;UI\User\UserManager.xaml;
+
+True
+

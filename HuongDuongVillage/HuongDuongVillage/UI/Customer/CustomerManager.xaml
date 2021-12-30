@@ -1,0 +1,147 @@
+﻿<UserControl
+    x:Class="HuongDuongVillage.CustomerManager"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="auto"
+    Height="auto"
+    mc:Ignorable="d">
+    <Grid Margin="20,5,25,5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="130" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="140" />
+            <ColumnDefinition Width="145" />
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="Gray" BorderThickness="1">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="1" Color="#FF8E9EAB" />
+                    <GradientStop Offset="0" Color="#FFEEF2F3" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <TextBlock
+                Margin="10,0"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="Bold"
+                Text="Customer name"
+                TextAlignment="Center" />
+        </Border>
+        <Border
+            Grid.Column="1"
+            BorderBrush="Gray"
+            BorderThickness="1">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="1" Color="#FF8E9EAB" />
+                    <GradientStop Offset="0" Color="#FFEEF2F3" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <TextBlock
+                Margin="10,0"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="Bold"
+                Text="ID Card"
+                TextAlignment="Center" />
+        </Border>
+        <Border
+            Grid.Column="2"
+            BorderBrush="Gray"
+            BorderThickness="1">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="1" Color="#FF8E9EAB" />
+                    <GradientStop Offset="0" Color="#FFEEF2F3" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <TextBlock
+                Margin="10,0"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="Bold"
+                Text="Phone Number"
+                TextAlignment="Center" />
+        </Border>
+        <Border
+            Grid.Column="3"
+            BorderBrush="Gray"
+            BorderThickness="1">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="1" Color="#FF8E9EAB" />
+                    <GradientStop Offset="0" Color="#FFEEF2F3" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <TextBlock
+                Margin="10,0"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="Bold"
+                Text="Email"
+                TextAlignment="Center" />
+        </Border>
+        <Border
+            Grid.Column="4"
+            BorderBrush="Gray"
+            BorderThickness="1">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="1" Color="#FF8E9EAB" />
+                    <GradientStop Offset="0" Color="#FFEEF2F3" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+
+                <TextBlock
+                    VerticalAlignment="Center"
+                    FontSize="14"
+                    FontWeight="Bold"
+                    Text="Date check in"
+                    TextAlignment="Center" />
+                <Button
+                    Name="btnSortCheckIn"
+                    Width="auto"
+                    Height="18"
+                    Margin="5,0,0,0"
+                    Padding="1"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    Click="sortButton_Click">
+                    <materialDesign:PackIcon
+                        Name="SortCheckInIcon"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Foreground="Red"
+                        Kind="ArrowBottom" />
+                </Button>
+            </StackPanel>
+        </Border>
+        <Border
+            Grid.Column="5"
+            BorderBrush="Gray"
+            BorderThickness="1">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="1" Color="#FF8E9EAB" />
+                    <GradientStop Offset="0" Color="#FFEEF2F3" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <TextBlock
+                Margin="10,0"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="Bold"
+                Text="Manage"
+                TextAlignment="Center" />
+        </Border>
+    </Grid>
+</UserControl>

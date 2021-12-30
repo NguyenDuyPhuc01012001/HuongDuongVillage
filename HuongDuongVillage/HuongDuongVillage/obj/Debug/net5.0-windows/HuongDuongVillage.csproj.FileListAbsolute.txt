@@ -1,0 +1,871 @@
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.exe
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.deps.json
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.json
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.dev.json
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.cache
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.lref
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.g.resources
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfo.cs
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\Users\Asus\source\repos\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.genruntimeconfig.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.exe
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.deps.json
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.json
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.dev.json
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.Wpf.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.AssemblyReference.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Category\CategoryManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\ChangeMealStatusManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealStatus\MealStatusManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Meal\MealManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Table\TableManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewMeal.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewStaff.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewTable.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\BillTemplate.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ChangePassword.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditMeal.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditStaff.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditTable.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormAccoutant.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormCEO.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormChef.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormHR.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormLaundry.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormSale.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\InfoStaff.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\Login.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ModifyCategory.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Category\CategoryCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Category\CategoryManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\ChangeMealStatusCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\ChangeMealStatusManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealPicker\AdditionalNote.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealPicker\SelectCategory.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealPicker\SelectQuantity.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealStatus\MealStatusCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealStatus\MealStatusManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Meal\MealButton.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Meal\MealCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Meal\MealManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\TotalProfitCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\TableManager\DiscountField.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\TableManager\SelectTable.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\TableManager\Table.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Table\TableCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Table\TableManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.lref
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewMeal.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewStaff.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewTable.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\BillTemplate.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ChangePassword.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditMeal.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditStaff.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditTable.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormAccoutant.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormCEO.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormChef.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormHR.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormLaundry.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormSale.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\InfoStaff.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\Login.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ModifyCategory.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Category\CategoryCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\ChangeMealStatusCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealPicker\AdditionalNote.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealPicker\SelectCategory.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealPicker\SelectQuantity.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\MealStatus\MealStatusCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Meal\MealButton.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Meal\MealCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\TotalProfitCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\TableManager\DiscountField.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\TableManager\SelectTable.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\TableManager\Table.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Table\TableCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.g.resources
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.GeneratedMSBuildEditorConfig.editorconfig
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfoInputs.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfo.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CoreCompileInputs.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CopyComplete
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\UIT\Nam 3\PP HĐT\HuongDuong-Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.genruntimeconfig.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.AssemblyReference.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.lref
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.exe
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.deps.json
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.json
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.dev.json
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.Wpf.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.g.resources
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.GeneratedMSBuildEditorConfig.editorconfig
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfoInputs.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfo.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CoreCompileInputs.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CopyComplete
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.genruntimeconfig.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.AzureKeyVault.HostingStartup.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Http.Features.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.KeyVault.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.KeyVault.WebKey.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.Services.AppAuthentication.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Rest.ClientRuntime.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarManager.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarManager.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.exe
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.deps.json
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.json
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.dev.json
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.Wpf.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.AzureKeyVault.HostingStartup.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.KeyVault.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Rest.ClientRuntime.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\SendGrid.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\StarkbankEcdsa.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.AssemblyReference.cache
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewMeal.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewTable.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\BillTemplate.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ChangePassword.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditMeal.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditTable.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormAccountant.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormBar.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormCEO.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormChef.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormHR.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormLaundry.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormReceptionist.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormSale.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\Login.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ManageDocument.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ManageStaff.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\SendEmail.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.cache
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.lref
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewMeal.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\AddNewTable.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\BillTemplate.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ChangePassword.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditMeal.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\EditTable.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormAccountant.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormBar.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormCEO.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormChef.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormHR.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormLaundry.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormReceptionist.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\FormSale.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\Login.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ManageDocument.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\ManageStaff.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\MainTemplate\SendEmail.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.baml
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.g.resources
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfoInputs.cache
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfo.cs
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CoreCompileInputs.cache
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\Users\MSI\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.genruntimeconfig.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\SendGrid.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\StarkbankEcdsa.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.exe
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.deps.json
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.json
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.dev.json
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.Toolkit.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.Wpf.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.AzureKeyVault.HostingStartup.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.KeyVault.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\SendGrid.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\StarkbankEcdsa.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.cache
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.lref
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.g.resources
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CopyComplete
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.AssemblyReference.cache
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.Toolkit.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\BillInforCard.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\BillInforCard.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\BillTemplate.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ChangePassword.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\CustomAlertBox.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormAccountant.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormBar.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormCEO.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormChef.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormHR.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormLaundry.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormReceptionist.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormSale.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\Login.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageCustomer.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageDocument.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoom.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoomTypes.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageService.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageServiceType.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageStaff.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\BillInforCard.g.cs
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\BillTemplate.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ChangePassword.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\CustomAlertBox.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormAccountant.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormBar.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormCEO.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormChef.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormHR.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormLaundry.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormReceptionist.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormSale.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\Login.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageCustomer.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageDocument.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoom.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoomTypes.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageService.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageServiceType.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageStaff.baml
+C:\Users\Asus\Downloads\Git\HD_Village\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\BillInforCard.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\BillTemplate.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ChangePassword.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\CustomAlertBox.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormAccountant.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormBar.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormCEO.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormChef.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormHR.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormLaundry.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormReceptionist.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormSale.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\Login.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageCustomer.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageDocument.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoom.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoomTypes.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageService.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageServiceType.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageStaff.g.cs
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\BillTemplate.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ChangePassword.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\CustomAlertBox.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormAccountant.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormBar.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormCEO.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormChef.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormHR.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormLaundry.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormReceptionist.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormSale.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\Login.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageCustomer.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageDocument.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoom.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoomTypes.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageService.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageServiceType.baml
+C:\UIT\Nam 3\PP HĐT\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageStaff.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.exe
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.deps.json
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.json
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.runtimeconfig.dev.json
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Xceed.Wpf.Toolkit.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\LiveCharts.Wpf.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.AzureKeyVault.HostingStartup.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.KeyVault.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\SendGrid.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\StarkbankEcdsa.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\BillTemplate.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ChangePassword.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\CustomAlertBox.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormAccountant.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormBar.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormCEO.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormChef.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormHR.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormLaundry.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormReceptionist.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormSale.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\Login.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageCustomer.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageDocument.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoom.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoomTypes.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageService.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageServiceType.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageStaff.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\BillInforCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffManager.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.cache
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage_MarkupCompile.lref
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\BillTemplate.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ChangePassword.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\CustomAlertBox.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormAccountant.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormBar.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormCEO.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormChef.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormHR.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormLaundry.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormReceptionist.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\FormSale.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\Login.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageCustomer.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageDocument.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoom.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageRoomTypes.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageService.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageServiceType.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\GUI\ManageStaff.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\BillInforCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ButtonManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\MealCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CompareWithLastMonthCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\ReportManager.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\UserRatingCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\RoomType\RoomTypeCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Room\RoomCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\SearchBox.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\ServiceType\ServiceTypeCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Service\ServiceCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Staff\StaffCard.baml
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.g.resources
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.CopyComplete
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\ref\HuongDuongVillage.dll
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.pdb
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.genruntimeconfig.cache

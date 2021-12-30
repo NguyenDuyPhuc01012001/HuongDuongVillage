@@ -1,0 +1,174 @@
+﻿<UserControl
+    x:Class="HuongDuongVillage.RoomCard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:HuongDuongVillage"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="auto"
+    Height="auto"
+    mc:Ignorable="d">
+    <Grid>
+        <Border
+            Margin="20,5,5,5"
+            Background="LightGray"
+            CornerRadius="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="110" />
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="130" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="200" />
+                </Grid.ColumnDefinitions>
+                <Border BorderBrush="Gray" BorderThickness="0,0,1,0">
+
+                    <TextBlock
+                            x:Name="tblRoomName"
+                            Margin="10,0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            Foreground="Black"
+                            Text="Room 1" />
+                </Border>
+                <Border
+                    Grid.Column="1"
+                    BorderBrush="Gray"
+                    BorderThickness="0,0,1,0">
+                    <TextBlock
+                            x:Name="tblCusID"
+                            Margin="10,0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            Foreground="Black"
+                            Text="1" />
+                </Border>
+                <Border
+                    Grid.Column="2"
+                    BorderBrush="Gray"
+                    BorderThickness="0,0,1,0">
+                    <TextBlock
+                            x:Name="tblAddress"
+                            Margin="10,0"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            Foreground="Black"
+                            Text="Floor 1"
+                            TextWrapping="Wrap" />
+                </Border>
+                <Border
+                    Grid.Column="3"
+                    BorderBrush="Gray"
+                    BorderThickness="0,0,1,0">
+                    <TextBlock
+                            x:Name="tblRoomType"
+                            Margin="10,0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            Foreground="Black"
+                            Text="VIP" />
+                </Border>
+                <Border
+                    Grid.Column="4"
+                    BorderBrush="Gray"
+                    BorderThickness="0,0,1,0">
+                    <TextBlock
+                            x:Name="tblRoomStatus"
+                            Margin="10,0"
+                        FontWeight="DemiBold"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            Foreground="Black"
+                            Text="Booked" />
+                </Border>
+                <Border
+                    Grid.Column="5"
+                    BorderBrush="Gray"
+                    BorderThickness="0,0,1,0">
+
+                    <TextBlock
+                            x:Name="tblRoomPrice"
+                            Margin="10,0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            Foreground="Black"
+                            Text="100$" />
+                </Border>
+                <StackPanel
+                    Grid.Column="6"
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+
+                    <Button
+                        x:Name="editButton"
+                        Grid.Column="0"
+                        Height="auto"
+                        Background="Gray"
+                        BorderBrush="Gray"
+                        Click="editButton_Click"
+                        MouseEnter="editButton_MouseEnter"
+                        MouseLeave="editButton_MouseLeave">
+                        <materialDesign:PackIcon
+                            Name="editIcon"
+                            Foreground="White"
+                            Kind="Pencil" />
+                    </Button>
+                    <Separator
+                        Grid.Column="1"
+                        Width="41"
+                        Height="20"
+                        Background="Gray">
+                        <Separator.LayoutTransform>
+                            <RotateTransform Angle="90" />
+                        </Separator.LayoutTransform>
+                    </Separator>
+                    <Button
+                        x:Name="deleteButton"
+                        Grid.Column="2"
+                        Height="auto"
+                        Background="Gray"
+                        BorderBrush="Gray"
+                        Click="deleteButton_Click"
+                        MouseEnter="deleteButton_MouseEnter"
+                        MouseLeave="deleteButton_MouseLeave">
+                        <materialDesign:PackIcon
+                            x:Name="deleteIcon"
+                            Foreground="White"
+                            Kind="GarbageCan" />
+                    </Button>
+                    <Separator
+                        Grid.Column="4"
+                        Width="41"
+                        Height="20"
+                        Background="Gray">
+                        <Separator.LayoutTransform>
+                            <RotateTransform Angle="90" />
+                        </Separator.LayoutTransform>
+                    </Separator>
+                    <Button
+                        x:Name="checkoutBtn"
+                        Height="auto"
+                        Background="Gray"
+                        BorderBrush="Gray"
+                        Click="checkoutBtn_Click"
+                        MouseEnter="checkoutBtn_MouseEnter"
+                        MouseLeave="checkoutBtn_MouseLeave">
+                        <materialDesign:PackIcon
+                            x:Name="checkoutIcon"
+                            Foreground="White"
+                            Kind="CashMultiple" />
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

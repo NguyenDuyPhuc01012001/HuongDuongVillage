@@ -1,0 +1,78 @@
+﻿<UserControl
+    x:Class="HuongDuongVillage.LaundryCard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:HuongDuongVillage"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Height="50"
+    mc:Ignorable="d">
+    <Grid>
+        <Border
+            Margin="5"
+            Background="LightGray"
+            CornerRadius="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="0,0,1,0">
+                    <StackPanel
+                    x:Name="mealInfo"
+                    Grid.Column="0"
+                    HorizontalAlignment="Left"
+                    Orientation="Horizontal">
+
+                        <TextBlock
+                        x:Name="cleanID"
+                        Margin="10,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        Foreground="Black"
+                        Text="1" />
+                    </StackPanel>
+                </Border>
+                <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="0,0,1,0">
+                    <StackPanel
+                    x:Name="mealCategoryContainer"
+                    Grid.Column="1"
+                    HorizontalAlignment="Left"
+                    Orientation="Horizontal">
+                        <TextBlock
+                        x:Name="cleanRoomName"
+                        Margin="10,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Foreground="Black"
+                        Text="5" />
+                    </StackPanel>
+                </Border>
+                <StackPanel
+                    x:Name="mealPriceContainer"
+                    Grid.Column="2"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+                    <ComboBox x:Name="cleanStatus"
+                               Width="67"
+                    Height="Auto"
+                    HorizontalAlignment="Left"
+
+                    SelectedValuePath="Content" SelectionChanged="mealStatus_SelectionChanged">
+                        <ComboBoxItem Content="Done" />
+                        <ComboBoxItem Content="Not done" />
+
+                        <ComboBox.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <VirtualizingStackPanel />
+                            </ItemsPanelTemplate>
+                        </ComboBox.ItemsPanel>
+                    </ComboBox>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

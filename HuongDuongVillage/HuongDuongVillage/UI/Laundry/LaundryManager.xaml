@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="HuongDuongVillage.LaundryManager"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d"
+             Height="auto" Width="auto">
+    <Grid Height="auto" Width="auto" Margin="5">
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Column="0" VerticalAlignment="Top" Height="16" Margin="10 0 0 0">
+
+                <TextBlock Text="ID" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" VerticalAlignment="Top" Height="16" Margin="5 0 0 0">
+
+                <TextBlock Text="Room name" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="2" VerticalAlignment="Top" Height="16" Margin="125 0 0 0">
+
+                <TextBlock Text="Status" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

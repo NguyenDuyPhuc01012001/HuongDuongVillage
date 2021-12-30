@@ -1,0 +1,414 @@
+﻿++Solution 'HuongDuongVillage' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:HuongDuongVillage.sln
+++HuongDuongVillage
+i:{00000000-0000-0000-0000-000000000000}:HuongDuongVillage
+++Dependencies
+i:{9c74e64b-3534-461b-b6da-72699479188a}:>4869
+++Properties
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\properties\
+++Assets
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\assets\
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\assets\
+++DAO
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\
+++DTO
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\
+++AccountDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\accountdto.cs
+++BarDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\bardto.cs
+++BookingDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\bookingdto.cs
+++ChefDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\chefdto.cs
+++CleanDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\cleandto.cs
+++CustomerDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\customerdto.cs
+++PaymentDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\paymentdto.cs
+++ReportDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\reportdto.cs
+++RoomDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\roomdto.cs
+++RoomTypeDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\roomtypedto.cs
+++ServicesDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\servicesdto.cs
+++ServiceTypeDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\servicetypedto.cs
+++StaffDTO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dto\staffdto.cs
+++MainTemplate
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\
+++AddNewMeal.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\addnewmeal.xaml
+++AddNewTable.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\addnewtable.xaml
+++BillTemplate.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\billtemplate.xaml
+++ChangePassword.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\changepassword.xaml
+++EditMeal.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\editmeal.xaml
+++EditTable.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\edittable.xaml
+++FormAccountant.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formaccountant.xaml
+++FormAccountant.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formaccountant.xaml.cs
+++FormBar.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formbar.xaml
+++FormBar.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formbar.xaml.cs
+++FormCEO.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formceo.xaml
+++FormCEO.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formceo.xaml.cs
+++FormChef.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formchef.xaml
+++FormChef.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formchef.xaml.cs
+++FormHR.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formhr.xaml
+++FormLaundry.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formlaundry.xaml
+++FormReceptionist.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formreceptionist.xaml
+++FormSale.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formsale.xaml
+++FormSale.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formsale.xaml.cs
+++Login.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\login.xaml
+++login_logo.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\login_logo.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\assets\login_logo.png
+++ManageBooking.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\managebooking.xaml
+++ManageCustomer.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\managecustomer.xaml
+++ManageDocument.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\managedocument.xaml
+++ManageRoom.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\manageroom.xaml
+++ManageRoomType.xaml
+++ManageRoomType.xaml.cs
+++ManageService.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\manageservice.xaml
+++ManageStaff.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\managestaff.xaml
+++restaurant.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\restaurant.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\assets\restaurant.png
+++SendEmail.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\sendemail.xaml
+++village_logo.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\village_logo.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\assets\village_logo.png
+++UI
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\
+++Account
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\account\
+++Bar
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\bar\
+++Booking
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\booking\
+++Chef
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\chef\
+++Customer
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\customer\
+++DocumentReport
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\documentreport\
+++Laundry
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\laundry\
+++Payment
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\payment\
+++Report
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\
+++money.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\assets\money.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\money.png
+++profit.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\assets\profit.png
+++satisfy.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\assets\satisfy.png
+++CartesianChart.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\cartesianchart.xaml
+++CartesianChart.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\cartesianchart.xaml.cs
+++CompareWithLastMonthCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\comparewithlastmonthcard.xaml
+++ReportCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\reportcard.xaml
+++ReportManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\reportmanager.xaml
+++UserRatingCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\userratingcard.xaml
+++Room
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\room\
+++RoomType
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\roomtype\
+++RoomTypeCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\roomtype\roomtypecard.xaml
+++RoomTypeCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\roomtype\roomtypecard.xaml.cs
+++RoomTypeManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\roomtype\roomtypemanager.xaml
+++Service
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\service\
+++ServiceType
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\servicetype\
+++Staff
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\staff\
+++ButtonManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\buttonmanager.xaml
+++SearchBox.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\searchbox.xaml
+++App.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\app.xaml
+++AssemblyInfo.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\assemblyinfo.cs
+++Xaml-Icon-Studio-Agriculture-Sunflower.ico
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\xaml-icon-studio-agriculture-sunflower.ico
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\xaml-icon-studio-agriculture-sunflower.ico
+++Analyzers
+i:{9c74e64b-3534-461b-b6da-72699479188a}:analyzers
+++Frameworks
+i:{9c74e64b-3534-461b-b6da-72699479188a}:frameworks
+++Packages
+i:{9c74e64b-3534-461b-b6da-72699479188a}:packages
+++ServiceDependencies
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\properties\servicedependencies\
+++serviceDependencies.json
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\properties\servicedependencies.json
+++serviceDependencies.local.json
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\properties\servicedependencies.local.json
+++Settings.settings
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\properties\settings.settings
+++pork_rice.png.jpg
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\assets\pork_rice.png.jpg
+++AccountDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\accountdao.cs
+++BarDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\bardao.cs
+++BillDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\billdao.cs
+++BillInfoDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\billinfodao.cs
+++BookingDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\bookingdao.cs
+++CategoryDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\categorydao.cs
+++ChefDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\chefdao.cs
+++CleanDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\cleandao.cs
+++CustomerDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\customerdao.cs
+++DataProvider.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\dataprovider.cs
+++FoodDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\fooddao.cs
+++PaymentDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\paymentdao.cs
+++ReportDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\reportdao.cs
+++RoomDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\roomdao.cs
+++RoomTypeDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\roomtypedao.cs
+++ServiceDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\servicedao.cs
+++ServiceTypeDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\servicetypedao.cs
+++StaffDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\staffdao.cs
+++TableDAO.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\dao\tabledao.cs
+++AddNewMeal.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\addnewmeal.xaml.cs
+++AddNewTable.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\addnewtable.xaml.cs
+++BillTemplate.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\billtemplate.xaml.cs
+++ChangePassword.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\changepassword.xaml.cs
+++EditMeal.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\editmeal.xaml.cs
+++EditTable.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\edittable.xaml.cs
+++FormHR.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formhr.xaml.cs
+++FormLaundry.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formlaundry.xaml.cs
+++FormReceptionist.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\formreceptionist.xaml.cs
+++Login.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\login.xaml.cs
+++ManageBooking.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\managebooking.xaml.cs
+++ManageCustomer.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\managecustomer.xaml.cs
+++ManageDocument.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\managedocument.xaml.cs
+++ManageRoom.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\manageroom.xaml.cs
+++ManageService.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\manageservice.xaml.cs
+++ManageStaff.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\managestaff.xaml.cs
+++SendEmail.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\sendemail.xaml.cs
+++AccountCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\account\accountcard.xaml
+++AccountManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\account\accountmanager.xaml
+++BarCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\bar\barcard.xaml
+++BarManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\bar\barmanager.xaml
+++BookingCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\booking\bookingcard.xaml
+++BookingManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\booking\bookingmanager.xaml
+++MealCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\chef\mealcard.xaml
+++MealManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\chef\mealmanager.xaml
+++CustomerCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\customer\customercard.xaml
+++CustomerManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\customer\customermanager.xaml
+++DocumentReportCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\documentreport\documentreportcard.xaml
+++DocumentReportManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\documentreport\documentreportmanager.xaml
+++LaundryCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\laundry\laundrycard.xaml
+++LaundryManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\laundry\laundrymanager.xaml
+++MealButton.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\laundry\mealbutton.xaml
+++PaymentCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\payment\paymentcard.xaml
+++PaymentManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\payment\paymentmanager.xaml
+++CompareWithLastMonthCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\comparewithlastmonthcard.xaml.cs
+++ReportCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\reportcard.xaml.cs
+++ReportManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\reportmanager.xaml.cs
+++UserRatingCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\report\userratingcard.xaml.cs
+++RoomCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\room\roomcard.xaml
+++RoomManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\room\roommanager.xaml
+++RoomTypeManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\roomtype\roomtypemanager.xaml.cs
+++ServiceCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\service\servicecard.xaml
+++ServiceManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\service\servicemanager.xaml
+++ServiceTypeCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\servicetype\servicetypecard.xaml
+++ServiceTypeManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\servicetype\servicetypemanager.xaml
+++StaffCard.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\staff\staffcard.xaml
+++StaffManager.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\staff\staffmanager.xaml
+++ButtonManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\buttonmanager.xaml.cs
+++SearchBox.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\searchbox.xaml.cs
+++App.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\app.xaml.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.NETCore.App
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\microsoft.netcore.app
+++Microsoft.WindowsDesktop.App.WPF
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\microsoft.windowsdesktop.app.wpf
+++LiveCharts.Wpf (0.9.7)
+i:{9c74e64b-3534-461b-b6da-72699479188a}:>4882
+++MaterialDesignThemes (4.2.1)
+i:{9c74e64b-3534-461b-b6da-72699479188a}:>4878
+++Microsoft.AspNetCore.AzureKeyVault.HostingStartup (2.0.4)
+i:{9c74e64b-3534-461b-b6da-72699479188a}:>4880
+++Microsoft.Extensions.Configuration.UserSecrets (5.0.0)
+i:{9c74e64b-3534-461b-b6da-72699479188a}:>4877
+++SendGrid (9.25.1)
+i:{9c74e64b-3534-461b-b6da-72699479188a}:>4879
+++System.Data.SqlClient (4.8.3)
+i:{9c74e64b-3534-461b-b6da-72699479188a}:>4881
+++local
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\properties\servicedependencies\local\
+++Settings.Designer.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\properties\settings.designer.cs
+++AccountCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\account\accountcard.xaml.cs
+++AccountManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\account\accountmanager.xaml.cs
+++BarCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\bar\barcard.xaml.cs
+++BarManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\bar\barmanager.xaml.cs
+++BookingCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\booking\bookingcard.xaml.cs
+++BookingManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\booking\bookingmanager.xaml.cs
+++MealCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\chef\mealcard.xaml.cs
+++MealManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\chef\mealmanager.xaml.cs
+++CustomerCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\customer\customercard.xaml.cs
+++CustomerManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\customer\customermanager.xaml.cs
+++DocumentReportCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\documentreport\documentreportcard.xaml.cs
+++DocumentReportManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\documentreport\documentreportmanager.xaml.cs
+++LaundryCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\laundry\laundrycard.xaml.cs
+++LaundryManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\laundry\laundrymanager.xaml.cs
+++MealButton.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\laundry\mealbutton.xaml.cs
+++PaymentCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\payment\paymentcard.xaml.cs
+++PaymentManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\payment\paymentmanager.xaml.cs
+++RoomCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\room\roomcard.xaml.cs
+++RoomManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\room\roommanager.xaml.cs
+++ServiceCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\service\servicecard.xaml.cs
+++ServiceManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\service\servicemanager.xaml.cs
+++ServiceTypeCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\servicetype\servicetypecard.xaml.cs
+++ServiceTypeManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\servicetype\servicetypemanager.xaml.cs
+++StaffCard.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\staff\staffcard.xaml.cs
+++StaffManager.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\ui\staff\staffmanager.xaml.cs
+++mssql1.arm.json
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\properties\servicedependencies\local\mssql1.arm.json
+++secrets2.arm.json
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\properties\servicedependencies\local\secrets2.arm.json
+++CustomAlertBox.xaml
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\customalertbox.xaml
+++CustomAlertBox.xaml.cs
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\customalertbox.xaml.cs
+++—Pngtree—attention danger warning sign psd_5464190.png
+++danger.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\assets\danger.png
+i:{9c74e64b-3534-461b-b6da-72699479188a}:c:\uit\nam 3\pp hđt\huongduongvillage\huongduongvillage\huongduongvillage\maintemplate\danger.png

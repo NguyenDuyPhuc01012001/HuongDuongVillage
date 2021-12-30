@@ -1,0 +1,11 @@
+.image-wrap {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: none;
+}
+
+img {
+  background-color: transparent;
+  border-radius: 20px;
+}

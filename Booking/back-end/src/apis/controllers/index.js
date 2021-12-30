@@ -1,0 +1,5 @@
+module.exports.bookController=require('./book.controller')
+module.exports.customerController=require('./customer.controller')
+module.exports.roomTypeController=require('./roomType.controller')
+module.exports.roomController=require('./room.controller')
+module.exports.contactController=require('./contact.controller')

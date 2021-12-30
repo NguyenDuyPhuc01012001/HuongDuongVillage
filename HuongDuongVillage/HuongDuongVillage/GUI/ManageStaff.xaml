@@ -1,0 +1,319 @@
+﻿<Window
+    x:Class="HuongDuongVillage.ManageStaff"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:HuongDuongVillage.GUI"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Manage Staff"
+    Width="800"
+    Height="500"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    Background="Transparent"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <Border Background="White" CornerRadius="10" BorderThickness="2" BorderBrush="#FFF38413">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="vilageInformation" VerticalAlignment="Center">
+                <Image Source="/GUI/village_logo.png" />
+            </Grid>
+            <Grid
+            x:Name="gridInfo"
+            Grid.Column="1"
+            Margin="0,20,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="3*" />
+                </Grid.ColumnDefinitions>
+                <Label
+                x:Name="lblName"
+                Grid.Row="0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Content="Name"
+                FontSize="18"
+                FontWeight="Bold"
+                Foreground="Black" />
+                <Grid
+                x:Name="grdName"
+                Grid.Column="1"
+                Margin="50,0,0,0">
+                    <Rectangle
+                    x:Name="recName"
+                    Width="300"
+                    Height="40"
+                    HorizontalAlignment="Left"
+                    RadiusX="5"
+                    RadiusY="5"
+                    Stroke="Gray" />
+                    <TextBox
+                    x:Name="txbName"
+                    Width="{Binding ActualWidth, ElementName=recName}"
+                    Height="{Binding ActualHeight, ElementName=recName}"
+                    Padding="5"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    HorizontalContentAlignment="Left"
+                    VerticalContentAlignment="Center"
+                    materialDesign:HintAssist.Hint="Staff's Name"
+                    BorderThickness="0"
+                    FontSize="14"
+                    FontWeight="Bold"
+                    MaxLines="1" />
+                </Grid>
+                <Label
+                x:Name="lblUserName"
+                Grid.Row="1"
+                HorizontalAlignment="{Binding HorizontalAlignment, ElementName=lblName}"
+                VerticalAlignment="{Binding VerticalAlignment, ElementName=lblName}"
+                Content="Username"
+                FontSize="{Binding FontSize, ElementName=lblName}"
+                FontWeight="{Binding FontWeight, ElementName=lblName}"
+                Foreground="{Binding Foreground, ElementName=lblName}" />
+                <Grid
+                x:Name="grdUserName"
+                Grid.Row="1"
+                Grid.Column="1"
+                Width="{Binding ActualWidth, ElementName=recName}"
+                Margin="{Binding Margin, ElementName=grdName}"
+                HorizontalAlignment="{Binding HorizontalAlignment, ElementName=recName}">
+                    <Rectangle
+                    x:Name="recUserName"
+                    Width="{Binding ActualWidth, ElementName=recName}"
+                    Height="{Binding ActualHeight, ElementName=recName}"
+                    Margin="{Binding Margin, ElementName=recName}"
+                    HorizontalAlignment="{Binding HorizontalAlignment, ElementName=recName}"
+                    RadiusX="{Binding RadiusX, ElementName=recName}"
+                    RadiusY="{Binding RadiusY, ElementName=recName}"
+                    Stroke="{Binding Stroke, ElementName=recName}" />
+                    <TextBox
+                    x:Name="txbUserName"
+                    Width="{Binding ActualWidth, ElementName=txbName}"
+                    Height="{Binding ActualHeight, ElementName=txbName}"
+                    Padding="{Binding Padding, ElementName=txbName}"
+                    HorizontalAlignment="{Binding HorizontalAlignment, ElementName=txbName}"
+                    VerticalAlignment="{Binding VerticalAlignment, ElementName=txbName}"
+                    HorizontalContentAlignment="{Binding HorizontalContentAlignment, ElementName=txbName}"
+                    VerticalContentAlignment="{Binding VerticalContentAlignment, ElementName=txbName}"
+                    materialDesign:HintAssist.Hint="Staff's username"
+                    BorderThickness="{Binding BorderThickness, ElementName=txbName}"
+                    FontSize="{Binding FontSize, ElementName=txbName}"
+                    FontWeight="{Binding FontWeight, ElementName=txbName}"
+                    MaxLines="{Binding MaxLines, ElementName=txbName}" />
+                </Grid>
+                <Label
+                x:Name="lbSex"
+                Grid.Row="2"
+                HorizontalAlignment="{Binding HorizontalAlignment, ElementName=lblName}"
+                VerticalAlignment="{Binding VerticalAlignment, ElementName=lblName}"
+                Content="Sex"
+                FontSize="{Binding FontSize, ElementName=lblName}"
+                FontWeight="{Binding FontWeight, ElementName=lblName}"
+                Foreground="{Binding Foreground, ElementName=lblName}" />
+                <Grid
+                x:Name="grdSex"
+                Grid.Row="2"
+                Grid.Column="1"
+                Width="{Binding ActualWidth, ElementName=recName}"
+                Margin="{Binding Margin, ElementName=grdName}"
+                HorizontalAlignment="{Binding HorizontalAlignment, ElementName=recName}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <RadioButton
+                    x:Name="rdoMale"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Content="Male"
+                    FontSize="16"
+                    IsChecked="True"
+                    Style="{StaticResource MaterialDesignLightRadioButton}" />
+                    <RadioButton
+                    x:Name="rdoFemale"
+                    Grid.Column="1"
+                    HorizontalAlignment="{Binding HorizontalAlignment, ElementName=rdoMale}"
+                    VerticalAlignment="{Binding VerticalAlignment, ElementName=rdoMale}"
+                    Content="Female"
+                    FontSize="{Binding FontSize, ElementName=rdoMale}"
+                    Style="{StaticResource MaterialDesignLightRadioButton}" />
+                </Grid>
+                <Label
+                x:Name="lbRole"
+                Grid.Row="3"
+                HorizontalAlignment="{Binding HorizontalAlignment, ElementName=lblName}"
+                VerticalAlignment="{Binding VerticalAlignment, ElementName=lblName}"
+                Content="Role"
+                FontSize="{Binding FontSize, ElementName=lblName}"
+                FontWeight="{Binding FontWeight, ElementName=lblName}"
+                Foreground="{Binding Foreground, ElementName=lblName}" />
+                <Grid
+                x:Name="grdRole"
+                Grid.Row="3"
+                Grid.Column="1"
+                Margin="{Binding Margin, ElementName=grdName}">
+                    <Rectangle
+                    x:Name="recRole"
+                    Width="{Binding ActualWidth, ElementName=recName}"
+                    Height="{Binding ActualHeight, ElementName=recName}"
+                    Margin="{Binding Margin, ElementName=recName}"
+                    HorizontalAlignment="{Binding HorizontalAlignment, ElementName=recName}"
+                    RadiusX="{Binding RadiusX, ElementName=recName}"
+                    RadiusY="{Binding RadiusY, ElementName=recName}"
+                    Stroke="{Binding Stroke, ElementName=recName}" />
+                    <ComboBox
+                    x:Name="cmbRole"
+                    Width="{Binding ActualWidth, ElementName=recName}"
+                    Height="{Binding ActualHeight, ElementName=recName}"
+                    Padding="{Binding Padding, ElementName=txbName}"
+                    HorizontalAlignment="{Binding HorizontalAlignment, ElementName=txbName}"
+                    VerticalContentAlignment="Center"
+                    materialDesign:HintAssist.Hint="Staff's Role"
+                    FontWeight="{Binding FontWeight, ElementName=txbName}"
+                    SelectedValuePath="Content">
+                        <ComboBoxItem Content="HR" />
+                        <ComboBoxItem Content="CEO" />
+                        <ComboBoxItem Content="Receptionist" />
+                        <ComboBoxItem Content="Sale" />
+                        <ComboBoxItem Content="Accountant" />
+                        <ComboBoxItem Content="Bar" />
+                        <ComboBoxItem Content="Chef" />
+                        <ComboBoxItem Content="Cleaner" />
+                        <ComboBox.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <VirtualizingStackPanel />
+                            </ItemsPanelTemplate>
+                        </ComboBox.ItemsPanel>
+                    </ComboBox>
+                </Grid>
+                <Label
+                x:Name="lblEmail"
+                Grid.Row="4"
+                HorizontalAlignment="{Binding HorizontalAlignment, ElementName=lblName}"
+                VerticalAlignment="{Binding VerticalAlignment, ElementName=lblName}"
+                Content="Email"
+                FontSize="{Binding FontSize, ElementName=lblName}"
+                FontWeight="{Binding FontWeight, ElementName=lblName}"
+                Foreground="{Binding Foreground, ElementName=lblName}" />
+                <Grid
+                x:Name="grdEmail"
+                Grid.Row="4"
+                Grid.Column="1"
+                Margin="{Binding Margin, ElementName=grdName}">
+                    <Rectangle
+                    x:Name="recEmail"
+                    Width="{Binding ActualWidth, ElementName=recName}"
+                    Height="{Binding ActualHeight, ElementName=recName}"
+                    HorizontalAlignment="{Binding HorizontalAlignment, ElementName=recName}"
+                    RadiusX="{Binding RadiusX, ElementName=recName}"
+                    RadiusY="{Binding RadiusY, ElementName=recName}"
+                    Stroke="{Binding Stroke, ElementName=recName}" />
+                    <TextBox
+                    x:Name="txbEmail"
+                    Width="{Binding ActualWidth, ElementName=txbName}"
+                    Height="{Binding ActualHeight, ElementName=txbName}"
+                    Padding="{Binding Padding, ElementName=txbName}"
+                    HorizontalAlignment="{Binding HorizontalAlignment, ElementName=txbName}"
+                    VerticalAlignment="{Binding VerticalAlignment, ElementName=txbName}"
+                    HorizontalContentAlignment="{Binding HorizontalContentAlignment, ElementName=txbName}"
+                    VerticalContentAlignment="{Binding VerticalContentAlignment, ElementName=txbName}"
+                    materialDesign:HintAssist.Hint="Staff's email"
+                    BorderThickness="{Binding BorderThickness, ElementName=txbName}"
+                    FontSize="{Binding FontSize, ElementName=txbName}"
+                    FontWeight="{Binding FontWeight, ElementName=txbName}"
+                    MaxLines="{Binding MaxLines, ElementName=txbName}" />
+                </Grid>
+                <Label
+                x:Name="lblDOB"
+                Grid.Row="5"
+                HorizontalAlignment="{Binding HorizontalAlignment, ElementName=lblName}"
+                VerticalAlignment="{Binding VerticalAlignment, ElementName=lblName}"
+                Content="Date of Birth"
+                FontSize="{Binding FontSize, ElementName=lblName}"
+                FontWeight="{Binding FontWeight, ElementName=lblName}"
+                Foreground="{Binding Foreground, ElementName=lblName}" />
+                <Grid
+                x:Name="grdDOB"
+                Grid.Row="5"
+                Grid.Column="1"
+                Margin="{Binding Margin, ElementName=grdName}">
+                    <Rectangle
+                    x:Name="recDOB"
+                    Width="{Binding ActualWidth, ElementName=recName}"
+                    Height="{Binding ActualHeight, ElementName=recName}"
+                    HorizontalAlignment="{Binding HorizontalAlignment, ElementName=recName}"
+                    RadiusX="{Binding RadiusX, ElementName=recName}"
+                    RadiusY="{Binding RadiusY, ElementName=recName}"
+                    Stroke="{Binding Stroke, ElementName=recName}" />
+
+                    <DatePicker
+                    x:Name="dpkDOB"
+                    Width="{Binding ActualWidth, ElementName=txbName}"
+                    Height="{Binding ActualHeight, ElementName=txbName}"
+                    Padding="{Binding Padding, ElementName=txbName}"
+                    HorizontalAlignment="{Binding HorizontalAlignment, ElementName=txbName}"
+                    VerticalAlignment="{Binding VerticalAlignment, ElementName=txbName}"
+                    HorizontalContentAlignment="{Binding HorizontalContentAlignment, ElementName=txbName}"
+                    VerticalContentAlignment="{Binding VerticalContentAlignment, ElementName=txbName}"
+                    materialDesign:CalendarAssist.IsHeaderVisible="False"
+                    materialDesign:HintAssist.Hint="Staff's Date of Birth"
+                    BorderThickness="{Binding BorderThickness, ElementName=txbName}"
+                    FontSize="{Binding FontSize, ElementName=txbName}"
+                    FontWeight="{Binding FontWeight, ElementName=txbName}" />
+                </Grid>
+                <Grid
+                x:Name="grdSelection"
+                Grid.Row="7"
+                Grid.Column="1"
+                Width="{Binding ActualWidth, ElementName=recName}"
+                Margin="{Binding Margin, ElementName=grdName}"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Button
+                    x:Name="btnConfirm"
+                    Grid.Column="0"
+                    materialDesign:ButtonAssist.CornerRadius="10"
+                    Background="#FFF38413"
+                    Click="btnConfirm_Click"
+                    Content="Confirm"
+                    FontSize="11"
+                    FontWeight="Bold"
+                    Foreground="White"
+                    Style="{StaticResource MaterialDesignFlatMidBgButton}" />
+
+                    <Button
+                    x:Name="btnCancel"
+                    Grid.Column="2"
+                    materialDesign:ButtonAssist.CornerRadius="10"
+                    Background="{Binding Foreground, ElementName=btnConfirm}"
+                    Click="btnCancel_Click"
+                    Content="Cancel"
+                    FontSize="11"
+                    FontWeight="{Binding FontWeight, ElementName=btnConfirm}"
+                    Foreground="{Binding Background, ElementName=btnConfirm}"
+                    Style="{StaticResource MaterialDesignOutlinedButton}" />
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

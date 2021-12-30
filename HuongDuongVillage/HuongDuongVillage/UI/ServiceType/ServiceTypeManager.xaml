@@ -1,0 +1,173 @@
+﻿<UserControl
+    x:Class="HuongDuongVillage.ServiceTypeManager"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="auto"
+    Height="auto"
+    mc:Ignorable="d">
+    <Grid
+        Width="auto"
+        Height="auto"
+        Margin="20,5,25,5">
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="1.5*" />
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="Gray" BorderThickness="1">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Offset="1" Color="#FF8E9EAB" />
+                        <GradientStop Offset="0" Color="#FFEEF2F3" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel
+                Grid.Column="0"
+                Margin="5,0,0,0"
+                Height="16"
+                    HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+
+                    <TextBlock
+
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        TextAlignment="Center"
+                        Text="ID" />
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="1">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Offset="1" Color="#FF8E9EAB" />
+                        <GradientStop Offset="0" Color="#FFEEF2F3" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel
+                Margin="5,0,0,0"
+                Height="16"
+                    HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        TextAlignment="Center"
+                        Text="Name" />
+                    <Button
+                    Name="sortNameButton"
+                    BorderThickness="0"
+                    Width="auto"
+                    Height="18"
+                    Margin="5,0,0,0"
+                    Background="Transparent" Click="sortNameButton_Click">
+                        <materialDesign:PackIcon
+                        Name="buttonSortNameIcon"
+
+                        VerticalAlignment="Center"
+                        Foreground="Red"
+                        Kind="ArrowBottom" />
+                    </Button>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Offset="1" Color="#FF8E9EAB" />
+                        <GradientStop Offset="0" Color="#FFEEF2F3" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel
+                Margin="5,0,0,0"
+                Height="16"
+                    HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        TextAlignment="Center"
+                        Text="Type" />
+                    <Button
+                    Name="sortTypeButton"
+                    BorderThickness="0"
+                    Width="auto"
+                    Height="18"
+                    Margin="5,0,0,0"
+                    Background="Transparent" Click="sortTypeButton_Click">
+                        <materialDesign:PackIcon
+                        Name="buttonSortTypeIcon"
+
+                        VerticalAlignment="Center"
+                        Foreground="Red"
+                        Kind="ArrowBottom" />
+                    </Button>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Column="3" BorderBrush="Gray" BorderThickness="1">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Offset="1" Color="#FF8E9EAB" />
+                        <GradientStop Offset="0" Color="#FFEEF2F3" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel
+                Grid.Column="3"
+                Margin="5,0,0,0"
+                Height="16"
+                    HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        TextAlignment="Center"
+                        Text="Price" />
+                    <Button
+                    Name="sortPriceButton"
+                    BorderThickness="0"
+                    Width="auto"
+                    Height="18"
+                    Margin="5,0,0,0"
+                    Background="Transparent" Click="sortPriceButton_Click">
+                        <materialDesign:PackIcon
+                        Name="buttonSortPriceIcon"
+
+                        VerticalAlignment="Center"
+                        Foreground="Red"
+                        Kind="ArrowBottom" />
+                    </Button>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="4" BorderBrush="Gray" BorderThickness="1">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Offset="1" Color="#FF8E9EAB" />
+                        <GradientStop Offset="0" Color="#FFEEF2F3" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <TextBlock
+                        Margin="10,0"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Text="Manage"
+                        TextAlignment="Center" />
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,115 @@
+﻿<UserControl
+    x:Class="HuongDuongVillage.DocumentReportCard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:HuongDuongVillage"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="Auto"
+    Height="50"
+    mc:Ignorable="d">
+    <Border
+        Margin="20,5,5,5"
+        Background="LightGray"
+        CornerRadius="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="1.5*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="150" />
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="Gray" BorderThickness="0,0,1,0">
+                <TextBlock
+                        x:Name="tblOwner"
+                        Margin="10,0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Foreground="Black"
+                        Text="Phuc" />
+            </Border>
+            <Border
+                Grid.Column="1"
+                BorderBrush="Gray"
+                BorderThickness="0,0,1,0">
+                <StackPanel
+                    x:Name="messageContainer"
+                    VerticalAlignment="Center"
+                    Orientation="Vertical">
+
+                    <TextBlock
+                        x:Name="tblMessage"
+                        Margin="10,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Foreground="Black"
+                        Text="Need clean room"
+                        TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Border
+                Grid.Column="2"
+                BorderBrush="Gray"
+                BorderThickness="0,0,1,0">
+                <StackPanel VerticalAlignment="Center" Orientation="Vertical">
+
+                    <TextBlock
+                        x:Name="tblDocument"
+                        Margin="10,0"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="14"
+                        Foreground="Black"
+                        Text="Room problem"
+                        TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+            <Grid Grid.Column="3" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Button
+                    x:Name="editButton"
+                    Grid.Column="0"
+                    Height="auto"
+                    Background="Gray"
+                    BorderBrush="Gray"
+                    Click="editButton_Click"
+                    MouseEnter="addButton_MouseEnter"
+                    MouseLeave="addButton_MouseLeave">
+                    <materialDesign:PackIcon
+                        Name="editIcon"
+                        Foreground="White"
+                        Kind="Pencil" />
+                </Button>
+                <Separator
+                    Grid.Column="1"
+                    Height="20"
+                    Background="Gray">
+                    <Separator.LayoutTransform>
+                        <RotateTransform Angle="90" />
+                    </Separator.LayoutTransform>
+                </Separator>
+                <Button
+                    x:Name="deleteButton"
+                    Grid.Column="2"
+                    Height="auto"
+                    Background="Gray"
+                    BorderBrush="Gray"
+                    Click="deleteButton_Click"
+                    MouseEnter="deleteButton_MouseEnter"
+                    MouseLeave="deleteButton_MouseLeave">
+                    <materialDesign:PackIcon
+                        x:Name="deleteIcon"
+                        Foreground="White"
+                        Kind="GarbageCan" />
+                </Button>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

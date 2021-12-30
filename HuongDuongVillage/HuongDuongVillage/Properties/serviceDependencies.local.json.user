@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-12-03T04:13:12.9312778Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-12-03T04:13:56.8429732Z"
+    },
+    "secrets2": {
+      "restored": true,
+      "restoreTime": "2021-12-03T04:48:00.4556199Z"
+    }
+  },
+  "parameters": {
+    "secrets2.resourceGroupName": {
+      "Name": "secrets2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "HDVillage"
+    },
+    "secrets2.subscriptionId": {
+      "Name": "secrets2.subscriptionId",
+      "Type": "subscription",
+      "Value": "9c1a5ade-d172-4907-b026-b224fbc4711d"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "9c1a5ade-d172-4907-b026-b224fbc4711d"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "HDVillage"
+    }
+  }
+}
