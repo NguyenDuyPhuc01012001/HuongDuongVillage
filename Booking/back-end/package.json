@@ -10,8 +10,7 @@
         "prettier": "prettier --config .prettierrc --write \"./**/*.{ts,js,css,scss,json,md}\"",
         "lint": "eslint --config .eslintrc.json --max-warnings 0 --ext .js,ts src",
         "serve": "nodemon index",
-        "start": "npm run dev",
-        "heroku-postbuild": "cd front-end && npm install && npm run build"
+        "start": "npm run dev"
     },
     "dependencies": {
         "@sendgrid/mail": "^7.5.0",
