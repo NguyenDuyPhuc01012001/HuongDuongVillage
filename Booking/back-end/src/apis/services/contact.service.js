@@ -7,11 +7,9 @@ var config = env.email.config
 
 const sendEmail = async (emailBody) => {
     var transporter = nodemailer.createTransport(config)
-    console.log(process.env.EMAIL_USER)
-    console.log(process.env.EMAIL_PASS)
     var mailOptions = {
-        from: 'ooad.hdv.team1@gmail.com',
-        to: 'ooad.hdv.team1@gmail.com',
+        from: process.env.EMAIL_USER,
+        to: process.env.EMAIL_USER,
         subject: emailBody.subject,
         html:
             `<div>` +

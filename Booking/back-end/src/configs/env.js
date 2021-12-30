@@ -41,7 +41,7 @@ const env = {
             database: getOsEnv('DB_DATABASE'),
             options: {
                 trustedConnection: true,
-                // encrypt: true,
+                encrypt: true,
                 packetSize: 16368,
             },
         },
@@ -53,7 +53,7 @@ const env = {
             secure: true,
             auth: {
                 type: 'OAuth2',
-                user: 'ooad.hdv.team1@gmail.com',
+                user: getOsEnv('EMAIL_USER'),
                 clientId: '381583500205-b8tj5fms52uq1oimc4oie8m7gkk50upb.apps.googleusercontent.com',
                 clientSecret: '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',
                 refreshToken:
