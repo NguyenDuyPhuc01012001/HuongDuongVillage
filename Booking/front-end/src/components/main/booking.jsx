@@ -185,14 +185,15 @@ function Booking() {
 		axios
 			.get(`${process.env.REACT_APP_API_URL}/api/v1/roomType/available`)
 			.then((res) => {
-				console.log(res.data);
 				setRooms(res.data);
 				setRoomTypeCount(res.data.length);
-				if (roomTypeCount === 0) {
+				if (res.data.length === 0) {
 					return;
 				}
-				setRoomPrice(res.data[0].roomPrice);
-				setRoomTypeID(res.data[0].id);
+				else {
+					setRoomPrice(res.data[0].roomPrice);
+					setRoomTypeID(res.data[0].id);
+				}
 			})
 			.catch(console.log('Error getting data'));
 	}, []);
