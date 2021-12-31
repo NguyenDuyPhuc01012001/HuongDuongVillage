@@ -46,7 +46,9 @@ module.exports = () => {
     // handle error
     app.use(errorHandler)
 
-    app.listen(env.app.port)
+    app.listen(env.app.port, ()=>{
+        console.log("Serve is up and listening on"+env.app.port);
+    })
 
     return app
 }
