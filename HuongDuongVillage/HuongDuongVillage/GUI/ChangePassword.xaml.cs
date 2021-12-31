@@ -93,7 +93,7 @@ namespace HuongDuongVillage
                     message.To.Add(emailTo);
                     message.From = new MailAddress(from);
                     message.Body = messageBody;
-                    message.Subject = "Password reseting code";
+                    message.Subject = "Verification code change password";
                     message.IsBodyHtml = true;
                     SmtpClient smtp = new SmtpClient("smtp.gmail.com");
                     smtp.EnableSsl = true;
