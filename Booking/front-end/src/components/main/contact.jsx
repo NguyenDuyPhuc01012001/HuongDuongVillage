@@ -19,25 +19,26 @@ function Contact() {
 	const [content, setContent] = useState();
 	const handleClick = () => {
 		if (name && mail) {
-			axios.post(`${process.env.REACT_APP_API_URL}/api/v1/contact/`, {
-				name: name,
-				from: mail,
-				subject: subject,
-				content: content
-			}).then(
-				toast.success('Email sent, we will contact you as soon as possible', {
-					position: 'top-right',
-					autoClose: 5000,
-					hideProgressBar: false,
-					closeOnClick: true,
-					pauseOnHover: true,
-					draggable: true,
-					progress: undefined,
+			axios
+				.post(`${process.env.REACT_APP_API_URL}/api/v1/contact/`, {
+					name: name,
+					from: mail,
+					subject: subject,
+					content: content,
 				})
-			)
+				.then(
+					toast.success('Email sent, we will contact you as soon as possible', {
+						position: 'top-right',
+						autoClose: 5000,
+						hideProgressBar: false,
+						closeOnClick: true,
+						pauseOnHover: true,
+						draggable: true,
+						progress: undefined,
+					})
+				);
 		}
-
-	}
+	};
 	return (
 		<Fragment>
 			<section class="contact">
@@ -50,7 +51,7 @@ function Contact() {
 						<div class="traveler-wrap">
 							<img src={Img_pic} alt=""></img>
 						</div>
-						<div class="form contact-form">
+						<form class="form contact-form">
 							<div class="input-group-wrap">
 								<div class="input-group">
 									<input
@@ -92,10 +93,14 @@ function Contact() {
 								></textarea>
 								<span class="bar"></span>
 							</div>
-							<button onClick={handleClick} class="btn form-btn btn-orange">
+							<button
+								type="button"
+								onClick={handleClick}
+								class="btn form-btn btn-orange"
+							>
 								Send message
 							</button>
-						</div>
+						</form>
 					</div>
 				</div>
 			</section>
