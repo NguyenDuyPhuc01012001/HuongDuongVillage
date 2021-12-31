@@ -10,33 +10,60 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
+import { checkValidEmail } from '../validate/validate-email';
 
 toast.configure();
 function Contact() {
+	const [isSendable, setIsSendable] = useState(false);
 	const [name, setName] = useState();
 	const [mail, setMail] = useState();
 	const [subject, setSubject] = useState();
 	const [content, setContent] = useState();
 	const handleClick = () => {
-		if (name && mail) {
-			axios.post(`${process.env.REACT_APP_API_URL}/api/v1/contact/`, {
-				name: name,
-				from: mail,
-				subject: subject,
-				content: content
-			}).then(
-				toast.success('Email sent, we will contact you as soon as possible', {
-					position: 'top-right',
-					autoClose: 5000,
-					hideProgressBar: false,
-					closeOnClick: true,
-					pauseOnHover: true,
-					draggable: true,
-					progress: undefined,
-				})
-			)
+		if (!name) {
+			setIsSendable(false);
+			toast.error('Name must not be empty', {
+				position: 'top-right',
+				autoClose: 5000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+			})
+		}
+		if (!checkValidEmail(mail)) {
+			setIsSendable(false);
+			toast.error('Your email is either empty or in the wrong format', {
+				position: 'top-right',
+				autoClose: 5000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+			})
 		}
 
+	}
+	if (isSendable) {
+		console.log("Send to database");
+		axios.post(`${process.env.REACT_APP_API_URL}/api/v1/contact/`, {
+			name: name,
+			from: mail,
+			subject: subject,
+			content: content
+		}).then(
+			toast.success('Email sent, we will contact you as soon as possible', {
+				position: 'top-right',
+				autoClose: 5000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+			})
+		)
 	}
 	return (
 		<Fragment>
@@ -58,7 +85,6 @@ function Contact() {
 										type="text"
 										class="input"
 										placeholder="Name"
-										required
 									></input>
 									<span class="bar"></span>
 								</div>
@@ -68,7 +94,6 @@ function Contact() {
 										type="email"
 										class="input"
 										placeholder="E-mail"
-										required
 									></input>
 									<span class="bar"></span>
 								</div>
@@ -102,5 +127,4 @@ function Contact() {
 		</Fragment>
 	);
 }
-
 export default Contact;
