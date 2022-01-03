@@ -300,8 +300,9 @@ namespace HuongDuongVillage
                 {
                     RoomCard card = new RoomCard(room.ID, room.RoomTypeID);
                     CustomerDTO customer = CustomerDAO.Instance.GetCustomerById(room.CusID);
+                    string cusIDCard = (customer == null) ? null : customer.CusIDcard;
                     RoomTypeDTO roomType = RoomTypeDAO.Instance.GetRoomTypeInfo(room.RoomTypeID);
-                    card.setText(room.RoomName, customer.CusIDcard, room.RoomAddress, roomType.RoomType, room.RoomStatus, roomType.RoomPrice);
+                    card.setText(room.RoomName, cusIDCard, room.RoomAddress, roomType.RoomType, room.RoomStatus, roomType.RoomPrice);
                     card.ReloadPage += ReloadPage;
                     ListHolder.Children.Add(card);
                 }

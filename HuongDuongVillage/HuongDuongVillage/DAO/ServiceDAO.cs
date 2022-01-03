@@ -27,7 +27,7 @@ namespace HuongDuongVillage.DAO
         {
             List<ServicesDTO> services = new List<ServicesDTO>();
 
-            string query = "SELECT * FROM Service WHERE isDelete = 0 and serTypeID = " + sertypeID;
+            string query = "SELECT * FROM Service WHERE isDelete = 0 and serTypeID = " + sertypeID + " ORDER BY status, id DESC";
 
             DataTable data = DataProvider.Instance.ExecuteQuery(query);
 
@@ -44,13 +44,13 @@ namespace HuongDuongVillage.DAO
         {
             string query = "Update Service set status = " + status.ToString() + " where id = " + serID;
             int result = DataProvider.Instance.ExecuteNonQuery(query);
-            return result > 0; 
+            return result > 0;
         }
 
         public List<ServicesDTO> GetListService()
         {
             List<ServicesDTO> services = new List<ServicesDTO>();
-            string query = "SELECT * FROM Service WHERE isDelete=0";
+            string query = "SELECT * FROM Service WHERE isDelete=0 ORDER BY status, id DESC";
             DataTable data = DataProvider.Instance.ExecuteQuery(query);
 
             foreach (DataRow item in data.Rows)

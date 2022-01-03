@@ -208,7 +208,8 @@
                         BorderBrush="Transparent"
                         Click="Login_Click"
                         Content="Sign In"
-                        Cursor="Hand"
+                        MouseEnter="btn_MouseEnter"
+                        MouseLeave="btn_MouseLeave"
                         FontSize="16"
                         Foreground="White"
                         IsDefault="True" />

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using System.Windows.Input;
 using System.Windows.Media.Imaging;
 
 namespace HuongDuongVillage
@@ -182,6 +183,16 @@ namespace HuongDuongVillage
             string uri = string.Format("/GUI/{0}", imageName);
             var uriSource = new Uri(uri, UriKind.RelativeOrAbsolute);
             img.Source = new BitmapImage(uriSource);
+        }
+
+        private void btn_MouseEnter(object sender, MouseEventArgs e)
+        {
+            grdBtn.Cursor = Cursors.Hand;
+        }
+
+        private void btn_MouseLeave(object sender, MouseEventArgs e)
+        {
+            grdBtn.Cursor = null;
         }
     }
 }

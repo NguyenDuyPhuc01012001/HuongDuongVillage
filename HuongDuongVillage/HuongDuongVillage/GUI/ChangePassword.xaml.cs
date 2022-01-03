@@ -113,7 +113,7 @@ namespace HuongDuongVillage
                 }
                 else
                 {
-                    MessageBox.Show("Wrong Gmail. Try Again!!!!");
+                    MessageBox.Show("Wrong Email. Try Again!!!!");
                 }
             }
             catch (Exception ex)

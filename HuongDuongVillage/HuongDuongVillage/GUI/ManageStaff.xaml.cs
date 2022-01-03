@@ -2,6 +2,7 @@
 using HuongDuongVillage.DTO;
 using System;
 using System.Net.Mail;
+using System.Text.RegularExpressions;
 using System.Windows;
 using static HuongDuongVillage.CustomAlertBox;
 
@@ -187,6 +188,12 @@ namespace HuongDuongVillage
                 if (UserName.Length != UserName.Trim().Length)
                 {
                     MessageBox.Show("Password is invalid.\nPassword shouldn't have any space.");
+                    return false;
+                }
+                Regex rEmail = new Regex(@"^([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])$");
+                if (!rEmail.IsMatch(emailAddress))
+                {
+                    MessageBox.Show("Email is invalid");
                     return false;
                 }
                 return true;

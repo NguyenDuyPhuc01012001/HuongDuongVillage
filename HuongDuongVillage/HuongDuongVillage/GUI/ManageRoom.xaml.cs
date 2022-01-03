@@ -72,18 +72,23 @@ namespace HuongDuongVillage
                         case "Edit":
                             if (btnConfirm.Content == "Confirm")
                                 this.Close();
-                            if (btnConfirm.Content == "Update")
-                                EditRoom();
-                            else if (CheckInfo())
-                                btnConfirm.Content = "Update";
+                            else
+                            {
+                                if (btnConfirm.Content == "Update")
+                                {
+                                    EditRoom();
+                                    if (flag)
+                                        CustomerDAO.Instance.MakeCheckIn(txbIDCard.Text, DateTime.Now);
+                                }
+                                else if (CheckInfo())
+                                    btnConfirm.Content = "Update";
+                            }
                             break;
 
                         case "Insert":
                             InsertRoom();
                             break;
                     }
-                    if (flag)
-                        CustomerDAO.Instance.MakeCheckIn(txbIDCard.Text, DateTime.Now);
                     break;
 
                 case "Book":
@@ -95,14 +100,16 @@ namespace HuongDuongVillage
 
                         case "Insert":
                             if (btnConfirm.Content == "Confirm")
+                            {
                                 InsertBooking();
+                                if (flag)
+                                    CustomerDAO.Instance.MakeCheckIn(txbIDCard.Text, dpkDateCheckIn.SelectedDate.Value.Date);
+                            }
                             else
                             if (CheckInfo())
                                 btnConfirm.Content = "Confirm";
                             break;
                     }
-                    if (flag)
-                        CustomerDAO.Instance.MakeCheckIn(txbIDCard.Text, dpkDateCheckIn.SelectedDate.Value.Date);
                     break;
             }
             if (reloadPage != null)
@@ -118,13 +125,14 @@ namespace HuongDuongVillage
             RoomTypeDTO roomType = (RoomTypeDTO)cmbType.SelectedItem;
             txbPrice.Text = roomType.RoomPrice.ToString();
 
+            if (manage == "Room" && function == "Insert")
+                return;
             List<RoomDTO> listRoom = RoomDAO.Instance.GetRoomListByType(roomType.ID);
             cmbNameRoom.Items.Clear();
             foreach (RoomDTO room in listRoom)
                 cmbNameRoom.Items.Add(room);
             if (cmbNameRoom.Items.Count > 0)
                 cmbNameRoom.SelectedIndex = 0;
-            btnConfirm.Content = "Check";
         }
         private void cmbNameRoom_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -133,7 +141,6 @@ namespace HuongDuongVillage
                 RoomDTO room = (RoomDTO)cmbNameRoom.SelectedItem;
                 txbAddress.Text = room.RoomAddress;
                 txbStatus.Text = room.RoomStatus;
-                btnConfirm.Content = "Check";
             }
         }
         private void txbIDCard_TextChanged(object sender, TextChangedEventArgs e)
@@ -201,6 +208,7 @@ namespace HuongDuongVillage
             grdDateCheckOut.Visibility = Visibility.Collapsed;
             cmbNameRoom.Visibility = Visibility.Hidden;
             txbStatus.Text = "Available";
+            txbAddress.Clear();
             grdCusInfo.Visibility = Visibility.Collapsed;
             if (function == "Edit")
             {

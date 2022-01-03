@@ -253,6 +253,16 @@ namespace HuongDuongVillage
                 this.Close();
         }
 
+        private void btn_MouseEnter(object sender, MouseEventArgs e)
+        {
+            DisplayArea.Cursor = Cursors.Hand;
+        }
+
+        private void btn_MouseLeave(object sender, MouseEventArgs e)
+        {
+            DisplayArea.Cursor = null;
+        }
+
         #endregion Event
 
         private void btnForgotPassword_Click(object sender, RoutedEventArgs e)

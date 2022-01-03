@@ -456,7 +456,7 @@ namespace HuongDuongVillage
                             function = "asc";
                         else
                             function = "desc";
-                        IncludeStaffListByName(txbSearch.Text.Replace("'", "''"), function);
+                        IncludeAccountListByName(txbSearch.Text.Replace("'", "''"), function);
                         break;
 
                     default:

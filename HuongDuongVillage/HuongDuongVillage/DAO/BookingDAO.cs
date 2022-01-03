@@ -116,9 +116,9 @@ namespace HuongDuongVillage.DAO
 
         public bool InsertBooking(int roomID, int cusID, DateTime dateCheckIn, DateTime dateCheckOut)
         {
-            string query = "EXEC USP_InsertBooking @roomID, @cusID, @dateCheckIn, @dateCheckOut";
-            DataTable result = DataProvider.Instance.ExecuteQuery(query, new object[] { roomID, cusID, dateCheckIn.ToString("yyyy-MM-dd"), dateCheckOut.ToString("yyyy-MM-dd") });
-            return result.Rows.Count > 0;
+            string query = "EXEC USP_InsertBooking @roomID , @cusID , @dateCheckIn , @dateCheckOut";
+            int isInsert = DataProvider.Instance.ExecuteNonQuery(query, new object[] { roomID, cusID, dateCheckIn.ToString("yyyy-MM-dd"), dateCheckOut.ToString("yyyy-MM-dd") });
+            return isInsert > 0;
         }
     }
 }

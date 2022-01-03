@@ -45,7 +45,7 @@
                 VerticalAlignment="Center"
                 FontSize="14"
                 FontWeight="Bold"
-                Text="Message"
+                Text="Title"
                 TextAlignment="Center" />
         </Border>
         <Border
@@ -63,7 +63,7 @@
                 VerticalAlignment="Center"
                 FontSize="14"
                 FontWeight="Bold"
-                Text="Document"
+                Text="Content"
                 TextAlignment="Center" />
         </Border>
         <Border

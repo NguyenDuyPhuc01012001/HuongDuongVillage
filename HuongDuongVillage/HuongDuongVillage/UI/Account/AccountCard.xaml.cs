@@ -101,7 +101,7 @@ namespace HuongDuongVillage
                 if (result == MessageBoxResult.OK)
                 {
                     if (AccountDAO.Instance.ResetPassword(userName))
-                        MessageBox.Show("Reset password successful\nYour password is A1234\nPlease login and change your password.", "Suscess", MessageBoxButton.OK, MessageBoxImage.None, MessageBoxResult.OK);
+                        MessageBox.Show("Reset password successful\nYour password is A1234\nPlease login and change your password.", "Success", MessageBoxButton.OK, MessageBoxImage.None, MessageBoxResult.OK);
                     else
                         MessageBox.Show("Reset password fail", "Fail", MessageBoxButton.OK, MessageBoxImage.None, MessageBoxResult.OK);
                 }
