@@ -24,5 +24,5 @@ For the first time login, there are 8 default account:
 	+ Password: A1234
 - For Bar: 
 	+ Username: Bar
-	+ Password: A1234  
+	+ Password: A1234 <br />
 We also provide you with a [website](https://hdvillage.netlify.app/home). This will display all of your company's services. So customers can choose a number of rooms to stay at your resort.
