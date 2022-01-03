@@ -5,13 +5,17 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Asus\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\MSI\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.1</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\Asus\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\MSI\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
   <ItemGroup Condition=" '$(Language)' == 'C#' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <Compile Include="$(NuGetPackageRoot)microsoft.aspnetcore.azurekeyvault.hostingstartup\2.0.4\contentFiles\cs\netstandard2.0\_AssembyInfo.KeyVaultHostingStartup.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.azurekeyvault.hostingstartup\2.0.4\contentFiles\cs\netstandard2.0\_AssembyInfo.KeyVaultHostingStartup.cs')">
       <NuGetPackageId>Microsoft.AspNetCore.AzureKeyVault.HostingStartup</NuGetPackageId>
@@ -27,9 +31,9 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.azurekeyvault.hostingstartup\2.0.4\build\Microsoft.AspNetCore.AzureKeyVault.HostingStartup.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.azurekeyvault.hostingstartup\2.0.4\build\Microsoft.AspNetCore.AzureKeyVault.HostingStartup.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Asus\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
-    <PkgMaterialDesignThemes Condition=" '$(PkgMaterialDesignThemes)' == '' ">C:\Users\Asus\.nuget\packages\materialdesignthemes\4.2.1</PkgMaterialDesignThemes>
-    <PkgLiveCharts_Wpf Condition=" '$(PkgLiveCharts_Wpf)' == '' ">C:\Users\Asus\.nuget\packages\livecharts.wpf\0.9.7</PkgLiveCharts_Wpf>
-    <PkgExtended_Wpf_Toolkit Condition=" '$(PkgExtended_Wpf_Toolkit)' == '' ">C:\Users\Asus\.nuget\packages\extended.wpf.toolkit\4.2.0</PkgExtended_Wpf_Toolkit>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\MSI\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
+    <PkgMaterialDesignThemes Condition=" '$(PkgMaterialDesignThemes)' == '' ">C:\Users\MSI\.nuget\packages\materialdesignthemes\4.2.1</PkgMaterialDesignThemes>
+    <PkgLiveCharts_Wpf Condition=" '$(PkgLiveCharts_Wpf)' == '' ">C:\Users\MSI\.nuget\packages\livecharts.wpf\0.9.7</PkgLiveCharts_Wpf>
+    <PkgExtended_Wpf_Toolkit Condition=" '$(PkgExtended_Wpf_Toolkit)' == '' ">C:\Users\MSI\.nuget\packages\extended.wpf.toolkit\4.2.0</PkgExtended_Wpf_Toolkit>
   </PropertyGroup>
 </Project>

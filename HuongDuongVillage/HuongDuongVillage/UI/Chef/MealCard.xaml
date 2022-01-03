@@ -8,42 +8,37 @@
              mc:Ignorable="d"
              Height="50">
     <Grid>
-        <Border CornerRadius="10" Background="LightGray" Margin="5">
+        <Border CornerRadius="10" Background="LightGray" Margin="20 5 5 5">
             <Grid>
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80" />
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="123" />
                 </Grid.ColumnDefinitions>
                 <Border BorderBrush="Gray" BorderThickness="0,0,1,0">
-                    <StackPanel x:Name="mealInfo" Grid.Column="0" Orientation="Horizontal">
 
-                        <TextBlock x:Name="mealID" Text="1" Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Black" />
-                    </StackPanel>
+                        <TextBlock x:Name="mealID" FontSize="14" Text="1" Margin="10,0,10,0"  TextAlignment="Center" VerticalAlignment="Center" Foreground="Black" />
                 </Border>
                 <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="0,0,1,0">
-                    <StackPanel x:Name="mealCategoryContainer" Grid.Column="1" Orientation="Horizontal">
 
-                        <TextBlock x:Name="mealRoomName" Text="5" Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Black" />
-                    </StackPanel>
+                        <TextBlock x:Name="mealRoomName" FontSize="14" Text="5" Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Black" />
                 </Border>
                 <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="0,0,1,0">
-                    <StackPanel x:Name="mealOrderQuantity" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <TextBlock x:Name="mealName" Text="Pho ga" Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" />
-                    </StackPanel>
+                        <TextBlock x:Name="mealName" FontSize="14" Text="Pho ga" Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" />
                 </Border>
 
                 <StackPanel x:Name="mealAddtionalNote" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center">
                     <ComboBox x:Name="mealStatus"
-                               Width="67"
+                               Width="80"
+                              FontSize="14"
                     Height="Auto"
                     HorizontalAlignment="Left"
 
                     SelectedValuePath="Content" SelectionChanged="mealStatus_SelectionChanged">
-                        <ComboBoxItem Content="Done" />
+                        
                         <ComboBoxItem Content="Not done" />
-
+                        <ComboBoxItem Content="Done"  />
                         <ComboBox.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <VirtualizingStackPanel />

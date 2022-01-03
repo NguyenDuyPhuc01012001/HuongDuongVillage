@@ -10,9 +10,11 @@ namespace HuongDuongVillage
     /// </summary>
     public partial class LaundryCard : UserControl
     {
-        public LaundryCard()
+        int serID;
+        public LaundryCard(int serID)
         {
             InitializeComponent();
+            this.serID = serID;
         }
 
         public void SetText(int id, string RoomName, bool status)
@@ -86,7 +88,8 @@ namespace HuongDuongVillage
 
         private void mealStatus_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            CleanDAO.Instance.UpdateStatus(cleanStatus.SelectedIndex, cleanID.Text);
+            //CleanDAO.Instance.UpdateStatus(cleanStatus.SelectedIndex, cleanID.Text);
+            ServiceDAO.Instance.UpdateStatus(serID, cleanStatus.SelectedIndex);
         }
     }
 }

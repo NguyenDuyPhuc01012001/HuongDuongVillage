@@ -10,46 +10,23 @@
     mc:Ignorable="d">
     <Grid>
         <Border
-            Margin="5"
+            Margin="20 5 5 5"
             Background="LightGray"
             CornerRadius="10">
             <Grid>
                 <Grid.ColumnDefinitions>
 
+                    <ColumnDefinition Width="80" />
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="123" />
                 </Grid.ColumnDefinitions>
-                <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="0,0,1,0">
-                    <StackPanel
-                    x:Name="mealInfo"
-                    Grid.Column="0"
-                    HorizontalAlignment="Left"
-                    Orientation="Horizontal">
+                <Border BorderBrush="Gray" BorderThickness="0,0,1,0">
 
-                        <TextBlock
-                        x:Name="cleanID"
-                        Margin="10,0"
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Center"
-                        Foreground="Black"
-                        Text="1" />
-                    </StackPanel>
+                    <TextBlock x:Name="cleanID" FontSize="14" Text="1" Margin="10,0,10,0"  TextAlignment="Center" VerticalAlignment="Center" Foreground="Black" />
                 </Border>
                 <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="0,0,1,0">
-                    <StackPanel
-                    x:Name="mealCategoryContainer"
-                    Grid.Column="1"
-                    HorizontalAlignment="Left"
-                    Orientation="Horizontal">
-                        <TextBlock
-                        x:Name="cleanRoomName"
-                        Margin="10,0"
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Foreground="Black"
-                        Text="5" />
-                    </StackPanel>
+
+                    <TextBlock x:Name="cleanRoomName" FontSize="14" Text="5" Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Black" />
                 </Border>
                 <StackPanel
                     x:Name="mealPriceContainer"
@@ -57,14 +34,14 @@
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center">
                     <ComboBox x:Name="cleanStatus"
-                               Width="67"
+                               Width="80"
+                              FontSize="14"
                     Height="Auto"
                     HorizontalAlignment="Left"
 
                     SelectedValuePath="Content" SelectionChanged="mealStatus_SelectionChanged">
-                        <ComboBoxItem Content="Done" />
                         <ComboBoxItem Content="Not done" />
-
+                        <ComboBoxItem Content="Done" />
                         <ComboBox.ItemsPanel>
                             <ItemsPanelTemplate>
                                 <VirtualizingStackPanel />

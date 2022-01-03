@@ -6,30 +6,74 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d"
              Height="auto" Width="auto">
-    <Grid Height="auto" Width="auto" Margin="5,0">
+    <Grid Height="auto" Width="auto" Margin="20 0 25 0">
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="120" />
             </Grid.ColumnDefinitions>
-            <StackPanel Margin="17 0 0 0" Orientation="Horizontal" VerticalAlignment="Center">
-
-                <TextBlock Text="ID" />
-            </StackPanel>
-            <StackPanel Margin="25 0 0 0" Orientation="Horizontal"  Grid.Column="1" VerticalAlignment="Center" Height="16">
-
-                <TextBlock Text="Service ID" />
-            </StackPanel>
-
-            <StackPanel Margin="85 0 0 0" Orientation="Horizontal" VerticalAlignment="Center" Grid.Column="2">
-                <TextBlock Text="Room name" />
-            </StackPanel>
-            <StackPanel Margin="-15 0 0 0" Orientation="Horizontal" Grid.Column="3" VerticalAlignment="Center" Height="16" Width="48">
-
-                <TextBlock Text="Entertain" />
-            </StackPanel>
+                <Border BorderBrush="Gray" BorderThickness="1">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                            <GradientStop Offset="1" Color="#FF8E9EAB" />
+                            <GradientStop Offset="0" Color="#FFEEF2F3" />
+                        </LinearGradientBrush>
+                    </Border.Background>
+                <TextBlock
+                Margin="10,0"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="Bold"
+                Text="ID"
+                TextAlignment="Center" />
+            </Border>
+            <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="1">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Offset="1" Color="#FF8E9EAB" />
+                        <GradientStop Offset="0" Color="#FFEEF2F3" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <TextBlock
+                Margin="10,0"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="Bold"
+                Text="Service ID"
+                TextAlignment="Center" />
+            </Border>
+            <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Offset="1" Color="#FF8E9EAB" />
+                        <GradientStop Offset="0" Color="#FFEEF2F3" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <TextBlock
+                Margin="10,0"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="Bold"
+                Text="Room name"
+                TextAlignment="Center" />
+            </Border>
+            <Border Grid.Column="3" BorderBrush="Gray" BorderThickness="1">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Offset="1" Color="#FF8E9EAB" />
+                        <GradientStop Offset="0" Color="#FFEEF2F3" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <TextBlock
+                Margin="10,0"
+                VerticalAlignment="Center"
+                FontSize="14"
+                FontWeight="Bold"
+                Text="Entertain"
+                TextAlignment="Center" />
+            </Border>
         </Grid>
     </Grid>
 </UserControl>

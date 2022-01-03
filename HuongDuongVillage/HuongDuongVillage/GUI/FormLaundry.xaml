@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HuongDuongVillage"
         mc:Ignorable="d"
+        ResizeMode="NoResize"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="Chef's Form" Height="auto" Width="1000" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        Title="Chef's Form" MaxHeight="733" MinWidth="900" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Window.Resources>
+        <SolidColorBrush x:Key="NavigateBar" Color="#1a2a6c" />
+        <SolidColorBrush x:Key="Top" Color="#fdbb2d" />
+        <SolidColorBrush x:Key="Add" Color="#fdbb2d" />
+        <SolidColorBrush x:Key="TextInNavigate" Color="White" />
+        <SolidColorBrush x:Key="TextOnTop" Color="#403B4A" />
+    </Window.Resources>
     <Border BorderBrush="Black" BorderThickness="2">
 
         <Grid>
@@ -30,21 +38,82 @@
                 Visibility="Hidden"
                 Text="asd" />
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                        <TextBlock x:Name="tblName" Text="Laudromate" Foreground="White" VerticalAlignment="Center" FontSize="18"></TextBlock>
-                        <materialDesign:PopupBox  Margin="5" PlacementMode="BottomAndAlignRightEdges"
-                                          StaysOpen="False" Foreground="White">
-                            <StackPanel Width="150">
+                        <TextBlock x:Name="tblName" Text="Laundry" Foreground="{DynamicResource TextOnTop}" VerticalAlignment="Center" FontSize="18"></TextBlock>
+                        <materialDesign:PopupBox
+                    Margin="5"
+                    Foreground="{DynamicResource TextOnTop}"
+                    PlacementMode="BottomAndAlignRightEdges"
+                    StaysOpen="True">
+
+                            <StackPanel Width="160">
                                 <Button
                             x:Name="InfoButton"
-                            Content="Info Staff"
-                            Click="InfoButton_Click" />
-                                <Button Content="Change password"
-                                    Name="ChangepasswordButton"
-                                Click="ChangepasswordButton_Click"
-                                Cursor="Hand" ></Button>
+                            Padding="5"
+                            VerticalAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            Click="InfoButton_Click"
+                            Cursor="Hand">
+                                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                    Width="auto"
+                                    Height="auto"
+                                    Margin="5,0"
+                                    VerticalContentAlignment="Center"
+                                    Foreground="{DynamicResource NavigateBar}"
+                                    Kind="InfoCircle" />
+                                        <TextBlock
+                                    Height="auto"
+                                    VerticalAlignment="Center"
+                                    FontSize="14"
+                                    Text="Info Staff" />
+                                    </StackPanel>
+                                </Button>
+
+                                <Button
+                            Name="ChangepasswordButton"
+                            Padding="5"
+                            VerticalAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            Click="ChangepasswordButton_Click"
+                            Cursor="Hand">
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                    Width="auto"
+                                    Height="auto"
+                                    Margin="5,0"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource NavigateBar}"
+                                    Kind="PasswordReset" />
+                                        <TextBlock
+                                    Height="auto"
+                                    VerticalAlignment="Center"
+                                    FontSize="14"
+                                    Text="Change password" />
+                                    </StackPanel>
+                                </Button>
                                 <Separator />
-                                <Button x:Name="LogoutButton" Content="Logout"
-                                Click="LogoutButton_Click" Cursor="Hand"></Button>
+                                <Button
+                            x:Name="LogoutButton"
+                            Padding="5"
+                            VerticalAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            Click="LogoutButton_Click"
+                            Cursor="Hand">
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                    Width="auto"
+                                    Height="auto"
+                                    Margin="5,0"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource NavigateBar}"
+                                    Kind="Logout" />
+                                        <TextBlock
+                                    Height="auto"
+                                    VerticalAlignment="Center"
+                                    FontSize="14"
+                                    Text="Logout" />
+                                    </StackPanel>
+                                </Button>
                             </StackPanel>
                         </materialDesign:PopupBox>
                     </StackPanel>

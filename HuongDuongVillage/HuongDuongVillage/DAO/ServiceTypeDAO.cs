@@ -64,7 +64,17 @@ namespace HuongDuongVillage.DAO
             }
             return services;
         }
-
+        public ServiceTypeDTO GetServicebyserTypeID(int id)
+        {
+            string query = "Select * from ServiceType where id = " + id;
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            if (data.Rows.Count>0)
+            {
+                ServiceTypeDTO servicetype = new ServiceTypeDTO(data.Rows[0]);
+                return servicetype;
+            }
+            return null;
+        }
         public List<ServiceTypeDTO> GetServiceWithNameAndType(string name, string type)
         {
             List<ServiceTypeDTO> services = new List<ServiceTypeDTO>();

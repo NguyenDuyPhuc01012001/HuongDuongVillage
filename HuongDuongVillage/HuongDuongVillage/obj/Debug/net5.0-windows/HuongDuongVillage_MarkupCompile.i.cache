@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\
+D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\
 HuongDuongVillage
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\App.xaml
+D:\HDV\HuongDuongVillage\HuongDuongVillage\App.xaml
 54-806045520
 
-92-1347462299
-2322100154587
+92-723230636
+232-1070766432
 GUI\BillTemplate.xaml;GUI\ChangePassword.xaml;GUI\CustomAlertBox.xaml;GUI\FormAccountant.xaml;GUI\FormBar.xaml;GUI\FormCEO.xaml;GUI\FormChef.xaml;GUI\FormHR.xaml;GUI\FormLaundry.xaml;GUI\FormReceptionist.xaml;GUI\FormSale.xaml;GUI\Login.xaml;GUI\ManageCustomer.xaml;GUI\ManageDocument.xaml;GUI\ManageRoom.xaml;GUI\ManageRoomTypes.xaml;GUI\ManageService.xaml;GUI\ManageServiceType.xaml;GUI\ManageStaff.xaml;UI\Account\AccountCard.xaml;UI\Account\AccountManager.xaml;UI\Bar\BarCard.xaml;UI\Bar\BarManager.xaml;UI\BillInforCard.xaml;UI\Booking\BookingCard.xaml;UI\Booking\BookingManager.xaml;UI\ButtonManager.xaml;UI\Chef\MealCard.xaml;UI\Chef\MealManager.xaml;UI\Customer\CustomerCard.xaml;UI\Customer\CustomerManager.xaml;UI\DocumentReport\DocumentReportCard.xaml;UI\DocumentReport\DocumentReportManager.xaml;UI\Laundry\LaundryCard.xaml;UI\Laundry\LaundryManager.xaml;UI\Laundry\MealButton.xaml;UI\Payment\PaymentCard.xaml;UI\Payment\PaymentManager.xaml;UI\Report\CartesianChart.xaml;UI\Report\CompareWithLastMonthCard.xaml;UI\Report\ReportCard.xaml;UI\Report\ReportManager.xaml;UI\Report\UserRatingCard.xaml;UI\RoomType\RoomTypeCard.xaml;UI\RoomType\RoomTypeManager.xaml;UI\Room\RoomCard.xaml;UI\Room\RoomManager.xaml;UI\SearchBox.xaml;UI\ServiceType\ServiceTypeCard.xaml;UI\ServiceType\ServiceTypeManager.xaml;UI\Service\ServiceCard.xaml;UI\Service\ServiceManager.xaml;UI\Staff\StaffCard.xaml;UI\Staff\StaffManager.xaml;
 
-False
+True
 

@@ -9,9 +9,11 @@ namespace HuongDuongVillage
     /// </summary>
     public partial class MealCard : UserControl
     {
-        public MealCard()
+        int serID;
+        public MealCard(int serID)
         {
             InitializeComponent();
+            this.serID = serID;
         }
 
         public void SetText(int id, string RoomName, string name, bool status)
@@ -24,7 +26,8 @@ namespace HuongDuongVillage
 
         private void mealStatus_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            ChefDAO.Instance.UpdateStatus(mealStatus.SelectedIndex, mealID.Text);
+            //ChefDAO.Instance.UpdateStatus(mealStatus.SelectedIndex, mealID.Text);
+            ServiceDAO.Instance.UpdateStatus(serID, mealStatus.SelectedIndex);
         }
     }
 }

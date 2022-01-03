@@ -1,4 +1,5 @@
 ﻿using HuongDuongVillage.DTO;
+using System;
 using System.Collections.Generic;
 using System.Data;
 
@@ -37,6 +38,13 @@ namespace HuongDuongVillage.DAO
             }
 
             return services;
+        }
+
+        internal bool UpdateStatus(int serID, int status)
+        {
+            string query = "Update Service set status = " + status.ToString() + " where id = " + serID;
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0; 
         }
 
         public List<ServicesDTO> GetListService()

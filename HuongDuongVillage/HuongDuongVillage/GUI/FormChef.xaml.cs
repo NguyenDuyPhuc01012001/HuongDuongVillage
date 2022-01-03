@@ -27,13 +27,15 @@ namespace HuongDuongVillage
 
         public void LoadListFood()
         {
-            List<ChefDTO> listFood = ChefDAO.Instance.GetListFood();
-            foreach (ChefDTO food in listFood)
+            List<ServicesDTO> listFood = ServiceDAO.Instance.GetListService();
+            foreach (ServicesDTO food in listFood)
             {
-                MealCard meal = new MealCard();
+                MealCard meal = new MealCard(food.ID);
                 RoomDTO room = RoomDAO.Instance.GetRoomByID(food.RoomID);
                 string RoomName = room.RoomName;
-                meal.SetText(food.ID, RoomName, food.FoodName, food.Status);
+                ServiceTypeDTO serviceType = ServiceTypeDAO.Instance.GetServiceTypeInfo(food.SerTypeID);
+                meal.SetText(food.ID, RoomName, serviceType.SerName, food.Status);
+                if (serviceType.SerType == "food")
                 ListHolder.Children.Add(meal);
             }
         }

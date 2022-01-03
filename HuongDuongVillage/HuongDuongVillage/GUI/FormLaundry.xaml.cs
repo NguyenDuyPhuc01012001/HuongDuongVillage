@@ -24,21 +24,20 @@ namespace HuongDuongVillage
         {
             InitializeComponent();
             LoadListClean();
-            tblName.Text = StaffDAO.Instance.GetNameById(id);
-            //InfoButton.Tag = StaffDAO.Instance.GetStaffById(id);
-            staffID = id;
         }
 
         public void LoadListClean()
         {
-            List<CleanDTO> listClean = CleanDAO.Instance.GetListClean();
-            foreach (CleanDTO clean in listClean)
+            List<ServicesDTO> listClean = ServiceDAO.Instance.GetListService();
+            foreach (ServicesDTO clean in listClean)
             {
-                LaundryCard laundry = new LaundryCard();
+                LaundryCard laundry = new LaundryCard(clean.ID);
                 RoomDTO room = RoomDAO.Instance.GetRoomByID(clean.RoomID);
                 string RoomName = room.RoomName;
+                ServiceTypeDTO serviceType = ServiceTypeDAO.Instance.GetServiceTypeInfo(clean.SerTypeID);
                 laundry.SetText(clean.ID, RoomName, clean.Status);
-                ListHolder.Children.Add(laundry);
+                if (serviceType.SerType == "cleaner")
+                    ListHolder.Children.Add(laundry);
             }
         }
 
