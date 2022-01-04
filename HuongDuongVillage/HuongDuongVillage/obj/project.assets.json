@@ -6812,19 +6812,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\thinh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Downloads\\Git\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj",
+      "projectUniqueName": "C:\\UIT\\Nam 3\\Hướng đối tượng\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj",
       "projectName": "HuongDuongVillage",
-      "projectPath": "C:\\Users\\Asus\\Downloads\\Git\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Downloads\\Git\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage\\obj\\",
+      "projectPath": "C:\\UIT\\Nam 3\\Hướng đối tượng\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj",
+      "packagesPath": "C:\\Users\\thinh\\.nuget\\packages\\",
+      "outputPath": "C:\\UIT\\Nam 3\\Hướng đối tượng\\HuongDuongVillage\\HuongDuongVillage\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

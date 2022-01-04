@@ -29,14 +29,13 @@
                 </Border.Background>
                 <StackPanel
                 Grid.Column="0"
-                Margin="5,0,0,0"
                 Height="16"
                     HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 Orientation="Horizontal">
 
                     <TextBlock
-
+                        HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         FontSize="14"
                         FontWeight="Bold"

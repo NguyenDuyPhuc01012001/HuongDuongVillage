@@ -55,7 +55,7 @@ namespace HuongDuongVillage.UI.Bar {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;V1.0.0.0;component/ui/bar/barmanager.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;component/ui/bar/barmanager.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\UI\Bar\BarManager.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

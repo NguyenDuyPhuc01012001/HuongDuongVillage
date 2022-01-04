@@ -25,6 +25,7 @@
                     <StackPanel
                     x:Name="categoryIDContainer"
                     Grid.Column="0"
+                    HorizontalAlignment="Center"
                     Orientation="Horizontal">
 
                         <TextBlock

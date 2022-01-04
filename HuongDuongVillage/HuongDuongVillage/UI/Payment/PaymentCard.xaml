@@ -33,6 +33,7 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Foreground="Black"
+                            FontSize="14"
                         Text="1" />
                     </StackPanel>
                 </Border>
@@ -47,6 +48,7 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Foreground="Black"
+                            FontSize="14"
                         Text="Nguyen Doan Thinh" />
                     </StackPanel>
                 </Border>
@@ -55,11 +57,13 @@
                     Name="employeeRole"
                     Grid.Column="2"
                     Margin="5"
+                        HorizontalAlignment="Center"
                     Orientation="Horizontal">
                         <TextBlock
                         x:Name="amountTxb"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
+                            FontSize="14"
                         Foreground="Black"
                         Text="100000000" />
                     </StackPanel>
@@ -67,7 +71,7 @@
                 <Border BorderBrush="Gray" Grid.Column="3" BorderThickness="0,0,1,0">
                     <StackPanel
                     Name="employeeMail"
-
+                    HorizontalAlignment="Center"
                     Grid.Column="3"
                     Margin="5"
                     Orientation="Horizontal">
@@ -76,6 +80,7 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Foreground="Black"
+                            FontSize="14"
                         Text="19/2/2021" />
                     </StackPanel>
                 </Border>
@@ -91,6 +96,7 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Foreground="Black"
+                            FontSize="14"
                         Text="Master card" />
                     </StackPanel>
                 </Border>

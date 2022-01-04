@@ -548,6 +548,7 @@ namespace HuongDuongVillage
             if (services.Count == 0)
             {
                 TextBlock textBox = new TextBlock();
+                textBox.Margin = new Thickness(20, 0, 0, 0);
                 textBox.Text = "No item match your search";
                 textBox.FontSize = 20;
                 ListHolder.Children.Add(textBox);

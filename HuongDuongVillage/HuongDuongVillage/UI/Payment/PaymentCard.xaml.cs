@@ -40,7 +40,7 @@ namespace HuongDuongVillage
             this.idTxb.Text = id.ToString();
             this.cusNameTxb.Text = cusName.ToString();
             this.amountTxb.Text = amount.ToString();
-            this.paymentDateTxb.Text = paymentDate.ToString();
+            this.paymentDateTxb.Text = paymentDate.Day.ToString() + "/" + paymentDate.Month.ToString() + "/" + paymentDate.Year.ToString();
             this.paymentMethodTxb.Text = method.ToString();
         }
 

@@ -65,13 +65,17 @@
                         <GradientStop Offset="0" Color="#FFEEF2F3" />
                     </LinearGradientBrush>
                 </Border.Background>
-                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Grid.Column="2" VerticalAlignment="Center" Height="16">
+                <StackPanel HorizontalAlignment="Center"
+                            Orientation="Horizontal" 
+                            Grid.Column="2" 
+                            VerticalAlignment="Center"
+                            Height="16">
 
-                    <TextBlock Margin="10,0"
+                    <TextBlock
                             VerticalAlignment="Center"
                             FontSize="14"
                             FontWeight="Bold" Text="Amount" />
-                    <Button Name="btnSortAmount" Height="18" Width="auto" BorderThickness="0" Margin="5,0,0,0" Background="Transparent" Click="btnSortAmount_Click">
+                    <Button Name="btnSortAmount" Height="18" Width="auto" BorderThickness="0" Background="Transparent" Click="btnSortAmount_Click">
                         <materialDesign:PackIcon Name="iconSortAmount" Kind="ArrowBottom" Foreground="Red" VerticalAlignment="Center" HorizontalAlignment="Center" />
                     </Button>
                 </StackPanel>
@@ -88,11 +92,11 @@
                 </Border.Background>
                 <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Grid.Column="3" VerticalAlignment="Center" Height="16">
 
-                    <TextBlock Margin="10,0"
+                    <TextBlock
                             VerticalAlignment="Center"
                             FontSize="14"
                             FontWeight="Bold" Text="Payment Date" />
-                    <Button Name="btnSortPaymentDate" Height="18" Width="auto" BorderThickness="0" Margin="5,0,0,0" Background="Transparent" Click="btnSortPaymentDate_Click">
+                    <Button Name="btnSortPaymentDate" Height="18" Width="auto" BorderThickness="0" Background="Transparent" Click="btnSortPaymentDate_Click">
                         <materialDesign:PackIcon Name="iconSortPaymentDate" Kind="ArrowBottom" Foreground="Red" VerticalAlignment="Center" HorizontalAlignment="Center" />
                     </Button>
                 </StackPanel>

@@ -55,7 +55,7 @@ namespace HuongDuongVillage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;V1.0.0.0;component/ui/chef/mealmanager.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;component/ui/chef/mealmanager.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\UI\Chef\MealManager.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
