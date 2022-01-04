@@ -214,7 +214,15 @@ namespace HuongDuongVillage
             {
                 ListHolder.Children.Clear();
                 List<BookingDTO> bookingList = BookingDAO.Instance.GetListBookingByCheckIn(searchRoomName, function);
-
+                if (bookingList.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Margin = new Thickness(20, 0, 0, 0);
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
                 foreach (BookingDTO booking in bookingList)
                 {
                     RoomDTO room = RoomDAO.Instance.GetRoomByID(booking.RoomID);
@@ -238,7 +246,15 @@ namespace HuongDuongVillage
             {
                 ListHolder.Children.Clear();
                 List<BookingDTO> bookingList = BookingDAO.Instance.GetListBookingByCheckOut(searchRoomName, function);
-
+                if (bookingList.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Margin = new Thickness(20, 0, 0, 0);
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
                 foreach (BookingDTO booking in bookingList)
                 {
                     RoomDTO room = RoomDAO.Instance.GetRoomByID(booking.RoomID);
@@ -295,7 +311,15 @@ namespace HuongDuongVillage
             {
                 ListHolder.Children.Clear();
                 List<RoomDTO> roomList = RoomDAO.Instance.GetRoomListByStatus(searchRoomName, function);
-
+                if (roomList.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Margin = new Thickness(20, 0, 0, 0);
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
                 foreach (RoomDTO room in roomList)
                 {
                     RoomCard card = new RoomCard(room.ID, room.RoomTypeID);
@@ -356,7 +380,15 @@ namespace HuongDuongVillage
             {
                 ListHolder.Children.Clear();
                 List<CustomerDTO> cusList = CustomerDAO.Instance.GetListCustomerByCheckIn(cusName, function);
-
+                if (cusList.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Margin = new Thickness(20, 0, 0, 0);
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
                 foreach (CustomerDTO customer in cusList)
                 {
                     CustomerCard card = new CustomerCard(customer.ID);

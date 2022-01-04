@@ -71,7 +71,7 @@ namespace HuongDuongVillage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;component/ui/room/roommanager.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;V1.0.0.0;component/ui/room/roommanager.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\UI\Room\RoomManager.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

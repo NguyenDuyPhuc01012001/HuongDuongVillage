@@ -55,7 +55,8 @@ namespace HuongDuongVillage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;component/ui/documentreport/documentreportmanager.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;V1.0.0.0;component/ui/documentreport/documentreportmanager.xam" +
+                    "l", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\UI\DocumentReport\DocumentReportManager.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

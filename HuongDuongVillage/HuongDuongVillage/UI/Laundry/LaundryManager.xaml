@@ -6,7 +6,7 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d"
              Height="auto" Width="auto">
-    <Grid Height="auto" Width="auto" Margin="26 0 25 0">
+    <Grid Height="auto" Width="auto" Margin="20 0 25 0">
 
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>

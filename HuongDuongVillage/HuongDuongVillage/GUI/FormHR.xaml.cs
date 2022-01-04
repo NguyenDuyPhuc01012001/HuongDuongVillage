@@ -168,6 +168,15 @@ namespace HuongDuongVillage
             {
                 ListHolder.Children.Clear();
                 List<StaffDTO> staffList = StaffDAO.Instance.GetListStaffByName(name, function);
+                if (staffList.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Margin = new Thickness(20, 0, 0, 0);
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
                 foreach (StaffDTO staff in staffList)
                 {
                     StaffCard card = new StaffCard();
@@ -189,6 +198,15 @@ namespace HuongDuongVillage
             {
                 ListHolder.Children.Clear();
                 List<StaffDTO> staffList = StaffDAO.Instance.GetListStaffByRole(name, function);
+                if (staffList.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Margin = new Thickness(20, 0, 0, 0);
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
                 foreach (StaffDTO staff in staffList)
                 {
                     StaffCard card = new StaffCard();
@@ -254,7 +272,15 @@ namespace HuongDuongVillage
             {
                 ListHolder.Children.Clear();
                 List<AccountDTO> accountList = AccountDAO.Instance.GetAccountListByName(name, function);
-
+                if (accountList.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Margin = new Thickness(20, 0, 0, 0);
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
                 foreach (AccountDTO acc in accountList)
                 {
                     StaffDTO staff = StaffDAO.Instance.GetStaffById(acc.StaffID);
@@ -276,7 +302,15 @@ namespace HuongDuongVillage
             {
                 ListHolder.Children.Clear();
                 List<AccountDTO> accountList = AccountDAO.Instance.GetAccountListByRole(name, function);
-
+                if (accountList.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Margin = new Thickness(20, 0, 0, 0);
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
                 foreach (AccountDTO acc in accountList)
                 {
                     StaffDTO staff = StaffDAO.Instance.GetStaffById(acc.StaffID);

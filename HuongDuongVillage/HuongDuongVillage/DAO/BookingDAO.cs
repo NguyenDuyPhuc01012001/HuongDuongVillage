@@ -48,7 +48,7 @@ namespace HuongDuongVillage.DAO
             if (!string.IsNullOrWhiteSpace(searchRoomName))
                 where = " AND (roomName LIKE '%" + searchRoomName + "%') ";
 
-            string query = "select b.id, roomID, b.cusIDcard, dateCheckIn, dateCheckOut "
+            string query = "select b.id, roomID, b.cusID, dateCheckIn, dateCheckOut "
                 + "FROM booking b inner join room on b.roomID=room.id "
                 + "where (GETDATE() <= dateCheckOut OR dateCheckOut = '') " + where + order;
 
@@ -72,7 +72,7 @@ namespace HuongDuongVillage.DAO
             if (!string.IsNullOrWhiteSpace(searchRoomName))
                 where = " AND (roomName LIKE '%" + searchRoomName + "%') ";
 
-            string query = "select b.id, roomID, b.cusIDcard, dateCheckIn, dateCheckOut "
+            string query = "select b.id, roomID, b.cusID, dateCheckIn, dateCheckOut "
                 + "FROM booking b inner join room on b.roomID=room.id "
                 + "where (GETDATE() <= dateCheckOut OR dateCheckOut = '') " + where + order;
 
