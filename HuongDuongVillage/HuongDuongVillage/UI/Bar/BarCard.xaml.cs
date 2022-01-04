@@ -12,10 +12,9 @@ namespace HuongDuongVillage.UI.Bar
             InitializeComponent();
         }
 
-        public void SetText(int id, int serID, string RoomName, string entertain)
+        public void SetText(int id, string RoomName, string entertain)
         {
             this.barID.Text = id.ToString();
-            this.barSerID.Text = serID.ToString();
             this.barRoomID.Text = RoomName;
             this.entertainName.Text = entertain;
         }
