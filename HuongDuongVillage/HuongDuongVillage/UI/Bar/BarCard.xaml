@@ -13,22 +13,17 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="80" />
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="123" />
                 </Grid.ColumnDefinitions>
                 <Border BorderBrush="Gray" BorderThickness="0,0,1,0">
 
                     <TextBlock x:Name="barID" FontSize="14" Margin="10,0,10,0"  TextAlignment="Center" VerticalAlignment="Center" Foreground="Black" />
                 </Border>
-                <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="0,0,1,0">
-
-                    <TextBlock x:Name="barSerID" FontSize="14" Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Black" />
-                </Border>
                 <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="0,0,1,0">
                     <TextBlock x:Name="barRoomID" FontSize="14" Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" />
                 </Border>
 
-                <Border Grid.Column="3" BorderBrush="Gray" BorderThickness="0,0,1,0">
+                <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="0,0,1,0">
                     <TextBlock x:Name="entertainName" FontSize="14"  Margin="10,0,10,0" HorizontalAlignment="Left" VerticalAlignment="Center" />
                 </Border>
             </Grid>

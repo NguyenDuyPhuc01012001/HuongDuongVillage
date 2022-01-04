@@ -34,7 +34,7 @@ namespace HuongDuongVillage
                 RoomDTO room = RoomDAO.Instance.GetRoomByID(bar.RoomID);
                 string RoomName = room.RoomName;
                 ServiceTypeDTO serviceType = ServiceTypeDAO.Instance.GetServiceTypeInfo(bar.SerTypeID);
-                entertain.SetText(bar.ID, bar.SerTypeID, RoomName, serviceType.SerName);
+                entertain.SetText(bar.ID, RoomName, serviceType.SerName);
                 if (serviceType.SerType == "bar")
                 ListHolder.Children.Add(entertain);
             }
