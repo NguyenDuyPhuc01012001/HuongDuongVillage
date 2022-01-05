@@ -368,14 +368,20 @@ namespace HuongDuongVillage
                     case 0:
                     case -1:
                         SetDocumentReportPage();
+                        txbSearch.Text = "";
+
                         break;
 
                     case 1:
                         SetRoomTypePage();
+                        txbSearch.Text = "";
+
                         break;
 
                     case 2:
                         SetServiceTypePage();
+                        txbSearch.Text = "";
+
                         break;
                 }
             }

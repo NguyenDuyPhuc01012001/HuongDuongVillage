@@ -9,7 +9,7 @@
              Height="50">
     <Grid>
         <Border
-            Margin="5"
+            Margin="20,5,25,5"
             Background="LightGray"
             CornerRadius="10">
             <Grid>

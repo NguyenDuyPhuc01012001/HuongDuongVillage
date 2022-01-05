@@ -78,7 +78,7 @@ namespace HuongDuongVillage
                         {
                             functionPaymentDate = "desc";
                         }
-                        IncludePaymentListByDate(txbSearch.Text, function);
+                        IncludePaymentListByDate(txbSearch.Text, functionPaymentDate);
                         sortDatePaymentCount++;
                         break;
                 }
@@ -252,10 +252,14 @@ namespace HuongDuongVillage
 
                     case 1:
                         SetDocumentReportPage();
+                        txbSearch.Text = "";
+
                         break;
 
                     case 2:
                         SetPaymentPage();
+                        txbSearch.Text = "";
+
                         break;
                 }
             }
@@ -382,6 +386,7 @@ namespace HuongDuongVillage
                 {
                     TextBlock textBox = new TextBlock();
                     textBox.Text = "No payments match your search";
+                    textBox.Margin = new Thickness(5, 0, 0, 0);
                     textBox.FontSize = 20;
                     ListHolder.Children.Add(textBox);
                     return;
