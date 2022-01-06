@@ -36,94 +36,80 @@ namespace HuongDuongVillage
         }
 
         #region Method
-
-        #region Reset
-
-        private void ResetReportManager()
-        {
-            GridAssistant.Children.Clear();
-        }
-
-        private void ResetManagerFieldHolder()
+        #region Set
+        private void SetGridPrincipalToDefault()
         {
             ManagerFieldHolder.Children.Clear();
         }
 
-        private void ModifyCategory_Modify(object sender, EventArgs e)
-        {
-            //SetCategoryPage();
-        }
-
-        #endregion Reset
-
-        #region Set
-
-        private void SetGridAssistantToDefault()
-        {
-            ResetReportManager();
-        }
-
-        private void SetGridPrincipalToDefault()
-        {
-            ResetManagerFieldHolder();
-        }
-
         private void SetGridPrincipal()
         {
-            DisableGridAssistant();
             EnableGridPrincipal();
-        }
-
-        private void SetGridAssistant()
-        {
-            DisableGridPrincipal();
-            EnableGridAssistant();
         }
 
         private void SetDocumentReportManagerPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            IncludeDocumentReportManager();
-            IncludeDocumentReportList();
-            AddButton.ToolTip = "Add new report";
-            DisplayArea.Cursor = null;
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                IncludeDocumentReportManager();
+                IncludeDocumentReportList();
+                AddButton.ToolTip = "Add new report";
+                DisplayArea.Cursor = null;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void SetStaffManagerPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            IncludeStaffManagerTable();
-            IncludeStaffList();
-            DisplayArea.Cursor = null;
-            sortNameClickCount = 0;
-            sortRoleClickCount = 0;
-            AddButton.ToolTip = "Add new staff";
-            txbSearch.ToolTip = "Search by name or email";
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                IncludeStaffManagerTable();
+                IncludeStaffList();
+                DisplayArea.Cursor = null;
+                sortNameClickCount = 0;
+                sortRoleClickCount = 0;
+                AddButton.ToolTip = "Add new staff";
+                txbSearch.ToolTip = "Search by name or email";
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void SetAccountManagerPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            IncludeAccountManager();
-            IncludeAccountList();
-            DisplayArea.Cursor = null;
-            sortNameClickCount = 0;
-            sortRoleClickCount = 0;
-            txbSearch.ToolTip = "Search by name";
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                IncludeAccountManager();
+                IncludeAccountList();
+                DisplayArea.Cursor = null;
+                sortNameClickCount = 0;
+                sortRoleClickCount = 0;
+                txbSearch.ToolTip = "Search by name";
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
-
         #endregion Set
 
         #region Include
 
         #region Staff
-
         private void IncludeStaffManagerTable()
         {
             try
@@ -221,11 +207,9 @@ namespace HuongDuongVillage
                 CustomAlertBox.Show(ex.Message);
             }
         }
-
         #endregion Staff
 
         #region Account
-
         private void IncludeAccountManager()
         {
             try
@@ -329,7 +313,6 @@ namespace HuongDuongVillage
         #endregion Account
 
         #region DocumentReport
-
         private void IncludeDocumentReportManager()
         {
             ManagerFieldHolder.Children.Add(new DocumentReportManager());
@@ -356,30 +339,8 @@ namespace HuongDuongVillage
                 CustomAlertBox.Show(ex.Message);
             }
         }
-
-        //private void IncludeDocumentReportListByName(string text)
-        //{
-        //    ListHolder.Children.Clear();
-        //    List<ReportDTO> reportList = ReportDAO.Instance.GetListReport();
-
-        //    foreach (ReportDTO item in reportList)
-        //    {
-        //        StaffDTO staff = StaffDAO.Instance.GetStaffById(item.StaffID);
-        //        DocumentReportCard report = new DocumentReportCard();
-        //        report.setText(staff.Name, item.Message, item.Document);
-        //        report.editButton.Tag = item;
-        //        report.deleteButton.Tag = item;
-
-        //        report.editButton.Click += EditButton_Click;
-        //        report.deleteButton.Click += DeleteButton_Click;
-        //        ListHolder.Children.Add(report);
-        //    }
-        //}
-
         #endregion DocumentReport
-
         #endregion Include
-
         #endregion Method
 
         private void DisableGridPrincipal()
@@ -392,29 +353,11 @@ namespace HuongDuongVillage
             GridPrincipal.Visibility = Visibility.Visible;
         }
 
-        private void DisableGridAssistant()
-        {
-            GridAssistant.Visibility = Visibility.Collapsed;
-        }
-
-        private void EnableGridAssistant()
-        {
-            GridAssistant.Visibility = Visibility.Visible;
-        }
-
-        private void MoveCursorMenu(int index)
-        {
-            //TrainsitioningContentSlide.OnApplyTemplate();
-            //GridCursor.Margin = new Thickness(0, (150+(60 * index)), 0, 0);
-        }
-
         #region Event
-
         private void ListViewItem_MouseEnter(object sender, MouseEventArgs e)
         {
             DisplayArea.Cursor = Cursors.Hand;
         }
-
         private void ListViewItem_MouseLeave(object sender, MouseEventArgs e)
         {
             DisplayArea.Cursor = null;
@@ -425,7 +368,6 @@ namespace HuongDuongVillage
             ButtonOpenMenu.Visibility = Visibility.Collapsed;
             ButtonCloseMenu.Visibility = Visibility.Visible;
         }
-
         private void ButtonCloseMenu_Click(object sender, RoutedEventArgs e)
         {
             ButtonOpenMenu.Visibility = Visibility.Visible;
@@ -437,7 +379,6 @@ namespace HuongDuongVillage
             try
             {
                 int index = ListViewMenu.SelectedIndex;
-                MoveCursorMenu(index);
                 txbSearch.Clear();
                 SearchBoxContainer.Visibility = Visibility.Visible;
                 AddButton.Visibility = Visibility.Visible;
@@ -473,10 +414,6 @@ namespace HuongDuongVillage
                 string function = null;
                 switch (index)
                 {
-                    //case 0:
-                    //    IncludeDocumentReportListByName(txbSearch.Text);
-                    //    txbSearch.Cursor = null;
-                    //    break;
                     case 1:
                         if (sortNameClickCount % 2 == 0)
                             function = "asc";
@@ -515,13 +452,12 @@ namespace HuongDuongVillage
                         ManageDocument insertDocument = new ManageDocument("Insert", staffID);
                         insertDocument.ReloadPage += ReloadPage;
                         insertDocument.ShowDialog();
-                        //SetDocumentReportManagerPage();
                         break;
 
                     case 1:
                         ManageStaff insertStaff = new ManageStaff("Insert");
+                        insertStaff.ReloadPage += ReloadPage;
                         insertStaff.ShowDialog();
-                        SetStaffManagerPage();
                         break;
                 }
             }
@@ -559,8 +495,15 @@ namespace HuongDuongVillage
 
         private void ChangepasswordButton_Click(object sender, RoutedEventArgs e)
         {
-            ChangePassword changePassword = new ChangePassword("Change", staffID);
-            changePassword.ShowDialog();
+            try
+            {
+                ChangePassword changePassword = new ChangePassword("Change", staffID);
+                changePassword.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
@@ -570,9 +513,16 @@ namespace HuongDuongVillage
 
         private void InfoButton_Click(object sender, RoutedEventArgs e)
         {
-            StaffDTO HR = StaffDAO.Instance.GetStaffById(staffID);
-            ManageStaff manage = new ManageStaff("View", HR);
-            manage.ShowDialog();
+            try
+            {
+                StaffDTO HR = StaffDAO.Instance.GetStaffById(staffID);
+                ManageStaff manage = new ManageStaff("View", HR);
+                manage.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void BtnSortRole_Click(object sender, RoutedEventArgs e)
@@ -649,17 +599,14 @@ namespace HuongDuongVillage
                 CustomAlertBox.Show(ex.Message);
             }
         }
-
         #endregion Event
 
         #region Field
-
         public Func<ChartPoint, string> PointLabel { get; set; }
 
         private int sortNameClickCount;
         private int sortRoleClickCount;
         private int staffID;
-
         #endregion Field
     }
 }

@@ -16,23 +16,29 @@ namespace HuongDuongVillage
     {
         private string function;
         private int idStaff;
-        private int code;
         private string randomcode;
         public static string emailTo;
 
         public ChangePassword(string _function, int _idStaff = -1)
         {
             InitializeComponent();
-            idStaff = _idStaff;
-            function = _function;
-
-            if (function != "Reset")
+            try
             {
-                grdEmailContainer.Visibility = Visibility.Collapsed;
-                grdVerifyCode.Visibility = Visibility.Collapsed;
+                idStaff = _idStaff;
+                function = _function;
+
+                if (function != "Reset")
+                {
+                    grdEmailContainer.Visibility = Visibility.Collapsed;
+                    grdVerifyCode.Visibility = Visibility.Collapsed;
+                }
+                else
+                    btnConfirm.Content = "Send";
             }
-            else
-                btnConfirm.Content = "Send";
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         #region Event
@@ -65,11 +71,9 @@ namespace HuongDuongVillage
         {
             this.Close();
         }
-
         #endregion Event
 
         #region Method
-
         private void SendMail()
         {
             try
@@ -103,17 +107,17 @@ namespace HuongDuongVillage
                     try
                     {
                         smtp.Send(message);
-                        MessageBox.Show("Code send success!. Please check your email. Make sure check in trash.");
+                        CustomAlertBox.Show("Code send success!. Please check your email. Make sure check in trash.");
                         btnConfirm.Content = "Confirm";
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show(ex.Message);
+                        CustomAlertBox.Show(ex.Message);
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Wrong Email. Try Again!!!!");
+                    CustomAlertBox.Show("Wrong Email. Try Again!!!!");
                 }
             }
             catch (Exception ex)
@@ -124,27 +128,34 @@ namespace HuongDuongVillage
 
         private void ChangeOldPassword()
         {
-            if (function == "Reset")
-                if (!IsCorrectCode())
-                    return;
-
-            string password = txbPasswordEmployee.Password;
-            string cfpassword = txbConfirmPassword.Password;
-            AccountDTO acc = AccountDAO.Instance.GetAccountByIdUser(idStaff);
-
-            if (password == cfpassword)
+            try
             {
-                if (AccountDAO.Instance.ChangePassword(acc.UserName, password))
-                {
-                    MessageBox.Show("Successfully");
+                if (function == "Reset")
+                    if (!IsCorrectCode())
+                        return;
 
-                    this.Close();
+                string password = txbPasswordEmployee.Password;
+                string cfpassword = txbConfirmPassword.Password;
+                AccountDTO acc = AccountDAO.Instance.GetAccountByIdUser(idStaff);
+
+                if (password == cfpassword)
+                {
+                    if (AccountDAO.Instance.ChangePassword(acc.UserName, password))
+                    {
+                        CustomAlertBox.Show("Successfully");
+
+                        this.Close();
+                    }
+                    else
+                        CustomAlertBox.Show("Failed");
                 }
                 else
-                    MessageBox.Show("Failed");
+                    CustomAlertBox.Show("Password didn't match!!");
             }
-            else
-                MessageBox.Show("Password didn't match!!");
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         #endregion Method
@@ -153,21 +164,35 @@ namespace HuongDuongVillage
 
         private void OnlyNumber(object sender, TextCompositionEventArgs e)
         {
-            Regex regex = new Regex("[^0-9]+");
-            e.Handled = regex.IsMatch(e.Text);
+            try
+            {
+                Regex regex = new Regex("[^0-9]+");
+                e.Handled = regex.IsMatch(e.Text);
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private bool IsCorrectCode()
         {
-            if (txbVerifyCode.Text != randomcode)
+            try
             {
-                CustomAlertBox.Show("Error", "Your reset code is incorrect. Please check your email again.", CustomAlertBox.MessageBoxType.Error);
+                if (txbVerifyCode.Text != randomcode)
+                {
+                    CustomAlertBox.Show("Error", "Your reset code is incorrect. Please check your email again.", CustomAlertBox.MessageBoxType.Error);
+                    return false;
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
                 return false;
             }
-
-            return true;
         }
-
         #endregion Validate
     }
 }

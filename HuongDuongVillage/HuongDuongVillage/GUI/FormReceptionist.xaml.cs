@@ -36,111 +36,130 @@ namespace HuongDuongVillage
             }
         }
 
-        #region Reset
-        private void ResetReportManager()
-        {
-            GridAssistant.Children.Clear();
-        }
-
-        private void ResetManagerFieldHolder()
+        #region Set
+        private void SetGridPrincipalToDefault()
         {
             ManagerFieldHolder.Children.Clear();
         }
 
-        private void ModifyCategory_Modify(object sender, EventArgs e)
-        {
-            //SetCategoryPage();
-        }
-        #endregion Reset
-
-        #region Set
-        private void SetGridAssistantToDefault()
-        {
-            ResetReportManager();
-        }
-
-        private void SetGridPrincipalToDefault()
-        {
-            ResetManagerFieldHolder();
-        }
-
         private void SetGridPrincipal()
         {
-            DisableGridAssistant();
-            EnableGridPrincipal();
+            try
+            {
+                EnableGridPrincipal();
 
-            SearchBoxContainer.Visibility = Visibility.Visible;
-            AddButton.Visibility = Visibility.Visible;
-        }
+                SearchBoxContainer.Visibility = Visibility.Visible;
+                AddButton.Visibility = Visibility.Visible;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
 
-        private void SetGridAssistant()
-        {
-            DisableGridPrincipal();
-            EnableGridAssistant();
         }
 
         private void SetBookingPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            IncludeBookingManager();
-            IncludeBookingList();
-            txbSearch.ToolTip = "Search with room name";
-            AddButton.ToolTip = "Add new booking";
-            sortCheckInCount = 0;
-            sortCheckOutCount = 0;
-            DisplayArea.Cursor = null;
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                IncludeBookingManager();
+                IncludeBookingList();
+                txbSearch.ToolTip = "Search with room name";
+                AddButton.ToolTip = "Add new booking";
+                sortCheckInCount = 0;
+                sortCheckOutCount = 0;
+                DisplayArea.Cursor = null;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
+
         }
 
         private void SetCustomerPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            IncludeCustomerManager();
-            IncludeCustomerList();
-            txbSearch.ToolTip = "Search with customer name";
-            AddButton.ToolTip = "Add new customer";
-            sortCheckInCount = 0;
-            DisplayArea.Cursor = null;
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                IncludeCustomerManager();
+                IncludeCustomerList();
+                txbSearch.ToolTip = "Search with customer name";
+                AddButton.ToolTip = "Add new customer";
+                sortCheckInCount = 0;
+                DisplayArea.Cursor = null;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
+
         }
 
         private void SetDocumentReportPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            IncludeDocumentReportManager();
-            IncludeDocumentReportList();
-            AddButton.ToolTip = "Add new report";
-            SearchBoxContainer.Visibility = Visibility.Hidden;
-            DisplayArea.Cursor = null;
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                IncludeDocumentReportManager();
+                IncludeDocumentReportList();
+                AddButton.ToolTip = "Add new report";
+                SearchBoxContainer.Visibility = Visibility.Hidden;
+                DisplayArea.Cursor = null;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
+
         }
 
         private void SetRoomPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            IncludeRoomManager();
-            IncludeRoomList();
-            sortRoomStatusCount = 0;
-            txbSearch.ToolTip = "Search with room name";
-            AddButton.ToolTip = "Add new room";
-            DisplayArea.Cursor = null;
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                IncludeRoomManager();
+                IncludeRoomList();
+                sortRoomStatusCount = 0;
+                txbSearch.ToolTip = "Search with room name";
+                AddButton.ToolTip = "Add new room";
+                DisplayArea.Cursor = null;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
+
         }
 
         private void SetServicePage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            ManagerFieldHolder.Children.Add(new ServiceManager());
-            IncludeServiceList();
-            AddButton.ToolTip = "Add new service";
-            SearchBoxContainer.Visibility = Visibility.Hidden;
-            DisplayArea.Cursor = null;
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                ManagerFieldHolder.Children.Add(new ServiceManager());
+                IncludeServiceList();
+                AddButton.ToolTip = "Add new service";
+                SearchBoxContainer.Visibility = Visibility.Hidden;
+                DisplayArea.Cursor = null;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
+
         }
         #endregion Set
 
@@ -178,10 +197,17 @@ namespace HuongDuongVillage
         #region Booking
         private void IncludeBookingManager()
         {
-            BookingManager card = new BookingManager();
-            card.btnSortCheckIn.Click += BtnSortCheckIn_Click;
-            card.btnSortCheckOut.Click += BtnSortCheckOut_Click;
-            ManagerFieldHolder.Children.Add(card);
+            try
+            {
+                BookingManager card = new BookingManager();
+                card.btnSortCheckIn.Click += BtnSortCheckIn_Click;
+                card.btnSortCheckOut.Click += BtnSortCheckOut_Click;
+                ManagerFieldHolder.Children.Add(card);
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void IncludeBookingList()
@@ -276,9 +302,16 @@ namespace HuongDuongVillage
         #region Room
         private void IncludeRoomManager()
         {
-            RoomManager card = new RoomManager();
-            card.btnSortStatus.Click += BtnSortRoomStatus_Click;
-            ManagerFieldHolder.Children.Add(card);
+            try
+            {
+                RoomManager card = new RoomManager();
+                card.btnSortStatus.Click += BtnSortRoomStatus_Click;
+                ManagerFieldHolder.Children.Add(card);
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void IncludeRoomList()
@@ -341,9 +374,16 @@ namespace HuongDuongVillage
         #region Customer
         private void IncludeCustomerManager()
         {
-            CustomerManager card = new CustomerManager();
-            card.btnSortCheckIn.Click += BtnSortCheckIn_Click;
-            ManagerFieldHolder.Children.Add(card);
+            try
+            {
+                CustomerManager card = new CustomerManager();
+                card.btnSortCheckIn.Click += BtnSortCheckIn_Click;
+                ManagerFieldHolder.Children.Add(card);
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void IncludeCustomerList()
@@ -448,22 +488,6 @@ namespace HuongDuongVillage
             GridPrincipal.Visibility = Visibility.Visible;
         }
 
-        private void DisableGridAssistant()
-        {
-            GridAssistant.Visibility = Visibility.Collapsed;
-        }
-
-        private void EnableGridAssistant()
-        {
-            GridAssistant.Visibility = Visibility.Visible;
-        }
-
-        private void MoveCursorMenu(int index)
-        {
-            //TrainsitioningContentSlide.OnApplyTemplate();
-            //GridCursor.Margin = new Thickness(0, (150+(60 * index)), 0, 0);
-        }
-
         #region Event
         private void ListViewItem_MouseEnter(object sender, MouseEventArgs e)
         {
@@ -490,7 +514,6 @@ namespace HuongDuongVillage
             try
             {
                 int index = ListViewMenu.SelectedIndex;
-                MoveCursorMenu(index);
                 txbSearch.Clear();
                 switch (index)
                 {
@@ -576,35 +599,30 @@ namespace HuongDuongVillage
                         ManageDocument insertDocument = new ManageDocument("Insert", staffID);
                         insertDocument.ReloadPage += ReloadPage;
                         insertDocument.ShowDialog();
-                        //SetDocumentReportPage();
                         break;
 
                     case 1:
                         ManageRoom insertBooking = new ManageRoom("Insert", "Book");
                         insertBooking.ReloadPage += ReloadPage;
                         insertBooking.ShowDialog();
-                        //SetBookingPage();
                         break;
 
                     case 2:
                         ManageRoom insertRoom = new ManageRoom("Insert", "Room");
                         insertRoom.ReloadPage += ReloadPage;
                         insertRoom.ShowDialog();
-                        //SetRoomPage();
                         break;
 
                     case 3:
                         ManageCustomer insertCustomer = new ManageCustomer("Insert");
                         insertCustomer.ReloadPage += ReloadPage;
                         insertCustomer.ShowDialog();
-                        //SetCustomerPage();
                         break;
 
                     case 4:
                         ManageService insertService = new ManageService("Insert");
                         insertService.ReloadPage += ReloadPage;
                         insertService.ShowDialog();
-                        //SetServicePage();
                         break;
                 }
             }
@@ -650,8 +668,15 @@ namespace HuongDuongVillage
 
         private void ChangepasswordButton_Click(object sender, RoutedEventArgs e)
         {
-            ChangePassword changePassword = new ChangePassword("Change", staffID);
-            changePassword.ShowDialog();
+            try
+            {
+                ChangePassword changePassword = new ChangePassword("Change", staffID);
+                changePassword.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
@@ -659,9 +684,16 @@ namespace HuongDuongVillage
         }
         private void InfoButton_Click(object sender, RoutedEventArgs e)
         {
-            StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
-            ManageStaff manage = new ManageStaff("View", staff);
-            manage.ShowDialog();
+            try
+            {
+                StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
+                ManageStaff manage = new ManageStaff("View", staff);
+                manage.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void BtnSortCheckIn_Click(object sender, RoutedEventArgs e)

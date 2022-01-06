@@ -17,24 +17,30 @@ namespace HuongDuongVillage
         public MainWindow()
         {
             InitializeComponent();
-            usernameContainer.Text = Properties.Settings.Default.userName;
-            encryptedPasswordBox.Password = password;
-
-            if (!string.IsNullOrWhiteSpace(password))
+            try
             {
-                ckbSaveAcc.IsChecked = true;
-                string userName = Properties.Settings.Default.userName;
-                if (Login(userName, password))
+                usernameContainer.Text = Properties.Settings.Default.userName;
+                encryptedPasswordBox.Password = password;
+
+                if (!string.IsNullOrWhiteSpace(password))
                 {
-                    Authorization(userName);
+                    ckbSaveAcc.IsChecked = true;
+                    string userName = Properties.Settings.Default.userName;
+                    if (Login(userName, password))
+                    {
+                        Authorization(userName);
+                    }
                 }
+                else
+                    ckbSaveAcc.IsChecked = false;
             }
-            else
-                ckbSaveAcc.IsChecked = false;
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         #region Method
-
         public void disableEncryptedPasswordBox()
         {
             encryptedPasswordBox.Visibility = Visibility.Collapsed;
@@ -57,16 +63,30 @@ namespace HuongDuongVillage
 
         private void showDecryptPassword()
         {
-            enableDecryptedPasswordBox();
-            disableEncryptedPasswordBox();
-            decryptedPasswordBox.Text = encryptedPasswordBox.Password;
+            try
+            {
+                enableDecryptedPasswordBox();
+                disableEncryptedPasswordBox();
+                decryptedPasswordBox.Text = encryptedPasswordBox.Password;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void showEncryptPassword()
         {
-            enableEncryptedPasswordBox();
-            disableDecryptedPasswordBox();
-            encryptedPasswordBox.Password = decryptedPasswordBox.Text;
+            try
+            {
+                enableEncryptedPasswordBox();
+                disableDecryptedPasswordBox();
+                encryptedPasswordBox.Password = decryptedPasswordBox.Text;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private bool Login(string username, string password)
@@ -80,111 +100,132 @@ namespace HuongDuongVillage
 
         private void saveAccount()
         {
-            if ((bool)ckbSaveAcc.IsChecked)
+            try
             {
-                Properties.Settings.Default.userName = usernameContainer.Text;
-                Properties.Settings.Default.userPass = password;
-                Properties.Settings.Default.Save();
+                if ((bool)ckbSaveAcc.IsChecked)
+                {
+                    Properties.Settings.Default.userName = usernameContainer.Text;
+                    Properties.Settings.Default.userPass = password;
+                    Properties.Settings.Default.Save();
+                }
+                else
+                {
+                    Properties.Settings.Default.userName = "";
+                    Properties.Settings.Default.userPass = "";
+                    Properties.Settings.Default.Save();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Properties.Settings.Default.userName = "";
-                Properties.Settings.Default.userPass = "";
-                Properties.Settings.Default.Save();
+                CustomAlertBox.Show(ex.Message);
             }
         }
 
         private void Authorization(string userName)
         {
-            string Role = GetRole(userName);
-            int id = GetId(userName);
-            switch (Role)
+            try
             {
-                case "CEO":
-                    FormCEO formCEO = new FormCEO(id);
-                    this.Hide();
+                string Role = GetRole(userName);
+                int id = GetId(userName);
+                switch (Role)
+                {
+                    case "CEO":
+                        FormCEO formCEO = new FormCEO(id);
+                        this.Hide();
 
-                    formCEO.ShowDialog();
-                    DisplayArea.Cursor = null;
-                    this.Show();
-                    break;
+                        formCEO.ShowDialog();
+                        DisplayArea.Cursor = null;
+                        this.Show();
+                        break;
 
-                case "HR":
-                    FormHR formHR = new FormHR(id);
-                    this.Hide();
+                    case "HR":
+                        FormHR formHR = new FormHR(id);
+                        this.Hide();
 
-                    formHR.ShowDialog();
-                    DisplayArea.Cursor = null;
-                    this.Show();
-                    break;
+                        formHR.ShowDialog();
+                        DisplayArea.Cursor = null;
+                        this.Show();
+                        break;
 
-                case "Receptionist":
-                    FormReceptionist formReceptionist = new FormReceptionist(id);
-                    this.Hide();
+                    case "Receptionist":
+                        FormReceptionist formReceptionist = new FormReceptionist(id);
+                        this.Hide();
 
-                    formReceptionist.ShowDialog();
-                    DisplayArea.Cursor = null;
-                    this.Show();
-                    break;
+                        formReceptionist.ShowDialog();
+                        DisplayArea.Cursor = null;
+                        this.Show();
+                        break;
 
-                case "Accountant":
-                    FormAccountant formAccountant = new FormAccountant(id);
-                    this.Hide();
+                    case "Accountant":
+                        FormAccountant formAccountant = new FormAccountant(id);
+                        this.Hide();
 
-                    formAccountant.ShowDialog();
-                    DisplayArea.Cursor = null;
-                    this.Show();
-                    break;
+                        formAccountant.ShowDialog();
+                        DisplayArea.Cursor = null;
+                        this.Show();
+                        break;
 
-                case "Sale":
-                    FormSale formSale = new FormSale(id);
-                    this.Hide();
+                    case "Sale":
+                        FormSale formSale = new FormSale(id);
+                        this.Hide();
 
-                    formSale.ShowDialog();
-                    DisplayArea.Cursor = null;
-                    this.Show();
-                    break;
+                        formSale.ShowDialog();
+                        DisplayArea.Cursor = null;
+                        this.Show();
+                        break;
 
-                case "Chef":
-                    FormChef formChef = new FormChef(id);
-                    this.Hide();
+                    case "Chef":
+                        FormChef formChef = new FormChef(id);
+                        this.Hide();
 
-                    formChef.ShowDialog();
-                    DisplayArea.Cursor = null;
-                    this.Show();
-                    break;
+                        formChef.ShowDialog();
+                        DisplayArea.Cursor = null;
+                        this.Show();
+                        break;
 
-                case "Cleaner":
-                    FormLaundry formLaundry = new FormLaundry(id);
-                    this.Hide();
+                    case "Cleaner":
+                        FormLaundry formLaundry = new FormLaundry(id);
+                        this.Hide();
 
-                    formLaundry.ShowDialog();
-                    DisplayArea.Cursor = null;
-                    this.Show();
-                    break;
+                        formLaundry.ShowDialog();
+                        DisplayArea.Cursor = null;
+                        this.Show();
+                        break;
 
-                case "Bar":
-                    FormBar formBar = new FormBar(id);
-                    this.Hide();
+                    case "Bar":
+                        FormBar formBar = new FormBar(id);
+                        this.Hide();
 
-                    formBar.ShowDialog();
-                    DisplayArea.Cursor = null;
-                    this.Show();
-                    break;
+                        formBar.ShowDialog();
+                        DisplayArea.Cursor = null;
+                        this.Show();
+                        break;
 
-                default:
-                    MessageBox.Show("Wrong username or password");
-                    DisplayArea.Cursor = null;
-                    break;
+                    default:
+                        CustomAlertBox.Show("Wrong username or password");
+                        DisplayArea.Cursor = null;
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
             }
         }
 
         private async void Login(string userName)
         {
-            await Task.Delay(5000);
-            saveAccount();
-            Authorization(userName);
-            pgbLoading.Visibility = Visibility.Hidden;
+            try
+            {
+                await Task.Delay(5000);
+                saveAccount();
+                Authorization(userName);
+                pgbLoading.Visibility = Visibility.Hidden;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         #endregion Method
@@ -193,15 +234,22 @@ namespace HuongDuongVillage
 
         private void showPasswordBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (togglePassStatusIcon.Kind == MaterialDesignThemes.Wpf.PackIconKind.Eye)
+            try
             {
-                togglePassStatusIcon.Kind = MaterialDesignThemes.Wpf.PackIconKind.EyeOff;
-                showEncryptPassword();
+                if (togglePassStatusIcon.Kind == MaterialDesignThemes.Wpf.PackIconKind.Eye)
+                {
+                    togglePassStatusIcon.Kind = MaterialDesignThemes.Wpf.PackIconKind.EyeOff;
+                    showEncryptPassword();
+                }
+                else
+                {
+                    togglePassStatusIcon.Kind = MaterialDesignThemes.Wpf.PackIconKind.Eye;
+                    showDecryptPassword();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                togglePassStatusIcon.Kind = MaterialDesignThemes.Wpf.PackIconKind.Eye;
-                showDecryptPassword();
+                CustomAlertBox.Show(ex.Message);
             }
         }
 
@@ -232,7 +280,6 @@ namespace HuongDuongVillage
                 DisplayArea.Cursor = null;
                 pgbLoading.Visibility = Visibility.Hidden;
                 CustomAlertBox.Show(ex.Message);
-                CustomAlertBox.Show(ex.Message);
             }
         }
 
@@ -248,9 +295,16 @@ namespace HuongDuongVillage
 
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = CustomAlertBox.Show("Warning", "Are you sure to close this application.", MessageBoxButton.OKCancel);
-            if (result == MessageBoxResult.OK)
-                this.Close();
+            try
+            {
+                MessageBoxResult result = CustomAlertBox.Show("Warning", "Are you sure to close this application.", MessageBoxButton.OKCancel);
+                if (result == MessageBoxResult.OK)
+                    this.Close();
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void btn_MouseEnter(object sender, MouseEventArgs e)
@@ -267,8 +321,15 @@ namespace HuongDuongVillage
 
         private void btnForgotPassword_Click(object sender, RoutedEventArgs e)
         {
-            ChangePassword resetPassword = new ChangePassword("Reset");
-            resetPassword.Show();
+            try
+            {
+                ChangePassword resetPassword = new ChangePassword("Reset");
+                resetPassword.Show();
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
     }
 }

@@ -52,18 +52,25 @@ namespace HuongDuongVillage
 
         private void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
-            switch (function)
+            try
             {
-                case "Edit":
-                    EditOrViewDocument(sender);
-                    break;
+                switch (function)
+                {
+                    case "Edit":
+                        EditOrViewDocument(sender);
+                        break;
 
-                case "Insert":
-                    InsertDocument(sender);
-                    break;
+                    case "Insert":
+                        InsertDocument(sender);
+                        break;
+                }
+                if (reloadPage != null)
+                    reloadPage(this, new EventArgs());
             }
-            if (reloadPage != null)
-                reloadPage(this, new EventArgs());
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
@@ -94,7 +101,7 @@ namespace HuongDuongVillage
                     this.Close();
                 }
                 else
-                    MessageBox.Show("Add new report failed!");
+                    CustomAlertBox.Show("Add new report failed!");
             }
             catch (NullReferenceException)
             {
@@ -131,7 +138,6 @@ namespace HuongDuongVillage
                 CustomAlertBox.Show(ex.Message);
             }
         }
-
         #endregion Method
     }
 }

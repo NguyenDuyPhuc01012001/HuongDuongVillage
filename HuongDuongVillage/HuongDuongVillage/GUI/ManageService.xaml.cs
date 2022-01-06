@@ -34,6 +34,7 @@ namespace HuongDuongVillage
 
             try
             {
+                this.idRoom = idRoom;
                 function = _function;
                 List<String> serviceTypes = ServiceTypeDAO.Instance.GetSetServiceType();
                 foreach (String serviceType in serviceTypes)
@@ -77,26 +78,31 @@ namespace HuongDuongVillage
             {
                 CustomAlertBox.Show(ex.Message);
             }
-
-            this.idRoom = idRoom;
         }
 
         #region Event
 
         private void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
-            switch (function)
+            try
             {
-                case "Edit":
-                    EditService();
-                    break;
+                switch (function)
+                {
+                    case "Edit":
+                        EditService();
+                        break;
 
-                case "Insert":
-                    InsertService();
-                    break;
+                    case "Insert":
+                        InsertService();
+                        break;
+                }
+                if (reloadPage != null)
+                    reloadPage(this, new EventArgs());
             }
-            if (reloadPage != null)
-                reloadPage(this, new EventArgs());
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
@@ -149,12 +155,19 @@ namespace HuongDuongVillage
 
         private void cmbNameRoom_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (cmbNameRoom.Items.Count > 0)
+            try
             {
-                RoomDTO room = (RoomDTO)cmbNameRoom.SelectedItem;
-                CustomerDTO customer = CustomerDAO.Instance.GetCustomerById(room.CusID);
-                txbNameCus.Text = customer.CusName;
-                txbIDCard.Text = customer.CusIDcard;
+                if (cmbNameRoom.Items.Count > 0)
+                {
+                    RoomDTO room = (RoomDTO)cmbNameRoom.SelectedItem;
+                    CustomerDTO customer = CustomerDAO.Instance.GetCustomerById(room.CusID);
+                    txbNameCus.Text = customer.CusName;
+                    txbIDCard.Text = customer.CusIDcard;
+                }
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
             }
         }
 
@@ -197,16 +210,16 @@ namespace HuongDuongVillage
                 int status = (txbStatus.Text == "Done") ? 1 : 0;
                 if (ServiceDAO.Instance.InsertService(idRoom, idServiceType, quantity, status))
                 {
-                    MessageBox.Show("Add new Service successfully!");
+                    CustomAlertBox.Show("Add new Service successfully!");
 
                     this.Close();
                 }
                 else
-                    MessageBox.Show("Add new Service failed");
+                    CustomAlertBox.Show("Add new Service failed");
             }
             catch (NullReferenceException)
             {
-                MessageBox.Show("Please fill out the form first", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                CustomAlertBox.Show("Error", "Please fill out the form first", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
             }
             catch (Exception ex)
             {
@@ -225,16 +238,16 @@ namespace HuongDuongVillage
                 int status = (txbStatus.Text == "Done") ? 1 : 0;
                 if (ServiceDAO.Instance.EditService(idService, idRoom, idServiceType, quantity, status))
                 {
-                    MessageBox.Show("Edit Service successfully!");
+                    CustomAlertBox.Show("Edit Service successfully!");
 
                     this.Close();
                 }
                 else
-                    MessageBox.Show("Edit Service failed");
+                    CustomAlertBox.Show("Edit Service failed");
             }
             catch (NullReferenceException)
             {
-                MessageBox.Show("Please fill out the form first", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                CustomAlertBox.Show("Error", "Please fill out the form first", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
             }
             catch (Exception ex)
             {
@@ -252,28 +265,32 @@ namespace HuongDuongVillage
             {
                 if (number == null)
                 {
-                    MessageBox.Show("Please fill all fields");
+                    CustomAlertBox.Show("Please fill all fields");
                     return false;
                 }
                 if (number < 1)
                 {
-                    MessageBox.Show("Invalid quantity");
+                    CustomAlertBox.Show("Invalid quantity");
                     return false;
                 }
                 if (number > 100)
                 {
-                    MessageBox.Show("Quantity must smaller than 100");
+                    CustomAlertBox.Show("Quantity must smaller than 100");
                     return false;
                 }
                 return true;
             }
             catch (FormatException)
             {
-                MessageBox.Show("Email is invalid");
+                CustomAlertBox.Show("Email is invalid");
+                return false;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
                 return false;
             }
         }
-
         #endregion Validate
     }
 }
