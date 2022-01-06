@@ -44,7 +44,7 @@ function Rooms() {
 									<span class="per-night">Per night</span>
 								</span>
 								<p class="paragraph">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									50m², 2 bed rooms, flatscreen TV, satellite TV, free WiFi, free BBQ party
 								</p>
 							</div>
 						</div>
@@ -61,7 +61,7 @@ function Rooms() {
 									<span class="per-night">Per night</span>
 								</span>
 								<p class="paragraph">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									30m²,2 bed rooms, flatscreen TV, satellite TV, free WiFi, free BBQ party
 								</p>
 							</div>
 						</div>
@@ -78,7 +78,7 @@ function Rooms() {
 									<span class="per-night">Per night</span>
 								</span>
 								<p class="paragraph">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									30m²,2 bed rooms, flatscreen TV,cable TV, free WiFi, free BBQ party
 								</p>
 							</div>
 						</div>
@@ -95,7 +95,7 @@ function Rooms() {
 									<span class="per-night">Per night</span>
 								</span>
 								<p class="paragraph">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									25m²,2 bed rooms, flatscreen TV, cable TV, free WiFi, free BBQ party
 								</p>
 							</div>
 						</div>
@@ -117,7 +117,7 @@ function Rooms() {
 									<span class="per-night">Per night</span>
 								</span>
 								<p class="paragraph">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									25m²,2 bed rooms, flatscreen TV, cable TV, free WiFi, free breakfast
 								</p>
 							</div>
 						</div>
@@ -134,7 +134,7 @@ function Rooms() {
 									<span class="per-night">Per night</span>
 								</span>
 								<p class="paragraph">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+									20m²,2 bed rooms, flatscreen TV, cable TV, free WiFi, free BBQ party
 								</p>
 							</div>
 						</div>
