@@ -164,21 +164,28 @@ namespace HuongDuongVillage
 
         private void ReloadPage(object sender, EventArgs e)
         {
-            listViewIndex = ListViewMenu.SelectedIndex;
-            switch (listViewIndex)
+            try
             {
-                case 0:
-                case -1:
-                    SetDocumentReportPage();
-                    break;
+                listViewIndex = ListViewMenu.SelectedIndex;
+                switch (listViewIndex)
+                {
+                    case 0:
+                    case -1:
+                        SetDocumentReportPage();
+                        break;
 
-                case 1:
-                    SetRoomTypePage();
-                    break;
+                    case 1:
+                        SetRoomTypePage();
+                        break;
 
-                case 2:
-                    SetServiceTypePage();
-                    break;
+                    case 2:
+                        SetServiceTypePage();
+                        break;
+                }
+            }
+            catch
+            {
+
             }
         }
 
@@ -393,20 +400,34 @@ namespace HuongDuongVillage
 
         private void SetRoomTypePage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            IncludeRoomTypeManager();
-            IncludeRoomTypeList();
-            DisplayArea.Cursor = null;
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                IncludeRoomTypeManager();
+                IncludeRoomTypeList();
+                DisplayArea.Cursor = null;
+            }
+            catch
+            {
+
+            }
         }
 
         private void IncludeRoomTypeManager()
         {
-            RoomTypeManager roomTypeManager = new RoomTypeManager();
-            roomTypeManager.sortTypeButton.Click += BtnSortRoomType_Click;
-            roomTypeManager.sortPriceButton.Click += BtnSortRoomPrice_Click;
-            ManagerFieldHolder.Children.Add(roomTypeManager);
+            try
+            {
+                RoomTypeManager roomTypeManager = new RoomTypeManager();
+                roomTypeManager.sortTypeButton.Click += BtnSortRoomType_Click;
+                roomTypeManager.sortPriceButton.Click += BtnSortRoomPrice_Click;
+                ManagerFieldHolder.Children.Add(roomTypeManager);
+            }
+            catch
+            {
+
+            }
         }
 
         private void IncludeRoomTypeList()
@@ -441,12 +462,19 @@ namespace HuongDuongVillage
 
         private void SetDocumentReportPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            ManagerFieldHolder.Children.Add(new DocumentReportManager());
-            IncludeDocumentReportList();
-            DisplayArea.Cursor = null;
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                ManagerFieldHolder.Children.Add(new DocumentReportManager());
+                IncludeDocumentReportList();
+                DisplayArea.Cursor = null;
+            }
+            catch
+            {
+
+            }
         }
 
         private void IncludeDocumentReportList()
@@ -480,22 +508,36 @@ namespace HuongDuongVillage
 
         private void SetServiceTypePage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            IncludeServiceTypeManager();
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                IncludeServiceTypeManager();
 
-            IncludeServiceTypeList();
-            DisplayArea.Cursor = null;
+                IncludeServiceTypeList();
+                DisplayArea.Cursor = null;
+            }
+            catch
+            {
+
+            }
         }
 
         private void IncludeServiceTypeManager()
         {
-            ServiceTypeManager serviceTypeManager = new ServiceTypeManager();
-            serviceTypeManager.sortNameButton.Click += BtnSortServiceName_Click;
-            serviceTypeManager.sortPriceButton.Click += BtnSortServicePrice_Click;
-            serviceTypeManager.sortTypeButton.Click += BtnSortServiceType_Click;
-            ManagerFieldHolder.Children.Add(serviceTypeManager);
+            try
+            {
+                ServiceTypeManager serviceTypeManager = new ServiceTypeManager();
+                serviceTypeManager.sortNameButton.Click += BtnSortServiceName_Click;
+                serviceTypeManager.sortPriceButton.Click += BtnSortServicePrice_Click;
+                serviceTypeManager.sortTypeButton.Click += BtnSortServiceType_Click;
+                ManagerFieldHolder.Children.Add(serviceTypeManager);
+            }
+            catch
+            {
+
+            }
         }
 
         private void IncludeServiceTypeList()
@@ -528,66 +570,88 @@ namespace HuongDuongVillage
 
         private void txbSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
-            txbSearch.Cursor = Cursors.Wait;
-            switch (listViewIndex)
+            try
             {
-                case 0:
-                case -1:
-                    IncludeDocumentReportListByInput(txbSearch.Text.Replace("'", "''"));
-                    break;
+                txbSearch.Cursor = Cursors.Wait;
+                switch (listViewIndex)
+                {
+                    case 0:
+                    case -1:
+                        IncludeDocumentReportListByInput(txbSearch.Text.Replace("'", "''"));
+                        break;
 
-                case 1:
-                    IncludeRoomTypeListByInput(txbSearch.Text.Replace("'", "''"));
-                    break;
+                    case 1:
+                        IncludeRoomTypeListByInput(txbSearch.Text.Replace("'", "''"));
+                        break;
 
-                case 2:
-                    IncludeServiceTypeListByInput(txbSearch.Text.Replace("'", "''"));
-                    break;
+                    case 2:
+                        IncludeServiceTypeListByInput(txbSearch.Text.Replace("'", "''"));
+                        break;
+                }
+                txbSearch.Cursor = null;
             }
-            txbSearch.Cursor = null;
+            catch
+            {
+
+            }
         }
 
         private void IncludeServiceTypeListByInput(string input)
         {
-            ListHolder.Children.Clear();
-            List<ServiceTypeDTO> services = ServiceTypeDAO.Instance.GetListServiceTypeByInput(input);
-            if (services.Count == 0)
+            try
             {
-                TextBlock textBox = new TextBlock();
-                textBox.Margin = new Thickness(20, 0, 0, 0);
-                textBox.Text = "No item match your search";
-                textBox.FontSize = 20;
-                ListHolder.Children.Add(textBox);
-                return;
+                ListHolder.Children.Clear();
+                List<ServiceTypeDTO> services = ServiceTypeDAO.Instance.GetListServiceTypeByInput(input);
+                if (services.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Margin = new Thickness(20, 0, 0, 0);
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
+                foreach (ServiceTypeDTO service in services)
+                {
+                    ServiceTypeCard serviceTypeCard = new ServiceTypeCard();
+                    serviceTypeCard.SetText(service.ID, service.SerName, service.SerType, service.SerPrice);
+                    serviceTypeCard.ReloadPage += ReloadPage;
+                    ListHolder.Children.Add(serviceTypeCard);
+                }
             }
-            foreach (ServiceTypeDTO service in services)
+
+            catch
             {
-                ServiceTypeCard serviceTypeCard = new ServiceTypeCard();
-                serviceTypeCard.SetText(service.ID, service.SerName, service.SerType, service.SerPrice);
-                serviceTypeCard.ReloadPage += ReloadPage;
-                ListHolder.Children.Add(serviceTypeCard);
+
             }
         }
 
         private void IncludeRoomTypeListByInput(string input)
         {
-            ListHolder.Children.Clear();
-            List<RoomTypeDTO> roomTypes = RoomTypeDAO.Instance.GetRoomTypeListByInput(input);
-            if (roomTypes.Count == 0)
+            try
             {
-                TextBlock textBox = new TextBlock();
-                textBox.Text = "No item match your search";
-                textBox.FontSize = 20;
-                ListHolder.Children.Add(textBox);
-                return;
+                ListHolder.Children.Clear();
+                List<RoomTypeDTO> roomTypes = RoomTypeDAO.Instance.GetRoomTypeListByInput(input);
+                if (roomTypes.Count == 0)
+                {
+                    TextBlock textBox = new TextBlock();
+                    textBox.Text = "No item match your search";
+                    textBox.FontSize = 20;
+                    ListHolder.Children.Add(textBox);
+                    return;
+                }
+                foreach (RoomTypeDTO roomType in roomTypes)
+                {
+                    RoomTypeCard roomTypeCard = new RoomTypeCard();
+                    int roomCount = RoomTypeDAO.Instance.GetRoomCountByRoomType(roomType.ID);
+                    roomTypeCard.setText(roomType.ID, roomType.RoomType, roomCount, roomType.RoomPrice);
+                    roomTypeCard.ReloadPage += ReloadPage;
+                    ListHolder.Children.Add(roomTypeCard);
+                }
             }
-            foreach (RoomTypeDTO roomType in roomTypes)
+            catch (Exception ex)
             {
-                RoomTypeCard roomTypeCard = new RoomTypeCard();
-                int roomCount = RoomTypeDAO.Instance.GetRoomCountByRoomType(roomType.ID);
-                roomTypeCard.setText(roomType.ID, roomType.RoomType, roomCount, roomType.RoomPrice);
-                roomTypeCard.ReloadPage += ReloadPage;
-                ListHolder.Children.Add(roomTypeCard);
+
             }
         }
 
@@ -634,27 +698,34 @@ namespace HuongDuongVillage
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            listViewIndex = ListViewMenu.SelectedIndex;
-            switch (listViewIndex)
+            try
             {
-                case 0:
-                case -1:
-                    ManageDocument manageDocument = new ManageDocument("Insert", staffID);
-                    manageDocument.ShowDialog();
-                    SetDocumentReportPage();
-                    break;
+                listViewIndex = ListViewMenu.SelectedIndex;
+                switch (listViewIndex)
+                {
+                    case 0:
+                    case -1:
+                        ManageDocument manageDocument = new ManageDocument("Insert", staffID);
+                        manageDocument.ShowDialog();
+                        SetDocumentReportPage();
+                        break;
 
-                case 1:
-                    ManageRoomTypes manageRoomType = new ManageRoomTypes("Insert");
-                    manageRoomType.ShowDialog();
-                    SetRoomTypePage();
-                    break;
+                    case 1:
+                        ManageRoomTypes manageRoomType = new ManageRoomTypes("Insert");
+                        manageRoomType.ShowDialog();
+                        SetRoomTypePage();
+                        break;
 
-                case 2:
-                    ManageServiceType manageServiceType = new ManageServiceType("Insert");
-                    manageServiceType.ShowDialog();
-                    SetServiceTypePage();
-                    break;
+                    case 2:
+                        ManageServiceType manageServiceType = new ManageServiceType("Insert");
+                        manageServiceType.ShowDialog();
+                        SetServiceTypePage();
+                        break;
+                }
+            }
+            catch
+            {
+
             }
         }
 

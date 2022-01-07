@@ -184,10 +184,18 @@ namespace HuongDuongVillage
 
         private void IncludeStaffManager()
         {
-            StaffManager staffManager = new StaffManager();
-            staffManager.btnSortName.Click += BtnSortStaffName_Click;
-            staffManager.btnSortRole.Click += BtnSortStaffRole_Click;
-            ManagerFieldHolder.Children.Add(staffManager);
+            try
+            {
+                StaffManager staffManager = new StaffManager();
+                staffManager.btnSortName.Click += BtnSortStaffName_Click;
+                staffManager.btnSortRole.Click += BtnSortStaffRole_Click;
+                ManagerFieldHolder.Children.Add(staffManager);
+            }
+            catch
+            {
+
+            }
+            
         }
 
         #region Include
@@ -233,24 +241,32 @@ namespace HuongDuongVillage
 
         private void ReloadPage(object sender, EventArgs e)
         {
-            int index = ListViewMenu.SelectedIndex;
-            switch (index)
+            try
             {
-                case 1:
-                case -1:
-                    IncludeStaffList();
-                    break;
+                int index = ListViewMenu.SelectedIndex;
+                switch (index)
+                {
+                    case 1:
+                    case -1:
+                        IncludeStaffList();
+                        break;
 
-                case 2:
-                    IncludeDocumentReportList();
-                    break;
-                case 3:
-                    SetRoomPage();
-                    break;
-                case 4:
-                    SetServicePage();
-                    break;
+                    case 2:
+                        IncludeDocumentReportList();
+                        break;
+                    case 3:
+                        SetRoomPage();
+                        break;
+                    case 4:
+                        SetServicePage();
+                        break;
+                }
             }
+            catch
+            {
+
+            }
+            
         }
 
         private void IncludeStaffListByName(string searchText, string function)
@@ -552,29 +568,36 @@ namespace HuongDuongVillage
 
         private void txbSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
-            txbSearch.Cursor = Cursors.Wait;
-            int index = ListViewMenu.SelectedIndex;
-            string functionRoom = null;
-            switch (index)
+            try
             {
-                case 1:
-                case -1:
-                    IncludeStaffListByName(txbSearch.Text.Replace("'", "''"), functionSortName);
-                    break;
+                txbSearch.Cursor = Cursors.Wait;
+                int index = ListViewMenu.SelectedIndex;
+                string functionRoom = null;
+                switch (index)
+                {
+                    case 1:
+                    case -1:
+                        IncludeStaffListByName(txbSearch.Text.Replace("'", "''"), functionSortName);
+                        break;
 
-                case 2:
-                    IncludeDocumentReportListByInput(txbSearch.Text.Replace("'", "''"));
-                    break;
-                case 3:
-                    if (sortRoomStatusCount % 2 == 0)
-                        functionRoom = "asc";
-                    else
-                        functionRoom = "desc";
-                    IncludeRoomListByStatus(txbSearch.Text.Replace("'", "''"), functionRoom);
-                    break;
+                    case 2:
+                        IncludeDocumentReportListByInput(txbSearch.Text.Replace("'", "''"));
+                        break;
+                    case 3:
+                        if (sortRoomStatusCount % 2 == 0)
+                            functionRoom = "asc";
+                        else
+                            functionRoom = "desc";
+                        IncludeRoomListByStatus(txbSearch.Text.Replace("'", "''"), functionRoom);
+                        break;
+                }
+
+                txbSearch.Cursor = null;
             }
+            catch(Exception ex)
+            {
 
-            txbSearch.Cursor = null;
+            }
         }
 
         private void IncludeDocumentReportListByInput(string input)
@@ -618,21 +641,28 @@ namespace HuongDuongVillage
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            int index = ListViewMenu.SelectedIndex;
-            switch (index)
+            try
             {
-                case 1:
-                case -1:
-                    ManageStaff manageStaff = new ManageStaff("Insert");
-                    manageStaff.ShowDialog();
-                    //manageStaff.Close();
-                    break;
+                int index = ListViewMenu.SelectedIndex;
+                switch (index)
+                {
+                    case 1:
+                    case -1:
+                        ManageStaff manageStaff = new ManageStaff("Insert");
+                        manageStaff.ShowDialog();
+                        //manageStaff.Close();
+                        break;
 
-                case 2:
-                    ManageDocument insertDocument = new ManageDocument("Insert", staffID);
-                    insertDocument.ShowDialog();
-                    SetDocumentReportPage();
-                    break;
+                    case 2:
+                        ManageDocument insertDocument = new ManageDocument("Insert", staffID);
+                        insertDocument.ShowDialog();
+                        SetDocumentReportPage();
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+
             }
         }
 
@@ -674,9 +704,17 @@ namespace HuongDuongVillage
 
         private void InfoButton_Click(object sender, RoutedEventArgs e)
         {
-            StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
-            ManageStaff manage = new ManageStaff("View", staff);
-            manage.ShowDialog();
+            try
+            {
+                StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
+                ManageStaff manage = new ManageStaff("View", staff);
+                manage.ShowDialog();
+            }
+            catch
+            {
+
+            }
+            
         }
         private int sortRoomStatusCount;
         private void BtnConfirm_Click1(object sender, RoutedEventArgs e)

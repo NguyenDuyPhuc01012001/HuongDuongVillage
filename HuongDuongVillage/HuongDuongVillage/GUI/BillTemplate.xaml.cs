@@ -48,18 +48,25 @@ namespace HuongDuongVillage
 
         public void SetBillInfor(int roomID)
         {
-            List<BillInforDTO> billInfors = ServiceDAO.Instance.GetListBillInforByRoomID(roomID);
-            GetRoomPrice();
-            BillInforCard card = new BillInforCard();
-            card.SetText(this.roomName, this.roomPrice, 1, this.roomPrice);
-            lvBillInfo.Items.Add(card);
-            total += this.roomPrice;
-            foreach (BillInforDTO billInfor in billInfors)
+            try
             {
-                BillInforCard billInforCard = new BillInforCard();
-                billInforCard.SetText(billInfor.SerName, billInfor.SerPrice, billInfor.SerCount, billInfor.SubTotal);
-                total += billInfor.SubTotal;
-                lvBillInfo.Items.Add(billInforCard);
+                List<BillInforDTO> billInfors = ServiceDAO.Instance.GetListBillInforByRoomID(roomID);
+                GetRoomPrice();
+                BillInforCard card = new BillInforCard();
+                card.SetText(this.roomName, this.roomPrice, 1, this.roomPrice);
+                lvBillInfo.Items.Add(card);
+                total += this.roomPrice;
+                foreach (BillInforDTO billInfor in billInfors)
+                {
+                    BillInforCard billInforCard = new BillInforCard();
+                    billInforCard.SetText(billInfor.SerName, billInfor.SerPrice, billInfor.SerCount, billInfor.SubTotal);
+                    total += billInfor.SubTotal;
+                    lvBillInfo.Items.Add(billInforCard);
+                }
+            }
+            catch
+            {
+
             }
         }
 
@@ -72,8 +79,15 @@ namespace HuongDuongVillage
 
         public void SetCustomer(CustomerDTO customer)
         {
-            customerNameTbl.Text = customer.CusName;
-            dateCheckInTbl.Text = customer.DateCheckIn.ToString();
+            try
+            {
+                customerNameTbl.Text = customer.CusName;
+                dateCheckInTbl.Text = customer.DateCheckIn.ToString();
+            }
+            catch
+            {
+
+            }
         }
 
         private void PrintBillBtn_Click(object sender, RoutedEventArgs e)

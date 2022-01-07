@@ -209,7 +209,7 @@ namespace HuongDuongVillage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;component/gui/formreceptionist.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;V1.0.0.0;component/gui/formreceptionist.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\GUI\FormReceptionist.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

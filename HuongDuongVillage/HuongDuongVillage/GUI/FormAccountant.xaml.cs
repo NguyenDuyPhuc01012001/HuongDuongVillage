@@ -271,21 +271,35 @@ namespace HuongDuongVillage
 
         private void SetPaymentPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            AddButton.Visibility = Visibility.Hidden;
-            IncludePaymentManager();
-            IncludePaymentList();
-            DisplayArea.Cursor = null;
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                AddButton.Visibility = Visibility.Hidden;
+                IncludePaymentManager();
+                IncludePaymentList();
+                DisplayArea.Cursor = null;
+            }
+            catch
+            {
+
+            }
         }
 
         private void IncludePaymentManager()
         {
-            PaymentManager paymentManager = new PaymentManager();
-            paymentManager.btnSortAmount.Click += BtnSortAmount_Click;
-            paymentManager.btnSortPaymentDate.Click += BtnSortPaymentDate_Click;
-            ManagerFieldHolder.Children.Add(paymentManager);
+            try
+            {
+                PaymentManager paymentManager = new PaymentManager();
+                paymentManager.btnSortAmount.Click += BtnSortAmount_Click;
+                paymentManager.btnSortPaymentDate.Click += BtnSortPaymentDate_Click;
+                ManagerFieldHolder.Children.Add(paymentManager);
+            }
+            catch
+            {
+
+            }
         }
 
         private void IncludePaymentList()
@@ -318,15 +332,22 @@ namespace HuongDuongVillage
 
         private void SetDocumentReportPage()
         {
-            DisplayArea.Cursor = Cursors.Wait;
-            SetGridPrincipalToDefault();
-            SetGridPrincipal();
-            AddButton.Visibility = Visibility.Visible;
-            ManagerFieldHolder.Children.Add(new DocumentReportManager());
-            AddButton.Visibility = Visibility.Visible;
-            IncludeDocumentReportList();
+            try
+            {
+                DisplayArea.Cursor = Cursors.Wait;
+                SetGridPrincipalToDefault();
+                SetGridPrincipal();
+                AddButton.Visibility = Visibility.Visible;
+                ManagerFieldHolder.Children.Add(new DocumentReportManager());
+                AddButton.Visibility = Visibility.Visible;
+                IncludeDocumentReportList();
 
-            DisplayArea.Cursor = null;
+                DisplayArea.Cursor = null;
+            }
+            catch
+            {
+
+            }
         }
 
         public void IncludeDocumentReportList()
@@ -360,20 +381,27 @@ namespace HuongDuongVillage
 
         private void txbSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
-            txbSearch.Cursor = Cursors.Wait;
-            switch (listViewIndex)
+            try
             {
-                case 1:
-                case -1:
-                    IncludeDocumentReportListByStaffIDAndInput(staffID, txbSearch.Text);
-                    break;
+                txbSearch.Cursor = Cursors.Wait;
+                switch (listViewIndex)
+                {
+                    case 1:
+                    case -1:
+                        IncludeDocumentReportListByStaffIDAndInput(staffID, txbSearch.Text);
+                        break;
 
-                case 2:
-                    IncludePaymentListByInput(txbSearch.Text);
-                    break;
+                    case 2:
+                        IncludePaymentListByInput(txbSearch.Text);
+                        break;
+                }
+
+                txbSearch.Cursor = null;
             }
+            catch
+            {
 
-            txbSearch.Cursor = null;
+            }
         }
 
         private void IncludePaymentListByInput(string input)
@@ -447,22 +475,36 @@ namespace HuongDuongVillage
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            switch (listViewIndex)
+            try
             {
-                case 1:
-                case -1:
-                    ManageDocument manageDocument = new ManageDocument("Insert", staffID);
-                    manageDocument.ShowDialog();
-                    SetDocumentReportPage();
-                    break;
+                switch (listViewIndex)
+                {
+                    case 1:
+                    case -1:
+                        ManageDocument manageDocument = new ManageDocument("Insert", staffID);
+                        manageDocument.ShowDialog();
+                        SetDocumentReportPage();
+                        break;
+                }
+            }
+            catch
+            {
+
             }
         }
 
         private void InfoButton_Click(object sender, RoutedEventArgs e)
         {
-            StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
-            ManageStaff manage = new ManageStaff("View", staff);
-            manage.ShowDialog();
+            try
+            {
+                StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
+                ManageStaff manage = new ManageStaff("View", staff);
+                manage.ShowDialog();
+            }
+            catch
+            {
+
+            }
         }
 
         private void BtnConfirm_Click1(object sender, RoutedEventArgs e)
