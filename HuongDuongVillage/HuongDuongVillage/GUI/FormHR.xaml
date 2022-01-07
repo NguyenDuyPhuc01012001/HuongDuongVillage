@@ -45,47 +45,25 @@
     <Border BorderBrush="Black" BorderThickness="2">
 
         <Grid>
-
-            <Grid x:Name="GridMain" Margin="60,60,0,0">
-
-                <Grid x:Name="GridAssistant">
-                    <!--<Grid.RowDefinitions>
-                    <RowDefinition Height="2*" />
-                    <RowDefinition />
-                    <RowDefinition Height="5*" />
-                </Grid.RowDefinitions>
-                <Grid Grid.Row="0">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition />
-                        <ColumnDefinition />
-                    </Grid.ColumnDefinitions>
-
-                    <Grid Name="TotalProfitCardContainer" Grid.Column="0" />
-                    <Grid Name="CompareWithLastMonthCardContainer" Grid.Column="1" />
-                </Grid>
-
-                <Grid Grid.Row="2">
-                    <Grid Name="CartesianChartContainer" Margin="30,0" />
-                </Grid>-->
-                </Grid>
-                <Grid
+            <Grid
                 x:Name="GridPrincipal"
                 Width="1020"
                 Height="676"
+                Margin="60,60,0,0"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 RenderTransformOrigin="0.5,0.5">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="27*" />
-                        <RowDefinition Height="142*" />
-                    </Grid.RowDefinitions>
-                    <Grid x:Name="TopModifyContainer" Grid.Row="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="1.5*" />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="27*" />
+                    <RowDefinition Height="142*" />
+                </Grid.RowDefinitions>
+                <Grid x:Name="TopModifyContainer" Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.5*" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
 
-                        <Grid
+                    <Grid
                         x:Name="SearchBoxContainer"
                         Grid.Column="0"
                         Width="400"
@@ -93,10 +71,10 @@
                         Margin="0,10,10,10"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center">
-                            <Border Background="LightGray" CornerRadius="20">
-                                <StackPanel Orientation="Horizontal">
-                                    <local:SearchBox VerticalAlignment="Center" />
-                                    <TextBox
+                        <Border Background="LightGray" CornerRadius="20">
+                            <StackPanel Orientation="Horizontal">
+                                <local:SearchBox VerticalAlignment="Center" />
+                                <TextBox
                                     x:Name="txbSearch"
                                     Width="350"
                                     HorizontalAlignment="Left"
@@ -105,10 +83,10 @@
                                     FontSize="15"
                                     FontWeight="Bold"
                                     TextChanged="txbSearch_TextChanged" />
-                                </StackPanel>
-                            </Border>
-                        </Grid>
-                        <Button
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                    <Button
                         x:Name="AddButton"
                         Grid.Column="1"
                         Width="146"
@@ -121,148 +99,147 @@
                         Click="AddButton_Click"
                         Style="{StaticResource MaterialDesignRaisedDarkButton}"
                         ToolTip="Add new ">
-                            <StackPanel Orientation="Horizontal">
-                                <materialDesign:PackIcon
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon
                                 x:Name="AddFieldIcon"
                                 Width="34"
                                 Height="41"
                                 HorizontalAlignment="Left"
                                 Foreground="{DynamicResource TextOnTop}"
                                 Kind="Plus" />
-                                <Separator
+                            <Separator
                                 Width="41"
                                 Height="20"
                                 Margin="5,0,15,0"
                                 Foreground="{DynamicResource TextOnTop}">
-                                    <Separator.LayoutTransform>
-                                        <RotateTransform Angle="90" />
-                                    </Separator.LayoutTransform>
-                                </Separator>
-                                <TextBlock
+                                <Separator.LayoutTransform>
+                                    <RotateTransform Angle="90" />
+                                </Separator.LayoutTransform>
+                            </Separator>
+                            <TextBlock
                                 HorizontalAlignment="Center"
                                 VerticalAlignment="Center"
                                 Foreground="{DynamicResource TextOnTop}"
                                 Text="New" />
-                            </StackPanel>
-                        </Button>
-                    </Grid>
+                        </StackPanel>
+                    </Button>
+                </Grid>
 
-                    <Grid
+                <Grid
                     x:Name="BottomModifyContainer"
                     Grid.Row="1"
                     Width="1010">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="49*" />
-                            <RowDefinition Height="519*" />
-                        </Grid.RowDefinitions>
-                        <Grid x:Name="ManagerFieldHolder" Grid.Row="0">
-                            <local:RoomTypeManager />
-                        </Grid>
-                        <ScrollViewer x:Name="CardContainer" Grid.Row="1">
-                            <StackPanel x:Name="ListHolder" Orientation="Vertical" />
-                        </ScrollViewer>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="49*" />
+                        <RowDefinition Height="519*" />
+                    </Grid.RowDefinitions>
+                    <Grid x:Name="ManagerFieldHolder" Grid.Row="0">
+                        <local:RoomTypeManager />
                     </Grid>
+                    <ScrollViewer x:Name="CardContainer" Grid.Row="1">
+                        <StackPanel x:Name="ListHolder" Orientation="Vertical" />
+                    </ScrollViewer>
                 </Grid>
             </Grid>
             <Grid
-            Height="60"
-            VerticalAlignment="Top"
-            Background="{DynamicResource Top}">
+                Height="60"
+                VerticalAlignment="Top"
+                Background="{DynamicResource Top}">
                 <Grid.Effect>
                     <DropShadowEffect
-                    BlurRadius="1"
-                    ShadowDepth="1"
-                    Color="#FFACACAC" />
+                        BlurRadius="1"
+                        ShadowDepth="1"
+                        Color="#FFACACAC" />
                 </Grid.Effect>
                 <TextBlock
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                FontSize="50"
-                FontWeight="Bold"
-                Foreground="{DynamicResource TextOnTop}"
-                Typography.Capitals="AllSmallCaps"
-                Text="Hiring Resource" />
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="50"
+                    FontWeight="Bold"
+                    Foreground="{DynamicResource TextOnTop}"
+                    Text="Hiring Resource"
+                    Typography.Capitals="AllSmallCaps" />
                 <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                     <TextBlock
-                    x:Name="tblName"
-                    VerticalAlignment="Center"
-                    FontSize="18"
-                    Foreground="{DynamicResource TextOnTop}"
-                    Text="HR" />
+                        x:Name="tblName"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        Foreground="{DynamicResource TextOnTop}"
+                        Text="HR" />
 
                     <materialDesign:PopupBox
-                    Margin="5"
-                    Foreground="{DynamicResource TextOnTop}"
-                    PlacementMode="BottomAndAlignRightEdges"
-                    StaysOpen="True">
+                        Margin="5"
+                        Foreground="{DynamicResource TextOnTop}"
+                        PlacementMode="BottomAndAlignRightEdges"
+                        StaysOpen="True">
 
                         <StackPanel Width="160">
                             <Button
-                            x:Name="InfoButton"
-                            Padding="5"
-                            VerticalAlignment="Center"
-                            VerticalContentAlignment="Center"
-                            Click="InfoButton_Click"
-                            Cursor="Hand">
+                                x:Name="InfoButton"
+                                Padding="5"
+                                VerticalAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                Click="InfoButton_Click"
+                                Cursor="Hand">
                                 <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
                                     <materialDesign:PackIcon
-                                    Width="auto"
-                                    Height="auto"
-                                    Margin="5,0"
-                                    VerticalContentAlignment="Center"
-                                    Foreground="{DynamicResource NavigateBar}"
-                                    Kind="InfoCircle" />
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="5,0"
+                                        VerticalContentAlignment="Center"
+                                        Foreground="{DynamicResource NavigateBar}"
+                                        Kind="InfoCircle" />
                                     <TextBlock
-                                    Height="auto"
-                                    VerticalAlignment="Center"
-                                    FontSize="14"
-                                    Text="Info Staff" />
+                                        Height="auto"
+                                        VerticalAlignment="Center"
+                                        FontSize="14"
+                                        Text="Info Staff" />
                                 </StackPanel>
                             </Button>
 
                             <Button
-                            Name="ChangepasswordButton"
-                            Padding="5"
-                            VerticalAlignment="Center"
-                            VerticalContentAlignment="Center"
-                            Click="ChangepasswordButton_Click"
-                            Cursor="Hand">
+                                Name="ChangepasswordButton"
+                                Padding="5"
+                                VerticalAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                Click="ChangepasswordButton_Click"
+                                Cursor="Hand">
                                 <StackPanel Orientation="Horizontal">
                                     <materialDesign:PackIcon
-                                    Width="auto"
-                                    Height="auto"
-                                    Margin="5,0"
-                                    VerticalAlignment="Center"
-                                    Foreground="{DynamicResource NavigateBar}"
-                                    Kind="PasswordReset" />
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="5,0"
+                                        VerticalAlignment="Center"
+                                        Foreground="{DynamicResource NavigateBar}"
+                                        Kind="PasswordReset" />
                                     <TextBlock
-                                    Height="auto"
-                                    VerticalAlignment="Center"
-                                    FontSize="14"
-                                    Text="Change password" />
+                                        Height="auto"
+                                        VerticalAlignment="Center"
+                                        FontSize="14"
+                                        Text="Change password" />
                                 </StackPanel>
                             </Button>
                             <Separator />
                             <Button
-                            x:Name="LogoutButton"
-                            Padding="5"
-                            VerticalAlignment="Center"
-                            VerticalContentAlignment="Center"
-                            Click="LogoutButton_Click"
-                            Cursor="Hand">
+                                x:Name="LogoutButton"
+                                Padding="5"
+                                VerticalAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                Click="LogoutButton_Click"
+                                Cursor="Hand">
                                 <StackPanel Orientation="Horizontal">
                                     <materialDesign:PackIcon
-                                    Width="auto"
-                                    Height="auto"
-                                    Margin="5,0"
-                                    VerticalAlignment="Center"
-                                    Foreground="{DynamicResource NavigateBar}"
-                                    Kind="Logout" />
+                                        Width="auto"
+                                        Height="auto"
+                                        Margin="5,0"
+                                        VerticalAlignment="Center"
+                                        Foreground="{DynamicResource NavigateBar}"
+                                        Kind="Logout" />
                                     <TextBlock
-                                    Height="auto"
-                                    VerticalAlignment="Center"
-                                    FontSize="14"
-                                    Text="Logout" />
+                                        Height="auto"
+                                        VerticalAlignment="Center"
+                                        FontSize="14"
+                                        Text="Logout" />
                                 </StackPanel>
                             </Button>
                         </StackPanel>
@@ -270,24 +247,24 @@
                 </StackPanel>
             </Grid>
             <Grid
-            x:Name="GridMenu"
-            Width="65"
-            HorizontalAlignment="Left"
-            Background="{DynamicResource NavigateBar}">
+                x:Name="GridMenu"
+                Width="65"
+                HorizontalAlignment="Left"
+                Background="{DynamicResource NavigateBar}">
                 <Grid.Effect>
                     <DropShadowEffect
-                    BlurRadius="2"
-                    ShadowDepth="1"
-                    Color="#FFAEAEAE" />
+                        BlurRadius="2"
+                        ShadowDepth="1"
+                        Color="#FFAEAEAE" />
                 </Grid.Effect>
                 <!--<materialDesign:TransitioningContent x:Name="TrainsitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.2}">
                 <Grid x:Name="GridCursor" Margin="0,150,0,0" Background="#FFF4E404" Width="10" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" />
             </materialDesign:TransitioningContent>-->
                 <StackPanel>
                     <Grid
-                    Height="160"
-                    Background="White"
-                    RenderTransformOrigin="0.5,0.5">
+                        Height="160"
+                        Background="White"
+                        RenderTransformOrigin="0.5,0.5">
                         <Grid.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform />
@@ -297,100 +274,112 @@
                             </TransformGroup>
                         </Grid.RenderTransform>
                         <Button
-                        x:Name="ButtonOpenMenu"
-                        Width="60"
-                        Height="60"
-                        HorizontalAlignment="Right"
-                        VerticalAlignment="Top"
-                        Background="{x:Null}"
-                        BorderBrush="{x:Null}"
-                        Click="ButtonOpenMenu_Click"
-                        Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}">
+                            x:Name="ButtonOpenMenu"
+                            Width="60"
+                            Height="60"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Background="{x:Null}"
+                            BorderBrush="{x:Null}"
+                            Click="ButtonOpenMenu_Click"
+                            Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}">
                             <materialDesign:PackIcon
-                            Width="25"
-                            Height="25"
-                            Foreground="{DynamicResource NavigateBar}"
-                            Kind="Menu" />
+                                Width="25"
+                                Height="25"
+                                Foreground="{DynamicResource NavigateBar}"
+                                Kind="Menu" />
                         </Button>
                         <Button
-                        x:Name="ButtonCloseMenu"
-                        Width="60"
-                        Height="60"
-                        HorizontalAlignment="Right"
-                        VerticalAlignment="Top"
-                        Background="{x:Null}"
-                        BorderBrush="{x:Null}"
-                        Click="ButtonCloseMenu_Click"
-                        Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
-                        Visibility="Collapsed">
+                            x:Name="ButtonCloseMenu"
+                            Width="60"
+                            Height="60"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Background="{x:Null}"
+                            BorderBrush="{x:Null}"
+                            Click="ButtonCloseMenu_Click"
+                            Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                            Visibility="Collapsed">
                             <materialDesign:PackIcon
-                            Width="25"
-                            Height="25"
-                            Foreground="{DynamicResource NavigateBar}"
-                            Kind="ArrowLeft" />
+                                Width="25"
+                                Height="25"
+                                Foreground="{DynamicResource NavigateBar}"
+                                Kind="ArrowLeft" />
                         </Button>
                         <Image Height="80" VerticalAlignment="Bottom" />
                     </Grid>
                     <ListView
-                    x:Name="ListViewMenu"
-                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                    SelectionChanged="ListViewMenu_SelectionChanged">
+                        x:Name="ListViewMenu"
+                        ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                        SelectionChanged="ListViewMenu_SelectionChanged">
 
-                        <ListViewItem Height="60 " Foreground="#F28705"  MouseEnter="ListViewItem_MouseEnter" MouseLeave="ListViewItem_MouseLeave">
+                        <ListViewItem
+                            Height="60 "
+                            Foreground="#F28705"
+                            MouseEnter="ListViewItem_MouseEnter"
+                            MouseLeave="ListViewItem_MouseLeave">
                             <StackPanel Orientation="Horizontal">
                                 <materialDesign:PackIcon
-                                Width="25"
-                                Height="25"
-                                Margin="10"
-                                VerticalAlignment="Center"
-                                Foreground="{DynamicResource TextInNavigate}"
-                                Kind="FileDocument" />
+                                    Width="25"
+                                    Height="25"
+                                    Margin="10"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource TextInNavigate}"
+                                    Kind="FileDocument" />
                                 <TextBlock
-                                Margin="20,10"
-                                VerticalAlignment="Center"
-                                Foreground="{DynamicResource TextInNavigate}"
-                                Text="Document" />
+                                    Margin="20,10"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource TextInNavigate}"
+                                    Text="Document" />
                             </StackPanel>
                         </ListViewItem>
-                        <ListViewItem Height="60 " Foreground="#F28705"  MouseEnter="ListViewItem_MouseEnter" MouseLeave="ListViewItem_MouseLeave">
+                        <ListViewItem
+                            Height="60 "
+                            Foreground="#F28705"
+                            MouseEnter="ListViewItem_MouseEnter"
+                            MouseLeave="ListViewItem_MouseLeave">
                             <StackPanel Orientation="Horizontal">
                                 <materialDesign:PackIcon
-                                Width="25"
-                                Height="25"
-                                Margin="10"
-                                VerticalAlignment="Center"
-                                Foreground="{DynamicResource TextInNavigate}"
-                                Kind="Man" />
+                                    Width="25"
+                                    Height="25"
+                                    Margin="10"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource TextInNavigate}"
+                                    Kind="Man" />
                                 <TextBlock
-                                Margin="20,10"
-                                VerticalAlignment="Center"
-                                Foreground="{DynamicResource TextInNavigate}"
-                                Text="Staff" />
+                                    Margin="20,10"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource TextInNavigate}"
+                                    Text="Staff" />
                             </StackPanel>
                         </ListViewItem>
-                        <ListViewItem Height="60 " Foreground="#F28705"  MouseEnter="ListViewItem_MouseEnter" MouseLeave="ListViewItem_MouseLeave">
+                        <ListViewItem
+                            Height="60 "
+                            Foreground="#F28705"
+                            MouseEnter="ListViewItem_MouseEnter"
+                            MouseLeave="ListViewItem_MouseLeave">
                             <StackPanel Orientation="Horizontal">
                                 <materialDesign:PackIcon
-                                Width="25"
-                                Height="25"
-                                Margin="10"
-                                VerticalAlignment="Center"
-                                Foreground="{DynamicResource TextInNavigate}"
-                                Kind="Account" />
+                                    Width="25"
+                                    Height="25"
+                                    Margin="10"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource TextInNavigate}"
+                                    Kind="Account" />
                                 <TextBlock
-                                Margin="20,10"
-                                VerticalAlignment="Center"
-                                Foreground="{DynamicResource TextInNavigate}"
-                                Text="Account" />
+                                    Margin="20,10"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource TextInNavigate}"
+                                    Text="Account" />
                             </StackPanel>
                         </ListViewItem>
                         <Separator Height="200" />
                         <TextBlock
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        FontWeight="Bold"
-                        Foreground="{DynamicResource TextInNavigate}"
-                        Text="v1.0.0" />
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontWeight="Bold"
+                            Foreground="{DynamicResource TextInNavigate}"
+                            Text="v1.0.0" />
                     </ListView>
                 </StackPanel>
             </Grid>

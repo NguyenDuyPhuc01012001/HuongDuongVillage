@@ -45,125 +45,101 @@
         </EventTrigger>
     </Window.Triggers>
     <Border BorderBrush="Black" BorderThickness="2">
-
         <Grid>
-
-            <Grid x:Name="GridMain" Margin="60,60,0,0">
-
-                <Grid x:Name="GridAssistant">
-                    <!--<Grid.RowDefinitions>
-                    <RowDefinition Height="2*" />
-                    <RowDefinition />
-                    <RowDefinition Height="5*" />
+            <Grid
+                x:Name="GridPrincipal"
+                Width="1020"
+                Height="676"
+                Margin="60,60,0,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                RenderTransformOrigin="0.5,0.5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*" />
+                    <RowDefinition Height="142*" />
                 </Grid.RowDefinitions>
-                <Grid Grid.Row="0">
+                <Grid x:Name="TopModifyContainer" Grid.Row="0">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition />
+                        <ColumnDefinition Width="1.5*" />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
 
-                    <Grid Name="TotalProfitCardContainer" Grid.Column="0" />
-                    <Grid Name="CompareWithLastMonthCardContainer" Grid.Column="1" />
-                </Grid>
-
-                <Grid Grid.Row="2">
-                    <Grid Name="CartesianChartContainer" Margin="30,0" />
-                </Grid>-->
-                </Grid>
-                <Grid
-                    x:Name="GridPrincipal"
-                    Width="1020"
-                    Height="676"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"
-                    RenderTransformOrigin="0.5,0.5">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="25*" />
-                        <RowDefinition Height="142*" />
-                    </Grid.RowDefinitions>
-                    <Grid x:Name="TopModifyContainer" Grid.Row="0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="1.5*" />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
-
-                        <Grid
-                            x:Name="SearchBoxContainer"
-                            Grid.Column="0"
-                            Width="400"
-                            Height="45"
-                            Margin="0,10,10,10"
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center">
-                            <Border Background="LightGray" CornerRadius="20">
-                                <StackPanel Orientation="Horizontal">
-                                    <local:SearchBox VerticalAlignment="Center" />
-                                    <TextBox
-                                        x:Name="txbSearch"
-                                        Width="350"
-                                        HorizontalAlignment="Left"
-                                        VerticalAlignment="Center"
-                                        materialDesign:HintAssist.Hint="Type to search"
-                                        FontSize="15"
-                                        FontWeight="Bold"
-                                        TextChanged="txbSearch_TextChanged" />
-                                </StackPanel>
-                            </Border>
-                        </Grid>
-                        <Button
-                            x:Name="AddButton"
-                            Grid.Column="1"
-                            Width="146"
-                            Height="45"
-                            Margin="0,10,30,10"
-                            HorizontalAlignment="Right"
-                            VerticalAlignment="Center"
-                            materialDesign:ButtonAssist.CornerRadius="25"
-                            Background="{DynamicResource Add}"
-                            Click="AddButton_Click"
-                            Style="{StaticResource MaterialDesignRaisedDarkButton}"
-                            ToolTip="Add new">
-                            <StackPanel Orientation="Horizontal">
-                                <materialDesign:PackIcon
-                                    x:Name="AddFieldIcon"
-                                    Width="34"
-                                    Height="41"
-                                    HorizontalAlignment="Left"
-                                    Foreground="{DynamicResource TextOnTop}"
-                                    Kind="Plus" />
-                                <Separator
-                                    Width="41"
-                                    Height="20"
-                                    Margin="5,0,15,0"
-                                    Background="{DynamicResource TextOnTop}">
-                                    <Separator.LayoutTransform>
-                                        <RotateTransform Angle="90" />
-                                    </Separator.LayoutTransform>
-                                </Separator>
-                                <TextBlock
-                                    HorizontalAlignment="Center"
-                                    VerticalAlignment="Center"
-                                    Foreground="{DynamicResource TextOnTop}"
-                                    Text="New" />
-                            </StackPanel>
-                        </Button>
-                    </Grid>
-
                     <Grid
-                        x:Name="BottomModifyContainer"
-                        Grid.Row="1"
-                        Width="1010">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="49*" />
-                            <RowDefinition Height="519*" />
-                        </Grid.RowDefinitions>
-                        <Grid x:Name="ManagerFieldHolder" Grid.Row="0">
-                            <local:RoomTypeManager />
-                        </Grid>
-                        <ScrollViewer x:Name="CardContainer" Grid.Row="1">
-                            <StackPanel x:Name="ListHolder" Orientation="Vertical" />
-                        </ScrollViewer>
+                        x:Name="SearchBoxContainer"
+                        Grid.Column="0"
+                        Width="400"
+                        Height="45"
+                        Margin="0,10,10,10"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                        <Border Background="LightGray" CornerRadius="20">
+                            <StackPanel Orientation="Horizontal">
+                                <local:SearchBox VerticalAlignment="Center" />
+                                <TextBox
+                                    x:Name="txbSearch"
+                                    Width="350"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Center"
+                                    materialDesign:HintAssist.Hint="Type to search"
+                                    FontSize="15"
+                                    FontWeight="Bold"
+                                    TextChanged="txbSearch_TextChanged" />
+                            </StackPanel>
+                        </Border>
                     </Grid>
+                    <Button
+                        x:Name="AddButton"
+                        Grid.Column="1"
+                        Width="146"
+                        Height="45"
+                        Margin="0,10,30,10"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        materialDesign:ButtonAssist.CornerRadius="25"
+                        Background="{DynamicResource Add}"
+                        Click="AddButton_Click"
+                        Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                        ToolTip="Add new">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon
+                                x:Name="AddFieldIcon"
+                                Width="34"
+                                Height="41"
+                                HorizontalAlignment="Left"
+                                Foreground="{DynamicResource TextOnTop}"
+                                Kind="Plus" />
+                            <Separator
+                                Width="41"
+                                Height="20"
+                                Margin="5,0,15,0"
+                                Background="{DynamicResource TextOnTop}">
+                                <Separator.LayoutTransform>
+                                    <RotateTransform Angle="90" />
+                                </Separator.LayoutTransform>
+                            </Separator>
+                            <TextBlock
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Foreground="{DynamicResource TextOnTop}"
+                                Text="New" />
+                        </StackPanel>
+                    </Button>
+                </Grid>
+
+                <Grid
+                    x:Name="BottomModifyContainer"
+                    Grid.Row="1"
+                    Width="1010">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="49*" />
+                        <RowDefinition Height="519*" />
+                    </Grid.RowDefinitions>
+                    <Grid x:Name="ManagerFieldHolder" Grid.Row="0">
+                        <local:RoomTypeManager />
+                    </Grid>
+                    <ScrollViewer x:Name="CardContainer" Grid.Row="1">
+                        <StackPanel x:Name="ListHolder" Orientation="Vertical" />
+                    </ScrollViewer>
                 </Grid>
             </Grid>
             <Grid
@@ -340,7 +316,8 @@
                         <ListViewItem
                             Height="60 "
                             Foreground="#F28705"
-                            MouseEnter="ListViewItem_MouseEnter" MouseLeave="ListViewItem_MouseLeave">
+                            MouseEnter="ListViewItem_MouseEnter"
+                            MouseLeave="ListViewItem_MouseLeave">
                             <StackPanel Orientation="Horizontal">
                                 <materialDesign:PackIcon
                                     Width="25"
@@ -359,7 +336,8 @@
                         <ListViewItem
                             Height="60 "
                             Foreground="#F28705"
-                            MouseEnter="ListViewItem_MouseEnter" MouseLeave="ListViewItem_MouseLeave">
+                            MouseEnter="ListViewItem_MouseEnter"
+                            MouseLeave="ListViewItem_MouseLeave">
                             <StackPanel Orientation="Horizontal">
                                 <materialDesign:PackIcon
                                     Width="25"
@@ -378,7 +356,8 @@
                         <ListViewItem
                             Height="60 "
                             Foreground="#F28705"
-                            MouseEnter="ListViewItem_MouseEnter" MouseLeave="ListViewItem_MouseLeave">
+                            MouseEnter="ListViewItem_MouseEnter"
+                            MouseLeave="ListViewItem_MouseLeave">
                             <StackPanel Orientation="Horizontal">
                                 <materialDesign:PackIcon
                                     Width="25"
@@ -397,7 +376,8 @@
                         <ListViewItem
                             Height="60 "
                             Foreground="#F28705"
-                            MouseEnter="ListViewItem_MouseEnter" MouseLeave="ListViewItem_MouseLeave">
+                            MouseEnter="ListViewItem_MouseEnter"
+                            MouseLeave="ListViewItem_MouseLeave">
                             <StackPanel Orientation="Horizontal">
                                 <materialDesign:PackIcon
                                     Width="25"
@@ -416,7 +396,8 @@
                         <ListViewItem
                             Height="60 "
                             Foreground="#F28705"
-                            MouseEnter="ListViewItem_MouseEnter" MouseLeave="ListViewItem_MouseLeave">
+                            MouseEnter="ListViewItem_MouseEnter"
+                            MouseLeave="ListViewItem_MouseLeave">
                             <StackPanel Orientation="Horizontal">
                                 <Viewbox>
                                     <Canvas

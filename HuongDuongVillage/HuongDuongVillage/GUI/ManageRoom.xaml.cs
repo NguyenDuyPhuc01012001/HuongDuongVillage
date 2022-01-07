@@ -64,56 +64,63 @@ namespace HuongDuongVillage
 
         private void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
-            switch (manage)
+            try
             {
-                case "Room":
-                    switch (function)
-                    {
-                        case "Edit":
-                            if (btnConfirm.Content == "Confirm")
-                                this.Close();
-                            else
-                            {
-                                if (btnConfirm.Content == "Update")
+                switch (manage)
+                {
+                    case "Room":
+                        switch (function)
+                        {
+                            case "Edit":
+                                if (btnConfirm.Content == "Confirm")
+                                    this.Close();
+                                else
                                 {
-                                    EditRoom();
-                                    if (flag)
-                                        CustomerDAO.Instance.MakeCheckIn(txbIDCard.Text, DateTime.Now);
+                                    if (btnConfirm.Content == "Update")
+                                    {
+                                        EditRoom();
+                                        if (flag)
+                                            CustomerDAO.Instance.MakeCheckIn(txbIDCard.Text, DateTime.Now);
+                                    }
+                                    else if (CheckInfo())
+                                        btnConfirm.Content = "Update";
                                 }
-                                else if (CheckInfo())
-                                    btnConfirm.Content = "Update";
-                            }
-                            break;
+                                break;
 
-                        case "Insert":
-                            InsertRoom();
-                            break;
-                    }
-                    break;
+                            case "Insert":
+                                InsertRoom();
+                                break;
+                        }
+                        break;
 
-                case "Book":
-                    switch (function)
-                    {
-                        case "View":
-                            this.Close();
-                            break;
+                    case "Book":
+                        switch (function)
+                        {
+                            case "View":
+                                this.Close();
+                                break;
 
-                        case "Insert":
-                            if (btnConfirm.Content == "Confirm")
-                            {
-                                InsertBooking();
-                                if (flag)
-                                    CustomerDAO.Instance.MakeCheckIn(txbIDCard.Text, dpkDateCheckIn.SelectedDate.Value.Date);
-                            }
-                            else
-                            if (CheckInfo())
-                                btnConfirm.Content = "Confirm";
-                            break;
-                    }
-                    break;
+                            case "Insert":
+                                if (btnConfirm.Content == "Confirm")
+                                {
+                                    InsertBooking();
+                                    if (flag)
+                                        CustomerDAO.Instance.MakeCheckIn(txbIDCard.Text, dpkDateCheckIn.SelectedDate.Value.Date);
+                                }
+                                else
+                                if (CheckInfo())
+                                    btnConfirm.Content = "Confirm";
+                                break;
+                        }
+                        break;
+                }
+                if (reloadPage != null)
+                    reloadPage(this, new EventArgs());
             }
-            if (reloadPage != null)
-                reloadPage(this, new EventArgs());
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
         private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
@@ -122,25 +129,39 @@ namespace HuongDuongVillage
 
         private void cmbType_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            RoomTypeDTO roomType = (RoomTypeDTO)cmbType.SelectedItem;
-            txbPrice.Text = roomType.RoomPrice.ToString();
+            try
+            {
+                RoomTypeDTO roomType = (RoomTypeDTO)cmbType.SelectedItem;
+                txbPrice.Text = roomType.RoomPrice.ToString();
 
-            if (manage == "Room" && function == "Insert")
-                return;
-            List<RoomDTO> listRoom = RoomDAO.Instance.GetRoomListByType(roomType.ID);
-            cmbNameRoom.Items.Clear();
-            foreach (RoomDTO room in listRoom)
-                cmbNameRoom.Items.Add(room);
-            if (cmbNameRoom.Items.Count > 0)
-                cmbNameRoom.SelectedIndex = 0;
+                if (manage == "Room" && function == "Insert")
+                    return;
+                List<RoomDTO> listRoom = RoomDAO.Instance.GetRoomListByType(roomType.ID);
+                cmbNameRoom.Items.Clear();
+                foreach (RoomDTO room in listRoom)
+                    cmbNameRoom.Items.Add(room);
+                if (cmbNameRoom.Items.Count > 0)
+                    cmbNameRoom.SelectedIndex = 0;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
         private void cmbNameRoom_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (cmbNameRoom.Items.Count > 0)
+            try
             {
-                RoomDTO room = (RoomDTO)cmbNameRoom.SelectedItem;
-                txbAddress.Text = room.RoomAddress;
-                txbStatus.Text = room.RoomStatus;
+                if (cmbNameRoom.Items.Count > 0)
+                {
+                    RoomDTO room = (RoomDTO)cmbNameRoom.SelectedItem;
+                    txbAddress.Text = room.RoomAddress;
+                    txbStatus.Text = room.RoomStatus;
+                }
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
             }
         }
         private void txbIDCard_TextChanged(object sender, TextChangedEventArgs e)
@@ -202,54 +223,61 @@ namespace HuongDuongVillage
         }
         private void LoadFormRoomManage(string function, int id)
         {
-            lblDateCheckIn.Visibility = Visibility.Collapsed;
-            lblDateCheckOut.Visibility = Visibility.Collapsed;
-            grdDateCheckIn.Visibility = Visibility.Collapsed;
-            grdDateCheckOut.Visibility = Visibility.Collapsed;
-            cmbNameRoom.Visibility = Visibility.Hidden;
-            txbStatus.Text = "Available";
-            txbAddress.Clear();
-            grdCusInfo.Visibility = Visibility.Collapsed;
-            if (function == "Edit")
+            try
             {
-                RoomDTO room = RoomDAO.Instance.GetRoomByID(id);
-                RoomTypeDTO roomType = RoomTypeDAO.Instance.GetRoomTypeInfo(room.RoomTypeID);
-                CustomerDTO customer = CustomerDAO.Instance.GetCustomerById(room.CusID);
-                this.id = id;
-
-                txbNameRoom.Text = room.RoomName;
-                txbAddress.Text = room.RoomAddress;
-                txbStatus.Text = room.RoomStatus;
-                txbNameCus.Text = null;
-                if (customer != null)
+                lblDateCheckIn.Visibility = Visibility.Collapsed;
+                lblDateCheckOut.Visibility = Visibility.Collapsed;
+                grdDateCheckIn.Visibility = Visibility.Collapsed;
+                grdDateCheckOut.Visibility = Visibility.Collapsed;
+                cmbNameRoom.Visibility = Visibility.Hidden;
+                txbStatus.Text = "Available";
+                txbAddress.Clear();
+                grdCusInfo.Visibility = Visibility.Collapsed;
+                if (function == "Edit")
                 {
-                    txbIDCard.Text = customer.CusIDcard;
+                    RoomDTO room = RoomDAO.Instance.GetRoomByID(id);
+                    RoomTypeDTO roomType = RoomTypeDAO.Instance.GetRoomTypeInfo(room.RoomTypeID);
+                    CustomerDTO customer = CustomerDAO.Instance.GetCustomerById(room.CusID);
+                    this.id = id;
+
+                    txbNameRoom.Text = room.RoomName;
+                    txbAddress.Text = room.RoomAddress;
+                    txbStatus.Text = room.RoomStatus;
+                    txbNameCus.Text = null;
+                    if (customer != null)
+                    {
+                        txbIDCard.Text = customer.CusIDcard;
+                        if (txbStatus.Text != "Available")
+                            txbNameCus.Text = customer.CusName;
+                    }
+
+                    cmbType.SelectedItem = roomType.RoomType;
+                    txbPrice.Text = roomType.RoomPrice.ToString();
+
                     if (txbStatus.Text != "Available")
-                        txbNameCus.Text = customer.CusName;
+                    {
+                        txbIDCard.IsReadOnly = true;
+                        txbNameRoom.IsReadOnly = true;
+                        txbAddress.IsReadOnly = true;
+                        cmbType.IsEnabled = false;
+                        flag = false;
+                    }
+                    else
+                        txbIDCard.Clear();
+                    if (txbStatus.Text == "Unavailable")
+                    {
+                        btnConfirm.Content = "Confirm";
+                    }
+                    if (txbStatus.Text == "Booked")
+                    {
+                        btnConfirm.Content = "Update";
+                    }
+                    grdCusInfo.Visibility = Visibility.Visible;
                 }
-
-                cmbType.SelectedItem = roomType.RoomType;
-                txbPrice.Text = roomType.RoomPrice.ToString();
-
-                if (txbStatus.Text != "Available")
-                {
-                    txbIDCard.IsReadOnly = true;
-                    txbNameRoom.IsReadOnly = true;
-                    txbAddress.IsReadOnly = true;
-                    cmbType.IsEnabled = false;
-                    flag = false;
-                }
-                else
-                    txbIDCard.Clear();
-                if (txbStatus.Text == "Unavailable")
-                {
-                    btnConfirm.Content = "Confirm";
-                }
-                if (txbStatus.Text == "Booked")
-                {
-                    btnConfirm.Content = "Update";
-                }
-                grdCusInfo.Visibility = Visibility.Visible;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
             }
         }
 
@@ -267,16 +295,16 @@ namespace HuongDuongVillage
 
                 if (RoomDAO.Instance.InsertRoom(name, address, idRoomType))
                 {
-                    MessageBox.Show("Add new Room successfully!");
+                    CustomAlertBox.Show("Add new Room successfully!");
 
                     this.Close();
                 }
                 else
-                    MessageBox.Show("Add new Room failed");
+                    CustomAlertBox.Show("Add new Room failed");
             }
             catch (NullReferenceException)
             {
-                MessageBox.Show("Please fill out the form first", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                CustomAlertBox.Show("Error", "Please fill out the form first", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
             }
             catch (Exception ex)
             {
@@ -303,16 +331,16 @@ namespace HuongDuongVillage
 
                 if (RoomDAO.Instance.EditRoom(id, name, address, idCus, status, idRoomType))
                 {
-                    MessageBox.Show("Edit room successfully!");
+                    CustomAlertBox.Show("Edit room successfully!");
 
                     this.Close();
                 }
                 else
-                    MessageBox.Show("Edit room failed");
+                    CustomAlertBox.Show("Edit room failed");
             }
             catch (NullReferenceException)
             {
-                MessageBox.Show("Please fill out the form first", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                CustomAlertBox.Show("Error", "Please fill out the form first", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
             }
             catch (Exception ex)
             {
@@ -336,16 +364,16 @@ namespace HuongDuongVillage
                 flag = true;
                 if (BookingDAO.Instance.InsertBooking(idRoom, customer.ID, dateCheckIn, dateCheckOut))
                 {
-                    MessageBox.Show("Insert booking successfully!");
+                    CustomAlertBox.Show("Insert booking successfully!");
 
                     this.Close();
                 }
                 else
-                    MessageBox.Show("Insert booking failed");
+                    CustomAlertBox.Show("Insert booking failed");
             }
             catch (NullReferenceException)
             {
-                MessageBox.Show("Please fill out the form first", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                CustomAlertBox.Show("Error", "Please fill out the form first", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
             }
             catch (Exception ex)
             {
@@ -383,17 +411,17 @@ namespace HuongDuongVillage
                         return false;
                 }
 
-                MessageBox.Show("All is good!");
+                CustomAlertBox.Show("All is good!");
                 return true;
             }
             catch (InvalidOperationException)
             {
-                MessageBox.Show("Please fill out the form first", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                CustomAlertBox.Show("Error", "Please fill out the form first", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
                 return false;
             }
             catch (NullReferenceException)
             {
-                MessageBox.Show("Please fill out the form first", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                CustomAlertBox.Show("Error", "Please fill out the form first", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
                 return false;
             }
             catch (Exception ex)
@@ -412,63 +440,91 @@ namespace HuongDuongVillage
             {
                 if (idCard.Trim().Length != 9 && idCard.Trim().Length != 12)
                 {
-                    MessageBox.Show("ID card is invalid.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    CustomAlertBox.Show("Error", "ID card is invalid.", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
                     return false;
                 }
                 if (CustomerDAO.Instance.CheckIDCardExist(idCard) == null)
                 {
-                    MessageBox.Show("ID card is not exist.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    CustomAlertBox.Show("Error", "ID card is not exist.", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
                     return false;
                 }
                 return true;
             }
             catch (FormatException)
             {
-                MessageBox.Show("Email is invalid");
+                CustomAlertBox.Show("Email is invalid");
+                return false;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
                 return false;
             }
         }
 
         private bool ValidateInfo(string name, string address)
         {
-            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(address))
+            try
             {
-                MessageBox.Show("Name or address is mustn't empty", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(address))
+                {
+                    CustomAlertBox.Show("Error", "Name or address is mustn't empty", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
+                    return false;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
                 return false;
             }
-            return true;
         }
 
         private void OnlyNumber(object sender, TextCompositionEventArgs e)
         {
-            Regex regex = new Regex("[^0-9]+");
-            e.Handled = regex.IsMatch(e.Text);
+            try
+            {
+                Regex regex = new Regex("[^0-9]+");
+                e.Handled = regex.IsMatch(e.Text);
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private bool ValidateDate(DateTime dateCheckIn, DateTime dateCheckOut)
         {
-            if (dateCheckIn > dateCheckOut)
+            try
             {
-                CustomAlertBox.Show("Error", "Date check in must be smaller than date check out", CustomAlertBox.MessageBoxType.Error);
-                return false;
-            }
-            if (dateCheckIn < DateTime.Now)
-            {
-                CustomAlertBox.Show("Error", "Date check in mustn't be smaller than today", CustomAlertBox.MessageBoxType.Error);
-                return false;
-            }
-            DateTime zeroTime = new DateTime(1, 1, 1);
+                if (dateCheckIn > dateCheckOut)
+                {
+                    CustomAlertBox.Show("Error", "Date check in must be smaller than date check out", CustomAlertBox.MessageBoxType.Error);
+                    return false;
+                }
+                if (dateCheckIn < DateTime.Now)
+                {
+                    CustomAlertBox.Show("Error", "Date check in mustn't be smaller than today", CustomAlertBox.MessageBoxType.Error);
+                    return false;
+                }
+                DateTime zeroTime = new DateTime(1, 1, 1);
 
-            TimeSpan span = dateCheckOut - dateCheckIn;
-            // Because we start at year 1 for the Gregorian calendar, we must subtract a year here.
-            int months = (zeroTime + span).Month - 1;
+                TimeSpan span = dateCheckOut - dateCheckIn;
+                // Because we start at year 1 for the Gregorian calendar, we must subtract a year here.
+                int months = (zeroTime + span).Month - 1;
 
-            if (span.TotalDays > 31)
+                if (span.TotalDays > 31)
+                {
+                    CustomAlertBox.Show("You only be booked room at here in 1 month");
+                    return false;
+                }
+                return true;
+            }
+            catch (Exception ex)
             {
-                CustomAlertBox.Show("You only be booked room at here in 1 month");
+                CustomAlertBox.Show(ex.Message);
                 return false;
             }
-            return true;
         }
         #endregion Validate        
     }

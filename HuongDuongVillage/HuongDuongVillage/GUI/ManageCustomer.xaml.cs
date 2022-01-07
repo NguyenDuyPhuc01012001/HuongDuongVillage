@@ -59,29 +59,34 @@ namespace HuongDuongVillage
 
         private void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
-            switch (function)
+            try
             {
-                case "Edit":
-                    EditCustomer(sender);
-                    break;
+                switch (function)
+                {
+                    case "Edit":
+                        EditCustomer(sender);
+                        break;
 
-                case "Insert":
-                    InsertCustomer(sender);
-                    break;
+                    case "Insert":
+                        InsertCustomer(sender);
+                        break;
+                }
+                if (reloadPage != null)
+                    reloadPage(this, new EventArgs());
             }
-            if (reloadPage != null)
-                reloadPage(this, new EventArgs());
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
-
         #endregion Event
 
         #region Method
-
         private void InsertCustomer(object sender)
         {
             try
@@ -102,16 +107,16 @@ namespace HuongDuongVillage
 
                 if (CustomerDAO.Instance.InsertCustomer(name, email, dateCheckIn, idCard, phone))
                 {
-                    MessageBox.Show("Add new customer successfully!");
+                    CustomAlertBox.Show("Add new customer successfully!");
 
                     this.Close();
                 }
                 else
-                    MessageBox.Show("Add new customer failed");
+                    CustomAlertBox.Show("Add new customer failed");
             }
             catch (NullReferenceException)
             {
-                MessageBox.Show("Please fill out the form first", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                CustomAlertBox.Show("Error", "Please fill out the form first", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
             }
             catch (Exception ex)
             {
@@ -137,23 +142,21 @@ namespace HuongDuongVillage
 
                 if (CustomerDAO.Instance.EditCustomer(idCustomer, name, email, dateCheckIn, idCard, phone))
                 {
-                    MessageBox.Show("Edit customer successfully!");
+                    CustomAlertBox.Show("Edit customer successfully!");
 
                     this.Close();
                 }
                 else
-                    MessageBox.Show("Edit customer failed");
+                    CustomAlertBox.Show("Edit customer failed");
             }
             catch (Exception ex)
             {
                 CustomAlertBox.Show(ex.Message);
             }
         }
-
         #endregion Method
 
         #region Validate
-
         private bool IsValid(string emailAddress)
         {
             try
@@ -162,14 +165,19 @@ namespace HuongDuongVillage
                 Regex rEmail = new Regex(@"^([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])$");
                 if (!rEmail.IsMatch(emailAddress))
                 {
-                    MessageBox.Show("Email is invalid");
+                    CustomAlertBox.Show("Email is invalid");
                     return false;
                 }
                 return true;
             }
             catch (FormatException)
             {
-                MessageBox.Show("Email is invalid");
+                CustomAlertBox.Show("Email is invalid");
+                return false;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
                 return false;
             }
         }
@@ -180,7 +188,7 @@ namespace HuongDuongVillage
             {
                 if (dateCheckIn > DateTime.Now)
                 {
-                    MessageBox.Show("Date check in is invalid. You should choose date smaller than today");
+                    CustomAlertBox.Show("Date check in is invalid. You should choose date smaller than today");
                     return false;
                 }
                 return true;
@@ -198,17 +206,17 @@ namespace HuongDuongVillage
             {
                 if (string.IsNullOrWhiteSpace(name))
                 {
-                    MessageBox.Show("Please fill name of customer", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    CustomAlertBox.Show("Error", "Please fill name of customer", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
                     return false;
                 }
                 if (phone.Trim().Length != 10)
                 {
-                    MessageBox.Show("Phone number muts have 10 characters", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    CustomAlertBox.Show("Error", "Phone number muts have 10 characters", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
                     return false;
                 }
                 if (idCard.Trim().Length != 9 && idCard.Trim().Length != 12)
                 {
-                    MessageBox.Show("ID card is invalid", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    CustomAlertBox.Show("Error", "ID card is invalid", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
                     return false;
                 }
                 if (!ValidateDateCheckIn(dateCheckIn))
@@ -231,7 +239,7 @@ namespace HuongDuongVillage
             {
                 if (CustomerDAO.Instance.CheckIDCardExist(IDcard) != null)
                 {
-                    MessageBox.Show("ID card is exist");
+                    CustomAlertBox.Show("ID card is exist");
                     return true;
                 }
                 return false;
@@ -245,10 +253,16 @@ namespace HuongDuongVillage
 
         private void OnlyNumber(object sender, TextCompositionEventArgs e)
         {
-            Regex regex = new Regex("[^0-9]+");
-            e.Handled = regex.IsMatch(e.Text);
+            try
+            {
+                Regex regex = new Regex("[^0-9]+");
+                e.Handled = regex.IsMatch(e.Text);
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
-
         #endregion Validate
     }
 }

@@ -14,15 +14,15 @@ namespace HuongDuongVillage
     public partial class ManageStaff : Window
     {
         #region Field
-
         private string function;
         private int idStaff;
-        private string name;
-        private string email;
-        private DateTime birthdate;
-        private int sex = 1;
-        private string role;
+        private event EventHandler reloadPage;
 
+        public event EventHandler ReloadPage
+        {
+            add { reloadPage += value; }
+            remove { reloadPage -= value; }
+        }
         #endregion Field
 
         public ManageStaff()
@@ -63,7 +63,6 @@ namespace HuongDuongVillage
         }
 
         #region Event
-
         private void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -82,6 +81,8 @@ namespace HuongDuongVillage
                         EditOrViewStaff();
                         break;
                 }
+                if (reloadPage != null)
+                    reloadPage(this, new EventArgs());
             }
             catch (Exception ex)
             {
@@ -93,11 +94,9 @@ namespace HuongDuongVillage
         {
             this.Close();
         }
-
         #endregion Event
 
         #region Method
-
         private void InsertStaff()
         {
             try
@@ -175,11 +174,9 @@ namespace HuongDuongVillage
                 CustomAlertBox.Show("Error", ex.Message, MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
             }
         }
-
         #endregion Method
 
         #region Validate
-
         private bool IsValid(string emailAddress, string UserName)
         {
             try
@@ -187,20 +184,25 @@ namespace HuongDuongVillage
                 MailAddress m = new MailAddress(emailAddress);
                 if (UserName.Length != UserName.Trim().Length)
                 {
-                    MessageBox.Show("Password is invalid.\nPassword shouldn't have any space.");
+                    CustomAlertBox.Show("Password is invalid.\nPassword shouldn't have any space.");
                     return false;
                 }
                 Regex rEmail = new Regex(@"^([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])$");
                 if (!rEmail.IsMatch(emailAddress))
                 {
-                    MessageBox.Show("Email is invalid");
+                    CustomAlertBox.Show("Email is invalid");
                     return false;
                 }
                 return true;
             }
             catch (FormatException)
             {
-                MessageBox.Show("Email is invalid");
+                CustomAlertBox.Show("Email is invalid");
+                return false;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show("Error", ex.ToString(), MessageBoxType.Error);
                 return false;
             }
         }
@@ -211,7 +213,7 @@ namespace HuongDuongVillage
             {
                 if (DOB >= DateTime.Now)
                 {
-                    MessageBox.Show("Date of Birth is invalid. You should choose date smaller than today");
+                    CustomAlertBox.Show("Date of Birth is invalid. You should choose date smaller than today");
                     return false;
                 }
                 DateTime zeroTime = new DateTime(1, 1, 1);
@@ -288,7 +290,6 @@ namespace HuongDuongVillage
                 return true;
             }
         }
-
         #endregion Validate
     }
 }
