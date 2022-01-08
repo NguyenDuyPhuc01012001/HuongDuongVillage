@@ -478,10 +478,6 @@ namespace HuongDuongVillage
         #endregion Service
 
         #endregion Include
-        private void DisableGridPrincipal()
-        {
-            GridPrincipal.Visibility = Visibility.Collapsed;
-        }
 
         private void EnableGridPrincipal()
         {

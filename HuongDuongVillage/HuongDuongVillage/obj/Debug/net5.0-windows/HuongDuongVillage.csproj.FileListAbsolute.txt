@@ -745,7 +745,6 @@ C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillag
 C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.AssemblyReference.cache
 C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Account\AccountManager.baml
 C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Bar\BarManager.baml
 C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Booking\BookingManager.baml

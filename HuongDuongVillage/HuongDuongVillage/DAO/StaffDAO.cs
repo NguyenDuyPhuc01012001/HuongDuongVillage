@@ -26,126 +26,192 @@ namespace HuongDuongVillage.DAO
 
         public List<StaffDTO> GetListStaff()
         {
-            List<StaffDTO> listStaff = new List<StaffDTO>();
-
-            string query = "SELECT * FROM Staff WHERE isDelete=0";
-
-            DataTable data = DataProvider.Instance.ExecuteQuery(query);
-
-            foreach (DataRow item in data.Rows)
+            try
             {
-                StaffDTO staff = new StaffDTO(item);
-                listStaff.Add(staff);
-            }
+                List<StaffDTO> listStaff = new List<StaffDTO>();
 
-            return listStaff;
+                string query = "SELECT * FROM Staff WHERE isDelete=0";
+
+                DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+                foreach (DataRow item in data.Rows)
+                {
+                    StaffDTO staff = new StaffDTO(item);
+                    listStaff.Add(staff);
+                }
+
+                return listStaff;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+                return null;
+            }
         }
 
         public List<StaffDTO> GetListStaffByName(string name, string function)
         {
-            List<StaffDTO> listStaff = new List<StaffDTO>();
-            string order = " ORDER BY staffName " + function;
-            string where = null;
-
-            if (!string.IsNullOrWhiteSpace(name))
+            try
             {
-                where = string.Format("AND (staffName like N'%{0}%' or staffMail like '%{0}%') ", name);
-                //where = "WHERE staffName like N'%" + name + "%' or staffMail like N'%" + name + "%' or staffDOB like N'%" + name + "%' or staffGender like N'%" + name + "%' or staffRole like N'%" + name + "%'";
+                List<StaffDTO> listStaff = new List<StaffDTO>();
+                string order = " ORDER BY staffName " + function;
+                string where = null;
 
+                if (!string.IsNullOrWhiteSpace(name))
+                    where = string.Format("AND (staffName like N'%{0}%' or staffMail like '%{0}%') ", name);
+
+                string query = "SELECT * FROM Staff WHERE isDelete=0 " + where + order;
+                DataTable data = DataProvider.Instance.ExecuteQuery(query);
+                foreach (DataRow item in data.Rows)
+                {
+                    StaffDTO staff = new StaffDTO(item);
+                    listStaff.Add(staff);
+                }
+                return listStaff;
             }
-            //where = "WHERE staffName LIKE N'%" + name+ "%' ";
-
-            string query = "SELECT * FROM Staff WHERE isDelete=0 " + where + order;
-            DataTable data = DataProvider.Instance.ExecuteQuery(query);
-            foreach (DataRow item in data.Rows)
+            catch (Exception ex)
             {
-                StaffDTO staff = new StaffDTO(item);
-                listStaff.Add(staff);
+                CustomAlertBox.Show(ex.Message);
+                return null;
             }
-            return listStaff;
         }
 
         public List<StaffDTO> GetListStaffByRole(string name, string function)
         {
-            List<StaffDTO> staffs = new List<StaffDTO>();
-            string order = " ORDER BY staffRole " + function;
-            string where = null;
-
-            if (!string.IsNullOrWhiteSpace(name))
-                where = string.Format("AND (staffName like N'%{0}%' or staffMail like '%{0}%') ", name);
-            //where = "WHERE staffName LIKE N'%" + name + "%' ";
-
-            string query = "SELECT * FROM Staff WHERE isDelete=0 " + where + order;
-            DataTable data = DataProvider.Instance.ExecuteQuery(query);
-            foreach (DataRow item in data.Rows)
+            try
             {
-                StaffDTO staff = new StaffDTO(item);
-                staffs.Add(staff);
+                List<StaffDTO> staffs = new List<StaffDTO>();
+                string order = " ORDER BY staffRole " + function;
+                string where = null;
+
+                if (!string.IsNullOrWhiteSpace(name))
+                    where = string.Format("AND (staffName like N'%{0}%' or staffMail like '%{0}%') ", name);
+
+                string query = "SELECT * FROM Staff WHERE isDelete=0 " + where + order;
+                DataTable data = DataProvider.Instance.ExecuteQuery(query);
+                foreach (DataRow item in data.Rows)
+                {
+                    StaffDTO staff = new StaffDTO(item);
+                    staffs.Add(staff);
+                }
+                return staffs;
             }
-            return staffs;
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+                return null;
+            }
         }
 
         public StaffDTO GetStaffById(int id)
         {
-            string query = "SELECT * FROM Staff where id = " + id;
-
-            DataTable data = DataProvider.Instance.ExecuteQuery(query);
-
-            if (data.Rows.Count > 0)
+            try
             {
-                StaffDTO staff = new StaffDTO(data.Rows[0]);
-                return staff;
+                string query = "SELECT * FROM Staff where id = " + id;
+
+                DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+                if (data.Rows.Count > 0)
+                {
+                    StaffDTO staff = new StaffDTO(data.Rows[0]);
+                    return staff;
+                }
+                return null;
             }
-            return null;
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+                return null;
+            }
         }
 
         public bool DeleteStaff(int id)
         {
-            int result = DataProvider.Instance.ExecuteNonQuery("UPDATE Staff SET isDelete=1 where id = " + id);
+            try
+            {
+                int result = DataProvider.Instance.ExecuteNonQuery("UPDATE Staff SET isDelete=1 where id = " + id);
 
-            return result > 0;
+                return result > 0;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+                return false;
+            }
         }
 
         public bool EditStaff(int id, string name, string mail, DateTime dob, int gender, string role)
         {
-            string query = string.Format("SET DATEFORMAT DMY; "
-                + "UPDATE Staff "
-                + "SET staffName = '{0}', staffGender = '{1}' , staffMail = '{2}' , staffDOB = '{3}' , staffRole = '{4}' "
-                + "WHERE id = '{5}'", name, gender.ToString(), mail, dob.ToString("dd-MM-yyyy").Split(" ")[0], role, id.ToString());
-            int result = (int)DataProvider.Instance.ExecuteNonQuery(query);
+            try
+            {
+                string query = string.Format("SET DATEFORMAT DMY; "
+                    + "UPDATE Staff "
+                    + "SET staffName = '{0}', staffGender = '{1}' , staffMail = '{2}' , staffDOB = '{3}' , staffRole = '{4}' "
+                    + "WHERE id = '{5}'", name, gender.ToString(), mail, dob.ToString("dd-MM-yyyy").Split(" ")[0], role, id.ToString());
+                int result = (int)DataProvider.Instance.ExecuteNonQuery(query);
 
-            return result > 0;
+                return result > 0;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+                return false;
+            }
         }
 
         public bool InsertStaff(string name, string mail, DateTime dob, int gender, string role)
         {
-            string query = string.Format("SET DATEFORMAT DMY; "
-                + "INSERT INTO dbo.Staff(staffName, staffMail, staffDOB, staffGender, staffRole) "
-                + "values('{0}','{1}','{2}','{3}','{4}')", name, mail, dob.ToString("dd-MM-yyyy").Split(" ")[0], gender, role);
-            int result = (int)DataProvider.Instance.ExecuteNonQuery(query);
+            try
+            {
+                string query = string.Format("SET DATEFORMAT DMY; "
+                    + "INSERT INTO dbo.Staff(staffName, staffMail, staffDOB, staffGender, staffRole) "
+                    + "values('{0}','{1}','{2}','{3}','{4}')", name, mail, dob.ToString("dd-MM-yyyy").Split(" ")[0], gender, role);
+                int result = (int)DataProvider.Instance.ExecuteNonQuery(query);
 
-            return result > 0;
+                return result > 0;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+                return false;
+            }
         }
 
         public int CheckEmailExist(string email)
         {
-            string query = string.Format("SELECT * FROM Staff where staffMail = '{0}'", email);
-
-            DataTable data = DataProvider.Instance.ExecuteQuery(query);
-
-            if (data.Rows.Count > 0)
+            try
             {
-                StaffDTO staff = new StaffDTO(data.Rows[0]);
-                return staff.ID;
+                string query = string.Format("SELECT * FROM Staff where staffMail = '{0}'", email);
+
+                DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+                if (data.Rows.Count > 0)
+                {
+                    StaffDTO staff = new StaffDTO(data.Rows[0]);
+                    return staff.ID;
+                }
+                return -1;
             }
-            return -1;
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+                return -1;
+            }
         }
 
         public string GetNameById(int id)
         {
-            string query = "SELECT staffName FROM Staff WHERE id = " + id;
-            string name = DataProvider.Instance.ExecuteScalar(query).ToString();
-            return name;
+            try
+            {
+                string query = "SELECT staffName FROM Staff WHERE id = " + id;
+                string name = DataProvider.Instance.ExecuteScalar(query).ToString();
+                return name;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+                return null;
+            }
         }
     }
 }
