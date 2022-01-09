@@ -980,7 +980,6 @@ D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentR
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportManager.g.cs
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.g.cs
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryManager.g.cs
-D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.g.cs
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.g.cs
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.g.cs
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.g.cs
@@ -1031,7 +1030,6 @@ D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Chef\Meal
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Customer\CustomerCard.baml
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\DocumentReport\DocumentReportCard.baml
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\LaundryCard.baml
-D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Laundry\MealButton.baml
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentCard.baml
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Payment\PaymentManager.baml
 D:\HDV\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\UI\Report\CartesianChart.baml
