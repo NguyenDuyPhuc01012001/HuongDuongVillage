@@ -24,14 +24,25 @@ namespace HuongDuongVillage
         public FormChef(int id)
         {
             InitializeComponent();
-            staffID = id;
-            LoadListFood();
+            try
+            {
+                tblName.Text = StaffDAO.Instance.GetNameById(id);
+                InfoButton.Tag = StaffDAO.Instance.GetStaffById(id);
+                staffID = id;
+                staffID = id;
+                LoadListFood();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         public void LoadListFood()
         {
             try
             {
+                ListHolder.Children.Clear();
                 List<ServicesDTO> listFood = ServiceDAO.Instance.GetListService();
                 foreach (ServicesDTO food in listFood)
                 {

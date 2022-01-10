@@ -24,8 +24,17 @@ namespace HuongDuongVillage
         public FormLaundry(int id)
         {
             InitializeComponent();
-            staffID = id;
-            LoadListClean();
+            try
+            {
+                tblName.Text = StaffDAO.Instance.GetNameById(id);
+                InfoButton.Tag = StaffDAO.Instance.GetStaffById(id);
+                staffID = id;
+                LoadListClean();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         public void LoadListClean()

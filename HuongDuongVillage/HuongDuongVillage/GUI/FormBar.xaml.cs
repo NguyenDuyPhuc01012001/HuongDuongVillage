@@ -23,9 +23,18 @@ namespace HuongDuongVillage
 
         public FormBar(int id)
         {
-            staffID = id;
             InitializeComponent();
-            LoadListBar();
+            try
+            {
+                tblName.Text = StaffDAO.Instance.GetNameById(id);
+                InfoButton.Tag = StaffDAO.Instance.GetStaffById(id);
+                staffID = id;
+                LoadListBar();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         public void LoadListBar()
