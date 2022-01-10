@@ -91,6 +91,28 @@
                                     Text="Change password" />
                                     </StackPanel>
                                 </Button>
+                                <Button
+                            x:Name="Reload"
+                            Padding="5"
+                            VerticalAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            Click="ReloadButton_Click"
+                            Cursor="Hand">
+                                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                    Width="auto"
+                                    Height="auto"
+                                    Margin="5,0"
+                                    VerticalContentAlignment="Center"
+                                    Foreground="{DynamicResource NavigateBar}"
+                                    Kind="Reload" />
+                                        <TextBlock
+                                    Height="auto"
+                                    VerticalAlignment="Center"
+                                    FontSize="14"
+                                    Text="Reload page" />
+                                    </StackPanel>
+                                </Button>
                                 <Separator />
                                 <Button
                             x:Name="LogoutButton"

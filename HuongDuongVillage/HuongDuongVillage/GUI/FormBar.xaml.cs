@@ -1,8 +1,10 @@
 ﻿using HuongDuongVillage.DAO;
 using HuongDuongVillage.DTO;
 using HuongDuongVillage.UI.Bar;
+using System;
 using System.Collections.Generic;
 using System.Windows;
+using System.Windows.Input;
 
 namespace HuongDuongVillage
 {
@@ -22,40 +24,93 @@ namespace HuongDuongVillage
         public FormBar(int id)
         {
             InitializeComponent();
-            LoadListBar();
+            try
+            {
+                tblName.Text = StaffDAO.Instance.GetNameById(id);
+                InfoButton.Tag = StaffDAO.Instance.GetStaffById(id);
+                staffID = id;
+                LoadListBar();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         public void LoadListBar()
         {
-            List<ServicesDTO> listbar = ServiceDAO.Instance.GetListService();
-            foreach (ServicesDTO bar in listbar)
+            try
             {
-                BarCard entertain = new BarCard();
-                RoomDTO room = RoomDAO.Instance.GetRoomByID(bar.RoomID);
-                string RoomName = room.RoomName;
-                ServiceTypeDTO serviceType = ServiceTypeDAO.Instance.GetServiceTypeInfo(bar.SerTypeID);
-                entertain.SetText(bar.ID, RoomName, serviceType.SerName);
-                if (serviceType.SerType == "bar")
-                ListHolder.Children.Add(entertain);
+                ListHolder.Children.Clear();
+                List<ServicesDTO> listbar = ServiceDAO.Instance.GetListService();
+                foreach (ServicesDTO bar in listbar)
+                {
+                    BarCard entertain = new BarCard();
+                    RoomDTO room = RoomDAO.Instance.GetRoomByID(bar.RoomID);
+                    ServiceTypeDTO serviceType = ServiceTypeDAO.Instance.GetServiceTypeInfo(bar.SerTypeID);
+                    CustomerDTO cusname = CustomerDAO.Instance.GetCustomerById(room.CusID);
+                    entertain.SetText(bar.ID, room.RoomName, serviceType.SerName, cusname.CusName);
+                    if (serviceType.SerType == "bar")
+                        ListHolder.Children.Add(entertain);
+                }
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
             }
         }
 
         private void InfoButton_Click(object sender, RoutedEventArgs e)
         {
-            StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
-            ManageStaff manage = new ManageStaff("View", staff);
-            manage.ShowDialog();
+            try
+            {
+                StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
+                ManageStaff manage = new ManageStaff("View", staff);
+                manage.ShowDialog();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void ChangepasswordButton_Click(object sender, RoutedEventArgs e)
         {
-            ChangePassword changePassword = new ChangePassword("Change", staffID);
-            changePassword.ShowDialog();
+            try
+            {
+                ChangePassword changePassword = new ChangePassword("Change", staffID);
+                changePassword.ShowDialog();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            try
+            {
+                this.Close();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
+        }
+        private void ReloadButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+
+                Reload.Cursor = Cursors.Wait;
+                LoadListBar();
+                Reload.Cursor = null;
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
     }
 }

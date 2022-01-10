@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace HuongDuongVillage
 {
@@ -23,34 +24,66 @@ namespace HuongDuongVillage
         public FormLaundry(int id)
         {
             InitializeComponent();
-            LoadListClean();
+            try
+            {
+                tblName.Text = StaffDAO.Instance.GetNameById(id);
+                InfoButton.Tag = StaffDAO.Instance.GetStaffById(id);
+                staffID = id;
+                LoadListClean();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         public void LoadListClean()
         {
-            List<ServicesDTO> listClean = ServiceDAO.Instance.GetListService();
-            foreach (ServicesDTO clean in listClean)
+            try
             {
-                LaundryCard laundry = new LaundryCard(clean.ID);
-                RoomDTO room = RoomDAO.Instance.GetRoomByID(clean.RoomID);
-                string RoomName = room.RoomName;
-                ServiceTypeDTO serviceType = ServiceTypeDAO.Instance.GetServiceTypeInfo(clean.SerTypeID);
-                laundry.SetText(clean.ID, RoomName, clean.Status);
-                if (serviceType.SerType == "cleaner")
-                    ListHolder.Children.Add(laundry);
+                ListHolder.Children.Clear();
+                List<ServicesDTO> listClean = ServiceDAO.Instance.GetListService();
+                foreach (ServicesDTO clean in listClean)
+                {
+                    LaundryCard laundry = new LaundryCard(clean.ID);
+                    RoomDTO room = RoomDAO.Instance.GetRoomByID(clean.RoomID);
+                    string RoomName = room.RoomName;
+                    ServiceTypeDTO serviceType = ServiceTypeDAO.Instance.GetServiceTypeInfo(clean.SerTypeID);
+                    laundry.SetText(clean.ID, RoomName, clean.Status);
+                    if (serviceType.SerType == "cleaner")
+                        ListHolder.Children.Add(laundry);
+                }
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
             }
         }
 
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            try
+            {
+                this.Close();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void InfoButton_Click(object sender, RoutedEventArgs e)
         {
-            StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
-            ManageStaff manage = new ManageStaff("View", staff);
-            manage.ShowDialog();
+            try
+            {
+                StaffDTO staff = StaffDAO.Instance.GetStaffById(staffID);
+                ManageStaff manage = new ManageStaff("View", staff);
+                manage.ShowDialog();
+            }
+            catch(Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
         }
 
         private void BtnConfirm_Click(object sender, RoutedEventArgs e)
@@ -86,6 +119,19 @@ namespace HuongDuongVillage
             {
                 ChangePassword changePassword = new ChangePassword("Change", staffID);
                 changePassword.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
+            }
+        }
+        private void ReloadButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Reload.Cursor = Cursors.Wait;
+                LoadListClean();
+                Reload.Cursor = null;
             }
             catch (Exception ex)
             {

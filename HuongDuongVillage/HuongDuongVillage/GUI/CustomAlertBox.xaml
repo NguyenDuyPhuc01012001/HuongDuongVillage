@@ -123,6 +123,7 @@
                         FontSize="11"
                         FontWeight="Bold"
                         Foreground="White"
+                        IsDefault="True"
                         MouseEnter="btn_MouseEnter"
                         MouseLeave="btn_MouseLeave"
                         Style="{StaticResource MessageBoxButtonStyle}" />

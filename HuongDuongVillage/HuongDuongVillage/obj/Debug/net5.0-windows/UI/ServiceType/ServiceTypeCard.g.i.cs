@@ -136,7 +136,7 @@ namespace HuongDuongVillage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;component/ui/servicetype/servicetypecard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HuongDuongVillage;V1.0.0.0;component/ui/servicetype/servicetypecard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\UI\ServiceType\ServiceTypeCard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
