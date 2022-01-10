@@ -61,7 +61,6 @@ namespace HuongDuongVillage
         }
 
         #region Event
-
         private void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
             try

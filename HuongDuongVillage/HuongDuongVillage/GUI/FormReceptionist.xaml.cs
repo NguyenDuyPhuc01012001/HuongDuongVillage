@@ -29,6 +29,7 @@ namespace HuongDuongVillage
                 InfoButton.Tag = StaffDAO.Instance.GetStaffById(id);
                 staffID = id;
                 ListViewMenu.SelectedIndex = 0;
+                BookingDAO.Instance.CheckBooking();
             }
             catch (Exception ex)
             {
@@ -483,7 +484,6 @@ namespace HuongDuongVillage
         {
             GridPrincipal.Visibility = Visibility.Visible;
         }
-
         #region Event
         private void ListViewItem_MouseEnter(object sender, MouseEventArgs e)
         {

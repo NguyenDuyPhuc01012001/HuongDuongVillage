@@ -1241,3 +1241,4 @@ C:\UIT\Nam 3\Hướng đối tượng\HuongDuongVillage\HuongDuongVillage\obj\De
 C:\UIT\Nam 3\Hướng đối tượng\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\ref\HuongDuongVillage.dll
 C:\UIT\Nam 3\Hướng đối tượng\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.pdb
 C:\UIT\Nam 3\Hướng đối tượng\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Git\HuongDuongVillage\HuongDuongVillage\HuongDuongVillage\obj\Debug\net5.0-windows\HuongDuongVillage.csproj.AssemblyReference.cache

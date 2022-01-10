@@ -271,11 +271,17 @@ CREATE PROC USP_InsertBooking
 	@dateCheckOut SMALLDATETIME
 AS
 BEGIN
-	INSERT INTO Booking(roomID,cusID,dateCheckIn,dateCheckOut)
-	VALUES (@roomID,@cusID,@dateCheckIn, @dateCheckOut)
+	DECLARE @roomStatus VARCHAR(20);
+	SET @roomStatus=(SELECT roomStatus FROM dbo.Room WHERE id=@roomID)
 
-	UPDATE Room SET roomStatus = 'Booked', cusID=@cusID WHERE id=@roomID 
-	UPDATE Customer SET dateCheckIn=@dateCheckIn WHERE id=@cusID
+	IF(@roomStatus='Available')
+	BEGIN
+		INSERT INTO Booking(roomID,cusID,dateCheckIn,dateCheckOut)
+		VALUES (@roomID,@cusID,@dateCheckIn, @dateCheckOut)
+
+		UPDATE Room SET roomStatus = 'Booked', cusID=@cusID WHERE id=@roomID 
+		UPDATE Customer SET dateCheckIn=@dateCheckIn WHERE id=@cusID
+	END
 END;
 GO
 

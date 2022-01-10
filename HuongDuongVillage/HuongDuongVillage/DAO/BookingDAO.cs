@@ -28,7 +28,9 @@ namespace HuongDuongVillage.DAO
             try
             {
                 List<BookingDTO> listBooking = new List<BookingDTO>();
-                string query = "select * from booking where GETDATE() <= dateCheckOut";
+                string query = "SELECT b.id, b.roomID, b.cusID, b.dateCheckIn, b.dateCheckOut "
+                    + "FROM Booking b INNER JOIN dbo.Room ON Room.id = b.roomID "
+                    + "WHERE GETDATE() <= dateCheckOut AND roomStatus = 'Booked'";
 
                 DataTable data = DataProvider.Instance.ExecuteQuery(query);
 
@@ -60,7 +62,7 @@ namespace HuongDuongVillage.DAO
 
                 string query = "select b.id, roomID, b.cusID, dateCheckIn, dateCheckOut "
                     + "FROM booking b inner join room on b.roomID=room.id "
-                    + "where (GETDATE() <= dateCheckOut OR dateCheckOut = '') " + where + order;
+                    + "where (GETDATE() <= dateCheckOut OR dateCheckOut = '') AND roomStatus = 'Booked' " + where + order;
 
                 DataTable data = DataProvider.Instance.ExecuteQuery(query);
 
@@ -92,7 +94,7 @@ namespace HuongDuongVillage.DAO
 
                 string query = "select b.id, roomID, b.cusID, dateCheckIn, dateCheckOut "
                     + "FROM booking b inner join room on b.roomID=room.id "
-                    + "where (GETDATE() <= dateCheckOut OR dateCheckOut = '') " + where + order;
+                    + "where (GETDATE() <= dateCheckOut OR dateCheckOut = '') AND roomStatus = 'Booked' " + where + order;
 
                 DataTable data = DataProvider.Instance.ExecuteQuery(query);
 
@@ -165,6 +167,32 @@ namespace HuongDuongVillage.DAO
             {
                 CustomAlertBox.Show(ex.Message);
                 return false;
+            }
+        }
+
+        public void CheckBooking()
+        {
+            try
+            {
+                string query = "SELECT b.id, b.roomID, b.cusID, b.dateCheckIn, b.dateCheckOut "
+                    + "FROM Booking b INNER JOIN dbo.Room ON Room.id = b.roomID "
+                    + "WHERE roomStatus = 'Booked'"
+                    + "AND b.dateCheckOut = (SELECT MAX(dateCheckOut) FROM Booking WHERE b.roomID  = Booking.roomID)";
+
+                DataTable data = DataProvider.Instance.ExecuteQuery(query);
+
+                foreach (DataRow item in data.Rows)
+                {
+                    BookingDTO booking = new BookingDTO(item);
+                    if (booking.DateCheckOut < DateTime.Now)
+                    {
+                        RoomDAO.Instance.UpdateRoomStatusByID(booking.RoomID);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                CustomAlertBox.Show(ex.Message);
             }
         }
     }
