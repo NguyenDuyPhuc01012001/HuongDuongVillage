@@ -296,6 +296,7 @@ namespace HuongDuongVillage
         public FormSale(int id)
         {
             InitializeComponent();
+            tblName.Text = StaffDAO.Instance.GetNameById(id);
             staffID = id;
             listViewIndex = 0;
             SetDocumentReportPage();

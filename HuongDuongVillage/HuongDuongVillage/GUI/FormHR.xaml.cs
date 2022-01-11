@@ -25,7 +25,6 @@ namespace HuongDuongVillage
             try
             {
                 tblName.Text = StaffDAO.Instance.GetNameById(id);
-                InfoButton.Tag = StaffDAO.Instance.GetStaffById(id);
                 staffID = id;
                 ListViewMenu.SelectedIndex = 0;
             }

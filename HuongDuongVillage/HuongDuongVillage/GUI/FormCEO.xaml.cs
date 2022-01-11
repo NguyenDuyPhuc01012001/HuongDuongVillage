@@ -32,6 +32,7 @@ namespace HuongDuongVillage
         public FormCEO(int id)
         {
             InitializeComponent();
+            tblName.Text = StaffDAO.Instance.GetNameById(id);
             staffID = id;
             listViewIndex = 1;
             SetUserManagerPage();
@@ -195,7 +196,7 @@ namespace HuongDuongVillage
             {
 
             }
-            
+
         }
 
         #region Include
@@ -266,7 +267,7 @@ namespace HuongDuongVillage
             {
 
             }
-            
+
         }
 
         private void IncludeStaffListByName(string searchText, string function)
@@ -594,7 +595,7 @@ namespace HuongDuongVillage
 
                 txbSearch.Cursor = null;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }
@@ -714,7 +715,7 @@ namespace HuongDuongVillage
             {
 
             }
-            
+
         }
         private int sortRoomStatusCount;
         private void BtnConfirm_Click1(object sender, RoutedEventArgs e)

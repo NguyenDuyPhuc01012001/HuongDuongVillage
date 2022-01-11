@@ -194,8 +194,7 @@
                         Cursor="Hand"
                         FontSize="14"
                         Foreground="#f5af19"
-                        Style="{StaticResource MaterialDesignFlatButton}"
-                        ToolTip="MaterialDesignFlatButton" />
+                        Style="{StaticResource MaterialDesignFlatButton}" />
                 </Grid>
 
                 <Border
@@ -208,11 +207,11 @@
                         BorderBrush="Transparent"
                         Click="Login_Click"
                         Content="Sign In"
-                        MouseEnter="btn_MouseEnter"
-                        MouseLeave="btn_MouseLeave"
                         FontSize="16"
                         Foreground="White"
-                        IsDefault="True" />
+                        IsDefault="True"
+                        MouseEnter="btn_MouseEnter"
+                        MouseLeave="btn_MouseLeave" />
                 </Border>
             </StackPanel>
         </Grid>
