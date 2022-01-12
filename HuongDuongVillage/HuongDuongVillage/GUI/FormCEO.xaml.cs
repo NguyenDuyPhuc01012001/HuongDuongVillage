@@ -557,7 +557,7 @@ namespace HuongDuongVillage
                     StaffDTO staff = StaffDAO.Instance.GetStaffById(report.StaffID);
                     DocumentReportCard card = new DocumentReportCard(report.StaffID, staffID, report.ID, true);
                     card.setText(staff.Name, report.Message, report.Document);
-                    //card.ReloadPage += ReloadPage;
+                    card.ReloadPage += ReloadPage;
                     ListHolder.Children.Add(card);
                 }
             }

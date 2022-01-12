@@ -54,7 +54,7 @@ namespace HuongDuongVillage
 
         private void checkoutBtn_MouseEnter(object sender, MouseEventArgs e)
         {
-            checkoutIcon.Foreground = Brushes.Green;
+            checkoutIcon.Foreground = new SolidColorBrush(Color.FromRgb(82, 194, 52)); //Brushes.Green;
         }
 
         private void checkoutBtn_MouseLeave(object sender, MouseEventArgs e)

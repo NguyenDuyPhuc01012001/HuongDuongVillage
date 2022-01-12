@@ -62,11 +62,11 @@ namespace HuongDuongVillage
 
         private void editButton_Click(object sender, RoutedEventArgs e)
         {
-            if (isCEOAccessing)
-            {
-                CustomAlertBox.Show("Error", "CEO cannot modify item", CustomAlertBox.MessageBoxType.Error);
-                return;
-            }
+            //if (isCEOAccessing)
+            //{
+            //    CustomAlertBox.Show("Error", "CEO cannot modify item", CustomAlertBox.MessageBoxType.Error);
+            //    return;
+            //}
             if (staffID == ownerID)
             {
                 ManageDocument editDocument = new ManageDocument("Edit", ownerID, reportID);
@@ -83,11 +83,11 @@ namespace HuongDuongVillage
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)
         {
-            if (isCEOAccessing)
-            {
-                CustomAlertBox.Show("Error", "CEO cannot modify item", CustomAlertBox.MessageBoxType.Error);
-                return;
-            }
+            //if (isCEOAccessing)
+            //{
+            //    CustomAlertBox.Show("Error", "CEO cannot modify item", CustomAlertBox.MessageBoxType.Error);
+            //    return;
+            //}
             if (staffID == ownerID)
             {
                 MessageBoxResult result = CustomAlertBox.Show("Warning", "Are you sure you want to delete this report?", MessageBoxButton.OKCancel, CustomAlertBox.MessageBoxImage.Warning);

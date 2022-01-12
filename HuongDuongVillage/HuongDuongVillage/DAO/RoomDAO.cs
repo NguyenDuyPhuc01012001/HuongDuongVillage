@@ -29,7 +29,7 @@ namespace HuongDuongVillage.DAO
             {
                 List<RoomDTO> listRoom = new List<RoomDTO>();
 
-                string query = "SELECT * FROM Room WHERE isDelete=0";
+                string query = "SELECT * FROM Room WHERE isDelete=0 ORDER BY roomName";
 
                 DataTable data = DataProvider.Instance.ExecuteQuery(query);
 
