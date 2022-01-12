@@ -31,6 +31,7 @@ namespace HuongDuongVillage
         public FormAccountant(int id)
         {
             InitializeComponent();
+            tblName.Text = StaffDAO.Instance.GetNameById(id);
             staffID = id;
             listViewIndex = 1;
             SetDocumentReportPage();

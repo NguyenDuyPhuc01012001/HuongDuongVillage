@@ -68,17 +68,17 @@ namespace HuongDuongVillage.UI.Booking
         private void deleteButton_Click(object sender, RoutedEventArgs e)
         {
             string idCustomer = tblCusID.Text;
-            MessageBoxResult result = MessageBox.Show("Are you sure you want to delete this book?", "Warning", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+            MessageBoxResult result = CustomAlertBox.Show("Warning", "Are you sure you want to delete this book?", MessageBoxButton.OKCancel, CustomAlertBox.MessageBoxImage.Warning);
             if (result == MessageBoxResult.OK)
             {
                 if (BookingDAO.Instance.DeleteBooking(idBook, idRoom))
                 {
-                    MessageBox.Show("Delete successful");
+                    CustomAlertBox.Show("Delete successful");
                     if (reloadPage != null)
                         reloadPage(this, new EventArgs());
                 }
                 else
-                    MessageBox.Show("Delete failed");
+                    CustomAlertBox.Show("Delete failed");
             }
         }
 

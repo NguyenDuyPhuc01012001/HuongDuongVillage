@@ -203,7 +203,7 @@ namespace HuongDuongVillage.DAO
                 string query = string.Format("SET DATEFORMAT DMY; "
                     + "UPDATE dbo.Customer "
                     + "SET cusName = '{0}', cusPhone = '{1}' , cusEmail = '{2}' , dateCheckIn = '{3}',cusIDcard = '{4}' "
-                    + "WHERE id = {4}", name, phone, mail, dateCheckIn.ToString("dd/MM/yyyy").Split(" ")[0], idCard, id);
+                    + "WHERE id = {5}", name, phone, mail, dateCheckIn.ToString("dd/MM/yyyy").Split(" ")[0], idCard, id);
                 int result = (int)DataProvider.Instance.ExecuteNonQuery(query);
 
                 return result > 0;

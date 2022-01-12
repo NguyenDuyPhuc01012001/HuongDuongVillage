@@ -68,22 +68,22 @@ namespace HuongDuongVillage
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Are you sure you want to delete this customer?", "Warning", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+            MessageBoxResult result = CustomAlertBox.Show("Warning", "Are you sure you want to delete this customer?", MessageBoxButton.OKCancel, CustomAlertBox.MessageBoxImage.Warning);
             if (result == MessageBoxResult.OK)
             {
                 if (CustomerDAO.Instance.IsUsingService(idCus))
                 {
-                    MessageBox.Show("Delete failed because this customer is using our service.");
+                    CustomAlertBox.Show("Delete failed because this customer is using our service.");
                     return;
                 }
                 if (CustomerDAO.Instance.DeleteCustomer(idCus))
                 {
-                    MessageBox.Show("Delete successful");
+                    CustomAlertBox.Show("Delete successful");
                     if (reloadPage != null)
                         reloadPage(this, new EventArgs());
                 }
                 else
-                    MessageBox.Show("Delete failed");
+                    CustomAlertBox.Show("Delete failed");
             }
         }
     }

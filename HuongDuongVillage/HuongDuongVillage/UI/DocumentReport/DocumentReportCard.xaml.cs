@@ -78,7 +78,7 @@ namespace HuongDuongVillage
                 //}
             }
             else
-                MessageBox.Show("You don't have permission to edit this report");
+                CustomAlertBox.Show("You don't have permission to edit this report");
         }
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)
@@ -90,23 +90,23 @@ namespace HuongDuongVillage
             }
             if (staffID == ownerID)
             {
-                MessageBoxResult result = MessageBox.Show("Are you sure you want to delete this report?", "Warning", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+                MessageBoxResult result = CustomAlertBox.Show("Warning", "Are you sure you want to delete this report?", MessageBoxButton.OKCancel, CustomAlertBox.MessageBoxImage.Warning);
                 if (result == MessageBoxResult.OK)
                 {
                     if (ReportDAO.Instance.DeleteDocument(reportID))
                     {
-                        MessageBox.Show("Delete successful");
+                        CustomAlertBox.Show("Delete successful");
                         if (reloadPage != null)
                         {
                             reloadPage(this, new EventArgs());
                         }
                     }
                     else
-                        MessageBox.Show("Delete failed");
+                        CustomAlertBox.Show("Delete failed");
                 }
             }
             else
-                MessageBox.Show("You don't have permission to edit this report");
+                CustomAlertBox.Show("You don't have permission to edit this report");
         }
     }
 }

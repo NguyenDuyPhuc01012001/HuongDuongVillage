@@ -121,7 +121,7 @@
                         Padding="5"
                         materialDesign:HintAssist.Hint="Your username"
                         FontSize="16"
-                        FontWeight="Bold" />
+                        FontWeight="SemiBold" />
                 </Border>
 
                 <TextBlock
@@ -150,7 +150,7 @@
                             HorizontalContentAlignment="Left"
                             materialDesign:HintAssist.Hint="Password"
                             FontSize="16"
-                            FontWeight="Bold"
+                            FontWeight="SemiBold"
                             PasswordChanged="encryptedPasswordBox_PasswordChanged" />
                         <TextBox
                             x:Name="decryptedPasswordBox"
@@ -159,7 +159,7 @@
                             VerticalAlignment="Center"
                             materialDesign:HintAssist.Hint="Password"
                             FontSize="16"
-                            FontWeight="Bold"
+                            FontWeight="SemiBold"
                             TextChanged="decryptedPasswordBox_TextChanged"
                             Visibility="Collapsed" />
                         <Button

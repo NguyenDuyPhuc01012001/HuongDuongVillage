@@ -84,22 +84,22 @@ namespace HuongDuongVillage
                 return;
             }
             string idCustomer = tblCusID.Text;
-            MessageBoxResult result = MessageBox.Show("Are you sure you want to delete this room?", "Warning", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+            MessageBoxResult result = CustomAlertBox.Show("Warning", "Are you sure you want to delete this room?", MessageBoxButton.OKCancel, CustomAlertBox.MessageBoxImage.Warning);
             if (result == MessageBoxResult.OK)
             {
                 if (tblRoomStatus.Text != "Available")
                 {
-                    MessageBox.Show("Delete failed because one customer is using our service.");
+                    CustomAlertBox.Show("Delete failed because one customer is using our service.");
                     return;
                 }
                 if (RoomDAO.Instance.DeleteRoom(idRoom))
                 {
-                    MessageBox.Show("Delete successful");
+                    CustomAlertBox.Show("Delete successful");
                     if (reloadPage != null)
                         reloadPage(this, new EventArgs());
                 }
                 else
-                    MessageBox.Show("Delete failed");
+                    CustomAlertBox.Show("Delete failed");
             }
         }
 

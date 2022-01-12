@@ -214,6 +214,11 @@ namespace HuongDuongVillage
                     CustomAlertBox.Show("Error", "Phone number muts have 10 characters", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
                     return false;
                 }
+                if (phone.Trim()[0] != '0')
+                {
+                    CustomAlertBox.Show("Error", "Phone number is wrong format", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);
+                    return false;
+                }
                 if (idCard.Trim().Length != 9 && idCard.Trim().Length != 12)
                 {
                     CustomAlertBox.Show("Error", "ID card is invalid", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.Error);

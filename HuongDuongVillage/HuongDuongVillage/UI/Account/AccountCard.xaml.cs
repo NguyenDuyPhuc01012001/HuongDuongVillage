@@ -67,7 +67,7 @@ namespace HuongDuongVillage
             try
             {
                 string staff = tblName.Text;
-                if (MessageBox.Show("Delete account will also delete staff " + staff + ". Do you want to continue?", "Warning", MessageBoxButton.OKCancel, MessageBoxImage.Warning) != MessageBoxResult.OK)
+                if (CustomAlertBox.Show("Warning", "Delete account will also delete staff " + staff + ". Do you want to continue?", MessageBoxButton.OKCancel, CustomAlertBox.MessageBoxImage.Warning) != MessageBoxResult.OK)
                 {
                     return;
                 }
@@ -75,14 +75,14 @@ namespace HuongDuongVillage
 
                 if (StaffDAO.Instance.DeleteStaff(idStaff))
                 {
-                    MessageBox.Show("Delete account successful");
+                    CustomAlertBox.Show("Delete account successful");
                     if (deleteAccount != null)
                     {
                         deleteAccount(this, new EventArgs());
                     }
                 }
                 else
-                    MessageBox.Show("Delete account fail");
+                    CustomAlertBox.Show("Delete account fail");
             }
             catch (Exception ex)
             {
@@ -97,13 +97,13 @@ namespace HuongDuongVillage
                 string userName = tblUserName.Text;
                 string message = "Are you sure you want to reset password of username " + userName + "?";
                 string title = "Reset Password";
-                MessageBoxResult result = MessageBox.Show(message, title, MessageBoxButton.OKCancel, MessageBoxImage.Warning, MessageBoxResult.Cancel);
+                MessageBoxResult result = CustomAlertBox.Show(title, message, MessageBoxButton.OKCancel, CustomAlertBox.MessageBoxImage.Warning);
                 if (result == MessageBoxResult.OK)
                 {
                     if (AccountDAO.Instance.ResetPassword(userName))
-                        MessageBox.Show("Reset password successful\nYour password is A1234\nPlease login and change your password.", "Success", MessageBoxButton.OK, MessageBoxImage.None, MessageBoxResult.OK);
+                        CustomAlertBox.Show("Success", "Reset password successful\nYour password is A1234\nPlease login and change your password.", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.None);
                     else
-                        MessageBox.Show("Reset password fail", "Fail", MessageBoxButton.OK, MessageBoxImage.None, MessageBoxResult.OK);
+                        CustomAlertBox.Show("Fail", "Reset password fail", MessageBoxButton.OK, CustomAlertBox.MessageBoxImage.None);
                 }
             }
             catch (Exception ex)
