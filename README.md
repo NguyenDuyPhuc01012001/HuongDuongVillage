@@ -26,3 +26,14 @@ For the first time login, there are 8 default account:
 - For Bar: 
 	+ Username: Bar
 	+ Password: A1234 
+## Some picture:
+- Website booking:
+  ![booking](https://res.cloudinary.com/nam-duong/image/upload/v1670954186/github/%E1%BA%A2nh1_mf4pur.png)
+  ![contact](https://res.cloudinary.com/nam-duong/image/upload/v1670954188/github/%E1%BA%A2nh2_in4r00.png)
+- Huong Duong Management:
+  ![login](https://res.cloudinary.com/nam-duong/image/upload/v1670954187/github/%E1%BA%A2nh3_f9zcwn.png)
+  ![Forgot Password Form](https://res.cloudinary.com/nam-duong/image/upload/v1670954187/github/%E1%BA%A2nh4_i1exlb.png)
+  ![Dashboard](https://res.cloudinary.com/nam-duong/image/upload/v1670954187/github/%E1%BA%A2nh5_dgjxvy.png)
+  ![View Data](https://res.cloudinary.com/nam-duong/image/upload/v1670954188/github/%E1%BA%A2nh6_szyu4j.png)
+  ![Edit Data](https://res.cloudinary.com/nam-duong/image/upload/v1670954188/github/%E1%BA%A2nh7_xzcgmc.png)
+  ![Bill](https://res.cloudinary.com/nam-duong/image/upload/v1670954187/github/%E1%BA%A2nh8_aibhrz.png)
