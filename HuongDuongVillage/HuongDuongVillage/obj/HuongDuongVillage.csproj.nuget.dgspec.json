@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Downloads\\Git\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj": {}
+    "C:\\Users\\Asus\\Downloads\\Git\\HD\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Downloads\\Git\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj": {
+    "C:\\Users\\Asus\\Downloads\\Git\\HD\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Downloads\\Git\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Downloads\\Git\\HD\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj",
         "projectName": "HuongDuongVillage",
-        "projectPath": "C:\\Users\\Asus\\Downloads\\Git\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj",
+        "projectPath": "C:\\Users\\Asus\\Downloads\\Git\\HD\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Downloads\\Git\\HuongDuongVillage\\HuongDuongVillage\\HuongDuongVillage\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Downloads\\Git\\HD\\HuongDuongVillage\\HuongDuongVillage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -75,7 +75,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -87,7 +88,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
