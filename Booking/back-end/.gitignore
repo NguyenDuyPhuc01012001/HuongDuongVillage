@@ -23,3 +23,6 @@ dist/
 
 # Generated source-code #
 coverage/
+
+
+package-lock.json
